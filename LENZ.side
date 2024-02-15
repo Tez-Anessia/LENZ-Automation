@@ -1,0 +1,106 @@
+{
+  "id": "a8fb1429-3624-48aa-ad37-d72d033e68c4",
+  "version": "2.0",
+  "name": "LENZ",
+  "url": "https://admin.tez.io/login",
+  "tests": [{
+    "id": "f9309b84-34f3-42cc-8390-c2ec52844f28",
+    "name": "Log in screen",
+    "commands": [{
+      "id": "8ab3662a-32fd-4abf-b6b7-90ef7cbe1999",
+      "comment": "",
+      "command": "open",
+      "target": "https://admin.tez.io/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8df3486-0656-4b94-b341-add94e2fec97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1534x911",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8603e175-793a-48f5-b873-d25cd3c5e2fd",
+      "comment": "",
+      "command": "type",
+      "target": "name=contact-email",
+      "targets": [
+        ["name=contact-email", "name"],
+        ["css=.w-full:nth-child(1) > .w-full > .h-10", "css:finder"],
+        ["xpath=//input[@name='contact-email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "anessia@teztechnology.com"
+    }, {
+      "id": "0ec04640-c1e4-4b1f-8f31-bb7fcb5bc6a0",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.min-w-\\[200px\\] .h-10", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nitrogen14!"
+    }, {
+      "id": "dc9dab72-5698-4eb1-8695-001cc1790272",
+      "comment": "",
+      "command": "click",
+      "target": "name=contact-email",
+      "targets": [
+        ["name=contact-email", "name"],
+        ["css=.w-full:nth-child(1) > .w-full > .h-10", "css:finder"],
+        ["xpath=//input[@name='contact-email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc5aa955-7e7a-4a32-96f2-1756b0ed2338",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.min-w-\\[200px\\] .h-10", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b44ef99a-ca4c-4f5f-bcea-eff870b4b4bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group",
+      "targets": [
+        ["css=.group", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "020f3e99-c377-4283-bdab-46f11f3c5541",
+      "comment": "",
+      "command": "assert",
+      "target": "URL",
+      "targets": [],
+      "value": "https://admin.tez.io/workspaces"
+    }]
+  }],
+  "suites": [{
+    "id": "7eee75da-e994-4a77-a0c5-c63bfc124d75",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f9309b84-34f3-42cc-8390-c2ec52844f28"]
+  }],
+  "urls": [],
+  "plugins": []
+}
