@@ -1,11 +1,20 @@
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+
+
+#------variables for modifiability-----------------
+userName = "anessia@teztechnology.com"
+passWord = "Nitrogen14!"
+
+#----Driver setup------
+driver = webdriver.Chrome()
+driver.implicitly_wait(0.5)
 
 #----start of script run ---------------------------------
 driver.get("https://admin.tez.io/login")
-driver.find_element(By.NAME, "contact-email").send_keys(userName)
-driver.find_element(By.NAME, "password").send_keys(passWord)
+driver.find_element(By.NAME, "contact-email").send_keys("anessia@teztechnology.com")
+driver.find_element(By.NAME, "password").send_keys("Nitrogen14!")
 driver.find_element(By.CSS_SELECTOR, ".group").click()
+
+driver.quit()
