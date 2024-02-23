@@ -1,254 +1,20 @@
-2024-02-22 21:09:19,758 - automationLogger - INFO - login success
-2024-02-22 21:09:19,758 - automationLogger - INFO - login success
-2024-02-22 21:09:19,758 - automationLogger - INFO - login success
-2024-02-22 21:09:19,758 - automationLogger - INFO - login success
-2024-02-22 21:09:19,758 - automationLogger - INFO - login success
-2024-02-22 21:09:19,773 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:09:19,773 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:09:19,773 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:09:19,773 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:09:19,773 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:17:07,746 - automationLogger - INFO - login success
-2024-02-22 21:17:07,746 - automationLogger - INFO - login success
-2024-02-22 21:17:07,746 - automationLogger - INFO - login success
-2024-02-22 21:17:07,746 - automationLogger - INFO - login success
-2024-02-22 21:17:07,746 - automationLogger - INFO - login success
-2024-02-22 21:17:07,757 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:17:07,757 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:17:07,757 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:17:07,757 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:17:07,757 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:17:10,247 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:17:10,247 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:17:10,247 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:17:10,247 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:17:10,247 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:17:12,049 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80e3558521dc38ff8f890
-2024-02-22 21:17:12,049 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80e3558521dc38ff8f890
-2024-02-22 21:17:12,049 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80e3558521dc38ff8f890
-2024-02-22 21:17:12,049 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80e3558521dc38ff8f890
-2024-02-22 21:17:12,049 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80e3558521dc38ff8f890
-2024-02-22 21:22:56,277 - automationLogger - INFO - login success
-2024-02-22 21:22:56,277 - automationLogger - INFO - login success
-2024-02-22 21:22:56,277 - automationLogger - INFO - login success
-2024-02-22 21:22:56,277 - automationLogger - INFO - login success
-2024-02-22 21:22:56,277 - automationLogger - INFO - login success
-2024-02-22 21:22:56,294 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:22:56,294 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:22:56,294 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:22:56,294 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:22:56,294 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:22:58,911 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:22:58,911 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:22:58,911 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:22:58,911 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:22:58,911 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:23:00,781 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80f9258521dc38ff8f912
-2024-02-22 21:23:00,781 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80f9258521dc38ff8f912
-2024-02-22 21:23:00,781 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80f9258521dc38ff8f912
-2024-02-22 21:23:00,781 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80f9258521dc38ff8f912
-2024-02-22 21:23:00,781 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80f9258521dc38ff8f912
-2024-02-22 21:23:30,383 - automationLogger - INFO - login success
-2024-02-22 21:23:30,383 - automationLogger - INFO - login success
-2024-02-22 21:23:30,383 - automationLogger - INFO - login success
-2024-02-22 21:23:30,383 - automationLogger - INFO - login success
-2024-02-22 21:23:30,383 - automationLogger - INFO - login success
-2024-02-22 21:23:30,392 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:23:30,392 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:23:30,392 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:23:30,392 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:23:30,392 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:23:32,878 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:23:32,878 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:23:32,878 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:23:32,878 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:23:32,878 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:23:34,733 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80fb458521dc38ff8f954
-2024-02-22 21:23:34,733 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80fb458521dc38ff8f954
-2024-02-22 21:23:34,733 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80fb458521dc38ff8f954
-2024-02-22 21:23:34,733 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80fb458521dc38ff8f954
-2024-02-22 21:23:34,733 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d80fb458521dc38ff8f954
-2024-02-22 21:25:06,204 - automationLogger - INFO - login success
-2024-02-22 21:25:06,204 - automationLogger - INFO - login success
-2024-02-22 21:25:06,204 - automationLogger - INFO - login success
-2024-02-22 21:25:06,204 - automationLogger - INFO - login success
-2024-02-22 21:25:06,204 - automationLogger - INFO - login success
-2024-02-22 21:25:06,204 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:25:06,204 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:25:06,204 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:25:06,204 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:25:06,204 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:25:08,604 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:25:08,604 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:25:08,604 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:25:08,604 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:25:08,604 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:25:10,420 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8101458521dc38ff8f9a6
-2024-02-22 21:25:10,420 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8101458521dc38ff8f9a6
-2024-02-22 21:25:10,420 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8101458521dc38ff8f9a6
-2024-02-22 21:25:10,420 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8101458521dc38ff8f9a6
-2024-02-22 21:25:10,420 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8101458521dc38ff8f9a6
-2024-02-22 21:30:28,769 - automationLogger - INFO - login success
-2024-02-22 21:30:28,769 - automationLogger - INFO - login success
-2024-02-22 21:30:28,769 - automationLogger - INFO - login success
-2024-02-22 21:30:28,769 - automationLogger - INFO - login success
-2024-02-22 21:30:28,769 - automationLogger - INFO - login success
-2024-02-22 21:30:28,769 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:30:28,769 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:30:28,769 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:30:28,769 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:30:28,769 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:30:31,154 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:30:31,154 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:30:31,154 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:30:31,154 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:30:31,154 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:30:32,952 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8115658521dc38ff8fa10
-2024-02-22 21:30:32,952 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8115658521dc38ff8fa10
-2024-02-22 21:30:32,952 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8115658521dc38ff8fa10
-2024-02-22 21:30:32,952 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8115658521dc38ff8fa10
-2024-02-22 21:30:32,952 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8115658521dc38ff8fa10
-2024-02-22 21:34:15,924 - automationLogger - INFO - login success
-2024-02-22 21:34:15,924 - automationLogger - INFO - login success
-2024-02-22 21:34:15,924 - automationLogger - INFO - login success
-2024-02-22 21:34:15,924 - automationLogger - INFO - login success
-2024-02-22 21:34:15,924 - automationLogger - INFO - login success
-2024-02-22 21:34:15,924 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:34:15,924 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:34:15,924 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:34:15,924 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:34:15,924 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:34:18,374 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:34:18,374 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:34:18,374 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:34:18,374 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:34:18,374 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:34:20,163 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8123a58521dc38ff8fcdd
-2024-02-22 21:34:20,163 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8123a58521dc38ff8fcdd
-2024-02-22 21:34:20,163 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8123a58521dc38ff8fcdd
-2024-02-22 21:34:20,163 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8123a58521dc38ff8fcdd
-2024-02-22 21:34:20,163 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8123a58521dc38ff8fcdd
-2024-02-22 21:35:45,018 - automationLogger - INFO - login success
-2024-02-22 21:35:45,018 - automationLogger - INFO - login success
-2024-02-22 21:35:45,018 - automationLogger - INFO - login success
-2024-02-22 21:35:45,018 - automationLogger - INFO - login success
-2024-02-22 21:35:45,018 - automationLogger - INFO - login success
-2024-02-22 21:35:45,018 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:35:45,018 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:35:45,018 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:35:45,018 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:35:45,018 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:35:47,469 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:35:47,469 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:35:47,469 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:35:47,469 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:35:47,469 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:35:49,252 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8129358521dc38ff8fd62
-2024-02-22 21:35:49,252 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8129358521dc38ff8fd62
-2024-02-22 21:35:49,252 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8129358521dc38ff8fd62
-2024-02-22 21:35:49,252 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8129358521dc38ff8fd62
-2024-02-22 21:35:49,252 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8129358521dc38ff8fd62
-2024-02-22 21:41:52,498 - automationLogger - INFO - login success
-2024-02-22 21:41:52,498 - automationLogger - INFO - login success
-2024-02-22 21:41:52,498 - automationLogger - INFO - login success
-2024-02-22 21:41:52,498 - automationLogger - INFO - login success
-2024-02-22 21:41:52,498 - automationLogger - INFO - login success
-2024-02-22 21:41:52,498 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:41:52,498 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:41:52,498 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:41:52,498 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:41:52,498 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:41:54,900 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:41:54,900 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:41:54,900 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:41:54,900 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:41:54,900 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:41:56,768 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65c28a6b58521dc38ff4c01d
-2024-02-22 21:41:56,768 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65c28a6b58521dc38ff4c01d
-2024-02-22 21:41:56,768 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65c28a6b58521dc38ff4c01d
-2024-02-22 21:41:56,768 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65c28a6b58521dc38ff4c01d
-2024-02-22 21:41:56,768 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65c28a6b58521dc38ff4c01d
-2024-02-22 21:48:45,193 - automationLogger - INFO - login success
-2024-02-22 21:48:45,193 - automationLogger - INFO - login success
-2024-02-22 21:48:45,193 - automationLogger - INFO - login success
-2024-02-22 21:48:45,193 - automationLogger - INFO - login success
-2024-02-22 21:48:45,193 - automationLogger - INFO - login success
-2024-02-22 21:48:45,209 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:48:45,209 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:48:45,209 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:48:45,209 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:48:45,209 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:48:47,694 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:48:47,694 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:48:47,694 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:48:47,694 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:48:47,694 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:48:49,514 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8159f58521dc38ff90124
-2024-02-22 21:48:49,514 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8159f58521dc38ff90124
-2024-02-22 21:48:49,514 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8159f58521dc38ff90124
-2024-02-22 21:48:49,514 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8159f58521dc38ff90124
-2024-02-22 21:48:49,514 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8159f58521dc38ff90124
-2024-02-22 21:51:45,215 - automationLogger - INFO - login success
-2024-02-22 21:51:45,215 - automationLogger - INFO - login success
-2024-02-22 21:51:45,215 - automationLogger - INFO - login success
-2024-02-22 21:51:45,215 - automationLogger - INFO - login success
-2024-02-22 21:51:45,215 - automationLogger - INFO - login success
-2024-02-22 21:51:45,215 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:51:45,215 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:51:45,215 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:51:45,215 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:51:45,215 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:51:47,667 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:51:47,667 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:51:47,667 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:51:47,667 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:51:47,667 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:51:49,558 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8165358521dc38ff9020d
-2024-02-22 21:51:49,558 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8165358521dc38ff9020d
-2024-02-22 21:51:49,558 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8165358521dc38ff9020d
-2024-02-22 21:51:49,558 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8165358521dc38ff9020d
-2024-02-22 21:51:49,558 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8165358521dc38ff9020d
-2024-02-22 21:55:23,786 - automationLogger - INFO - login success
-2024-02-22 21:55:23,786 - automationLogger - INFO - login success
-2024-02-22 21:55:23,786 - automationLogger - INFO - login success
-2024-02-22 21:55:23,786 - automationLogger - INFO - login success
-2024-02-22 21:55:23,786 - automationLogger - INFO - login success
-2024-02-22 21:55:23,803 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:55:23,803 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:55:23,803 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:55:23,803 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:55:23,803 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:55:26,275 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:55:26,275 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:55:26,275 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:55:26,275 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:55:26,275 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:55:27,529 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8172d58521dc38ff90386
-2024-02-22 21:55:27,529 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8172d58521dc38ff90386
-2024-02-22 21:55:27,529 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8172d58521dc38ff90386
-2024-02-22 21:55:27,529 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8172d58521dc38ff90386
-2024-02-22 21:55:27,529 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8172d58521dc38ff90386
-2024-02-22 21:57:13,083 - automationLogger - INFO - login success
-2024-02-22 21:57:13,083 - automationLogger - INFO - login success
-2024-02-22 21:57:13,083 - automationLogger - INFO - login success
-2024-02-22 21:57:13,083 - automationLogger - INFO - login success
-2024-02-22 21:57:13,083 - automationLogger - INFO - login success
-2024-02-22 21:57:13,083 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:57:13,083 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:57:13,083 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:57:13,083 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:57:13,083 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:57:15,597 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:57:15,597 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:57:15,597 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:57:15,597 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:57:15,597 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:57:17,428 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8179b58521dc38ff90406
-2024-02-22 21:57:17,428 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8179b58521dc38ff90406
-2024-02-22 21:57:17,428 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8179b58521dc38ff90406
-2024-02-22 21:57:17,428 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8179b58521dc38ff90406
-2024-02-22 21:57:17,428 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8179b58521dc38ff90406
-2024-02-22 21:57:19,023 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 22:30:36,942 - automationLogger - INFO - login success
+2024-02-22 22:30:36,942 - automationLogger - INFO - login success
+2024-02-22 22:30:36,942 - automationLogger - INFO - login success
+2024-02-22 22:30:36,942 - automationLogger - INFO - login success
+2024-02-22 22:30:36,942 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:30:36,942 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:30:36,942 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:30:36,942 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:30:39,001 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:30:39,001 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:30:39,001 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:30:39,001 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:30:41,719 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:30:41,719 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:30:41,719 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:30:41,719 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:30:41,895 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -259,7 +25,7 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 21:57:19,023 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 22:30:41,895 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -270,7 +36,7 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 21:57:19,023 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 22:30:41,895 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -281,7 +47,7 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 21:57:19,023 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 22:30:41,895 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -292,7 +58,11 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 21:57:19,023 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 22:31:56,414 - automationLogger - INFO - login success
+2024-02-22 22:31:56,414 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:31:59,226 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:32:01,954 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:32:02,107 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -303,27 +73,15 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 21:58:00,144 - automationLogger - INFO - login success
-2024-02-22 21:58:00,144 - automationLogger - INFO - login success
-2024-02-22 21:58:00,144 - automationLogger - INFO - login success
-2024-02-22 21:58:00,144 - automationLogger - INFO - login success
-2024-02-22 21:58:00,144 - automationLogger - INFO - login success
-2024-02-22 21:58:00,154 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:58:00,154 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:58:00,154 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:58:00,154 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:58:00,154 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 21:58:02,762 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:58:02,762 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:58:02,762 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:58:02,762 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:58:02,762 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 21:58:04,627 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d817ca58521dc38ff9047c
-2024-02-22 21:58:04,627 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d817ca58521dc38ff9047c
-2024-02-22 21:58:04,627 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d817ca58521dc38ff9047c
-2024-02-22 21:58:04,627 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d817ca58521dc38ff9047c
-2024-02-22 21:58:04,627 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d817ca58521dc38ff9047c
-2024-02-22 21:58:06,188 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 22:34:42,789 - automationLogger - INFO - login success
+2024-02-22 22:34:42,789 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:34:45,483 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:34:48,221 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:44:52,854 - automationLogger - INFO - login success
+2024-02-22 22:44:52,854 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:44:56,653 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:44:57,372 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:44:57,529 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -334,7 +92,11 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 21:58:06,188 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 22:47:31,046 - automationLogger - INFO - login success
+2024-02-22 22:47:31,046 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:47:33,515 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:47:34,207 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:47:34,351 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -345,7 +107,11 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 21:58:06,188 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 22:51:01,583 - automationLogger - INFO - login success
+2024-02-22 22:51:01,587 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:51:04,150 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:51:04,865 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:51:05,075 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -356,7 +122,30 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 21:58:06,188 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 22:55:18,692 - automationLogger - INFO - login success
+2024-02-22 22:55:18,696 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:55:21,154 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:55:21,841 - automationLogger - INFO - incorrect navigation, trying again
+2024-02-22 22:58:56,124 - automationLogger - INFO - login success
+2024-02-22 22:58:56,124 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:58:58,609 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 23:01:45,231 - automationLogger - INFO - login success
+2024-02-22 23:01:45,248 - automationLogger - INFO - Creating workspace for A Test Customer 1
+2024-02-22 23:01:47,749 - automationLogger - INFO - Workspace for A Test Customer 1 created
+2024-02-22 23:18:27,493 - automationLogger - INFO - login success
+2024-02-22 23:18:27,493 - automationLogger - INFO - Creating workspace for A Test Customer 1
+2024-02-22 23:18:30,077 - automationLogger - INFO - Workspace for A Test Customer 1 created
+2024-02-22 23:20:04,253 - automationLogger - INFO - login success
+2024-02-22 23:20:04,256 - automationLogger - INFO - Creating workspace for A Test Customer 1
+2024-02-22 23:20:06,798 - automationLogger - INFO - Workspace for A Test Customer 1 created
+2024-02-22 23:23:51,025 - automationLogger - INFO - login success
+2024-02-22 23:23:51,025 - automationLogger - INFO - Creating workspace for A Test Customer 1
+2024-02-22 23:23:53,544 - automationLogger - INFO - Workspace for A Test Customer 1 created
+2024-02-22 23:26:37,984 - automationLogger - INFO - login success
+2024-02-22 23:26:37,988 - automationLogger - INFO - Creating workspace for A Test Customer 1
+2024-02-22 23:26:40,575 - automationLogger - INFO - Workspace for A Test Customer 1 created
+2024-02-22 23:26:41,393 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 23:26:41,560 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -367,7 +156,15 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 21:58:06,188 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 23:29:13,791 - automationLogger - INFO - login success
+2024-02-22 23:29:13,791 - automationLogger - INFO - Creating workspace for A Test Customer 1
+2024-02-22 23:29:16,259 - automationLogger - INFO - Workspace for A Test Customer 1 created
+2024-02-22 23:29:17,441 - automationLogger - INFO - workspace could not be validated
+2024-02-22 23:34:10,958 - automationLogger - INFO - login success
+2024-02-22 23:34:10,975 - automationLogger - INFO - Creating workspace for A Test Customer 1
+2024-02-22 23:34:13,492 - automationLogger - INFO - Workspace for A Test Customer 1 created
+2024-02-22 23:34:16,907 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d82e5558521dc38ff91f82
+2024-02-22 23:34:17,056 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -378,27 +175,11 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:07:34,402 - automationLogger - INFO - login success
-2024-02-22 22:07:34,402 - automationLogger - INFO - login success
-2024-02-22 22:07:34,402 - automationLogger - INFO - login success
-2024-02-22 22:07:34,402 - automationLogger - INFO - login success
-2024-02-22 22:07:34,402 - automationLogger - INFO - login success
-2024-02-22 22:07:34,412 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:07:34,412 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:07:34,412 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:07:34,412 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:07:34,412 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:07:36,927 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:07:36,927 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:07:36,927 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:07:36,927 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:07:36,927 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:07:38,860 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d81a0858521dc38ff908be
-2024-02-22 22:07:38,860 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d81a0858521dc38ff908be
-2024-02-22 22:07:38,860 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d81a0858521dc38ff908be
-2024-02-22 22:07:38,860 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d81a0858521dc38ff908be
-2024-02-22 22:07:38,860 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d81a0858521dc38ff908be
-2024-02-22 22:07:50,433 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 23:45:52,622 - automationLogger - INFO - login success
+2024-02-22 23:45:52,622 - automationLogger - INFO - Creating workspace for A Test Customer 1
+2024-02-22 23:45:55,155 - automationLogger - INFO - Workspace for A Test Customer 1 created
+2024-02-22 23:45:58,738 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8311258521dc38ff920a8
+2024-02-22 23:45:58,865 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -409,7 +190,11 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:07:50,433 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 23:48:17,504 - automationLogger - INFO - login success
+2024-02-22 23:48:17,512 - automationLogger - INFO - Creating workspace for A Test Customer 1
+2024-02-22 23:48:20,148 - automationLogger - INFO - Workspace for A Test Customer 1 created
+2024-02-22 23:48:23,735 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d831a358521dc38ff92147
+2024-02-22 23:48:23,873 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -420,7 +205,11 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:07:50,433 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 23:50:17,608 - automationLogger - INFO - login success
+2024-02-22 23:50:17,621 - automationLogger - INFO - Creating workspace for A Test Customer 1
+2024-02-22 23:50:20,387 - automationLogger - INFO - Workspace for A Test Customer 1 created
+2024-02-22 23:50:23,755 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8321c58521dc38ff921f4
+2024-02-22 23:50:23,884 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -431,7 +220,9 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:07:50,433 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 23:51:44,687 - automationLogger - INFO - login success
+2024-02-22 23:51:48,123 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8321c58521dc38ff921f4
+2024-02-22 23:51:48,372 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -442,7 +233,9 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:07:50,433 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 23:52:35,387 - automationLogger - INFO - login success
+2024-02-22 23:52:38,773 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8321c58521dc38ff921f4
+2024-02-22 23:52:38,903 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -453,27 +246,9 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:11:03,167 - automationLogger - INFO - login success
-2024-02-22 22:11:03,167 - automationLogger - INFO - login success
-2024-02-22 22:11:03,167 - automationLogger - INFO - login success
-2024-02-22 22:11:03,167 - automationLogger - INFO - login success
-2024-02-22 22:11:03,167 - automationLogger - INFO - login success
-2024-02-22 22:11:03,178 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:11:03,178 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:11:03,178 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:11:03,178 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:11:03,178 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:11:05,617 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:11:05,617 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:11:05,617 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:11:05,617 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:11:05,617 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:11:07,583 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:11:07,583 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:11:07,583 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:11:07,583 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:11:07,583 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:11:07,753 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 23:56:49,981 - automationLogger - INFO - login success
+2024-02-22 23:56:53,439 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8321c58521dc38ff921f4
+2024-02-22 23:56:53,578 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -484,7 +259,9 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:11:07,753 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-22 23:58:14,930 - automationLogger - INFO - login success
+2024-02-22 23:58:18,269 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d8321c58521dc38ff921f4
+2024-02-22 23:58:18,373 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -495,7 +272,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:11:07,753 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:00:03,589 - automationLogger - INFO - login success
+2024-02-23 00:00:03,765 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -506,7 +284,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:11:07,753 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:00:49,571 - automationLogger - INFO - login success
+2024-02-23 00:00:49,718 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -517,7 +296,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:11:07,753 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:01:49,632 - automationLogger - INFO - login success
+2024-02-23 00:01:49,778 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -528,27 +308,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:13:40,692 - automationLogger - INFO - login success
-2024-02-22 22:13:40,692 - automationLogger - INFO - login success
-2024-02-22 22:13:40,692 - automationLogger - INFO - login success
-2024-02-22 22:13:40,692 - automationLogger - INFO - login success
-2024-02-22 22:13:40,692 - automationLogger - INFO - login success
-2024-02-22 22:13:40,692 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:13:40,692 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:13:40,692 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:13:40,692 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:13:40,692 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:13:43,291 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:13:43,291 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:13:43,291 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:13:43,291 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:13:43,291 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:13:45,159 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d81b7758521dc38ff90a57
-2024-02-22 22:13:45,159 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d81b7758521dc38ff90a57
-2024-02-22 22:13:45,159 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d81b7758521dc38ff90a57
-2024-02-22 22:13:45,159 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d81b7758521dc38ff90a57
-2024-02-22 22:13:45,159 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d81b7758521dc38ff90a57
-2024-02-22 22:13:45,320 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:03:03,644 - automationLogger - INFO - login success
+2024-02-23 00:03:03,789 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -559,7 +320,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:13:45,320 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:04:12,815 - automationLogger - INFO - login success
+2024-02-23 00:04:12,953 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -570,7 +332,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:13:45,320 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:05:08,055 - automationLogger - INFO - login success
+2024-02-23 00:05:08,215 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -581,7 +344,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:13:45,320 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:09:01,112 - automationLogger - INFO - login success
+2024-02-23 00:09:01,252 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -592,7 +356,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:13:45,320 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:10:28,139 - automationLogger - INFO - login success
+2024-02-23 00:10:28,256 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -603,42 +368,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:16:20,588 - automationLogger - INFO - login success
-2024-02-22 22:16:20,588 - automationLogger - INFO - login success
-2024-02-22 22:16:20,588 - automationLogger - INFO - login success
-2024-02-22 22:16:20,588 - automationLogger - INFO - login success
-2024-02-22 22:16:20,588 - automationLogger - INFO - login success
-2024-02-22 22:16:20,600 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:16:20,600 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:16:20,600 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:16:20,600 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:16:20,600 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:16:23,197 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:16:23,197 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:16:23,197 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:16:23,197 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:16:23,197 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:17:55,764 - automationLogger - INFO - login success
-2024-02-22 22:17:55,764 - automationLogger - INFO - login success
-2024-02-22 22:17:55,764 - automationLogger - INFO - login success
-2024-02-22 22:17:55,764 - automationLogger - INFO - login success
-2024-02-22 22:17:55,764 - automationLogger - INFO - login success
-2024-02-22 22:17:55,764 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:17:55,764 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:17:55,764 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:17:55,764 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:17:55,764 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:17:58,144 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:17:58,144 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:17:58,144 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:17:58,144 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:17:58,144 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:17:59,994 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:17:59,994 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:17:59,994 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:17:59,994 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:17:59,994 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:18:00,176 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:11:26,723 - automationLogger - INFO - login success
+2024-02-23 00:11:26,886 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -649,7 +380,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:18:00,176 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:13:46,808 - automationLogger - INFO - login success
+2024-02-23 00:13:46,978 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -660,7 +392,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:18:00,176 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:15:45,586 - automationLogger - INFO - login success
+2024-02-23 00:15:45,721 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -671,7 +404,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:18:00,176 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:20:36,799 - automationLogger - INFO - login success
+2024-02-23 00:20:36,948 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -682,7 +416,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:18:00,176 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:21:45,814 - automationLogger - INFO - login success
+2024-02-23 00:21:45,955 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -693,42 +428,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:22:05,566 - automationLogger - INFO - login success
-2024-02-22 22:22:05,566 - automationLogger - INFO - login success
-2024-02-22 22:22:05,566 - automationLogger - INFO - login success
-2024-02-22 22:22:05,566 - automationLogger - INFO - login success
-2024-02-22 22:22:05,566 - automationLogger - INFO - login success
-2024-02-22 22:22:05,569 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:22:05,569 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:22:05,569 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:22:05,569 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:22:05,569 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:22:07,963 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:22:07,963 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:22:07,963 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:22:07,963 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:22:07,963 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:24:09,940 - automationLogger - INFO - login success
-2024-02-22 22:24:09,940 - automationLogger - INFO - login success
-2024-02-22 22:24:09,940 - automationLogger - INFO - login success
-2024-02-22 22:24:09,940 - automationLogger - INFO - login success
-2024-02-22 22:24:09,940 - automationLogger - INFO - login success
-2024-02-22 22:24:09,940 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:24:09,940 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:24:09,940 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:24:09,940 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:24:09,940 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:24:12,509 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:24:12,509 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:24:12,509 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:24:12,509 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:24:12,509 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:24:15,241 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:24:15,241 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:24:15,241 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:24:15,241 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:24:15,241 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:24:15,399 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:23:58,047 - automationLogger - INFO - login success
+2024-02-23 00:23:58,175 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -739,7 +440,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:24:15,399 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:27:00,707 - automationLogger - INFO - login success
+2024-02-23 00:27:00,845 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -750,7 +452,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:24:15,399 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:31:35,895 - automationLogger - INFO - login success
+2024-02-23 00:31:36,044 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -761,7 +464,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:24:15,399 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:33:00,782 - automationLogger - INFO - login success
+2024-02-23 00:33:00,923 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -772,7 +476,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:24:15,399 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:33:52,626 - automationLogger - INFO - login success
+2024-02-23 00:33:52,771 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -783,27 +488,8 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:26:22,151 - automationLogger - INFO - login success
-2024-02-22 22:26:22,151 - automationLogger - INFO - login success
-2024-02-22 22:26:22,151 - automationLogger - INFO - login success
-2024-02-22 22:26:22,151 - automationLogger - INFO - login success
-2024-02-22 22:26:22,151 - automationLogger - INFO - login success
-2024-02-22 22:26:22,151 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:26:22,151 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:26:22,151 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:26:22,151 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:26:22,151 - automationLogger - INFO - Creating workspace for Test Customer 1
-2024-02-22 22:26:24,573 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:26:24,573 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:26:24,573 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:26:24,573 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:26:24,573 - automationLogger - INFO - Workspace for Test Customer 1 created
-2024-02-22 22:26:27,257 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:26:27,257 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:26:27,257 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:26:27,257 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:26:27,257 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-02-22 22:26:27,402 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:36:50,059 - automationLogger - INFO - login success
+2024-02-23 00:36:50,215 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User
@@ -814,40 +500,7 @@
 7               Nick Corona     nick@teztechnology.com  Admin
 8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
 9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:26:27,402 - automationLogger - INFO - users list:                        User                      Email   Type
-0               Gary Salter     gary@teztechnology.com   User
-1            Justin Prewitt  justinp@teztechnology.com   User
-2               Samer Jabri      sam@teztechnology.com   User
-3                Trey Sweat     trey@teztechnology.com   User
-4             Brandon Dobbs  brandon@teztechnology.com   User
-5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
-6             Craig McCrary    craig@teztechnology.com  Admin
-7               Nick Corona     nick@teztechnology.com  Admin
-8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
-9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:26:27,402 - automationLogger - INFO - users list:                        User                      Email   Type
-0               Gary Salter     gary@teztechnology.com   User
-1            Justin Prewitt  justinp@teztechnology.com   User
-2               Samer Jabri      sam@teztechnology.com   User
-3                Trey Sweat     trey@teztechnology.com   User
-4             Brandon Dobbs  brandon@teztechnology.com   User
-5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
-6             Craig McCrary    craig@teztechnology.com  Admin
-7               Nick Corona     nick@teztechnology.com  Admin
-8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
-9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:26:27,402 - automationLogger - INFO - users list:                        User                      Email   Type
-0               Gary Salter     gary@teztechnology.com   User
-1            Justin Prewitt  justinp@teztechnology.com   User
-2               Samer Jabri      sam@teztechnology.com   User
-3                Trey Sweat     trey@teztechnology.com   User
-4             Brandon Dobbs  brandon@teztechnology.com   User
-5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
-6             Craig McCrary    craig@teztechnology.com  Admin
-7               Nick Corona     nick@teztechnology.com  Admin
-8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
-9              Craig TEST 2                        NaN    NaN
-2024-02-22 22:26:27,402 - automationLogger - INFO - users list:                        User                      Email   Type
+2024-02-23 00:37:00,178 - automationLogger - INFO - users list:                        User                      Email   Type
 0               Gary Salter     gary@teztechnology.com   User
 1            Justin Prewitt  justinp@teztechnology.com   User
 2               Samer Jabri      sam@teztechnology.com   User

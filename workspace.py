@@ -32,13 +32,14 @@ def createWorkspace(driver, companyName):
 
 #this validates the workspace was made and adds the URL to the spreadsheet
 def validateWorkspaceURL(driver, companyName):
-    search = driver.find_element(By.ID, "search")
-    search.click()
-    search.send_keys(companyName)
-    time.sleep(2)
+    driver.get("https://admin.tez.io/workspaces")
+    time.sleep(3)
 
+    driver.find_element(By.ID, "search").click()
+    driver.find_element(By.ID, "search").send_keys(companyName)
+   
     try:
-        driver.find_element(By.CSS_SELECTOR, ".relative:nth-child(1) > .break-all .w-\\[100px\\]").click()
+        driver.find_element(By.CSS_SELECTOR, ".relative:nth-child(1) > .break-all .border .transition-all").click()
         url = driver.current_url
         log.info(f"workspace validated, url: {url}")
     except:
@@ -46,14 +47,17 @@ def validateWorkspaceURL(driver, companyName):
         url = "not made"
 
     return url
+
 #Same function with out url for appending the csv
 def validateWorkspace(driver, companyName):
+    driver.get("https://admin.tez.io/workspaces")
+    time.sleep(3)
+
     driver.find_element(By.ID, "search").click()
     driver.find_element(By.ID, "search").send_keys(companyName)
-    WebDriverWait(driver, 30).until(EC.text_to_be_present_in_element((By.CSS_SELECTOR, ".relative:nth-child(1) > .break-all .w-\\[100px\\]"), companyName))
 
     try:
-        driver.find_element(By.CSS_SELECTOR, ".relative:nth-child(1) > .break-all .w-\\[100px\\]").click()
+        driver.find_element(By.CSS_SELECTOR, ".relative:nth-child(1) > .break-all .border .transition-all").click()
         url = driver.current_url
         log.info(f"workspace validated, url: {url}")
     except:

@@ -1,48 +1,52 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver import Keys, ActionChains
-from selenium.webdriver.common.actions.action_builder import ActionBuilder
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
-
 import logger
-import login
+from login import adminLogin
 import getdata as data
-import workspace as wksp
+import workspace as ws
 import users
-from wkspsettings import setWSFilter 
+from wsSettings import setWSFilter
+from selenium import webdriver
+from selenium.webdriver import ActionChains
 
-#------variables for modifiability-----------------
+#-----------------variables----------------
 userName = "anessia@teztechnology.com"
 passW = "Nitrogen14!"
-customerList = "Testsheet.csv"
-#----Driver & Actions setup-------------------------
+customerList = "Testsheet.csv" #dummy data before using customer data
+
+#-----------------Set-Up-----------------
 driver = webdriver.Chrome()
 driver.implicitly_wait(0.50)
 driver.set_window_size(1536, 814)
 actions = ActionChains(driver)
+log = logger.setUp()
 
-#-------------start of script run -------------
-login.adminLogin(driver, userName, passW)
-
-#-----get the data from csv-----
+#-----------------Data Gathering -----------------
 companyName = data.getdf(customerList)
 
-#-----iterate through-----
+#-----------------start of script-----------------
+adminLogin(driver, userName, passW)
+
+#-----------------iterate through-----------------
 for index, value in companyName.iterrows():
     nameValue = value['Company']
     salesRep = value['SalesRep']
+    
     #----create workspace----
-    wksp.createWorkspace(driver, nameValue)
+    ws.createWorkspace(driver, nameValue)
+    
     #----validate workspace----
-    url = wksp.validateWorkspaceURL(driver, nameValue)
+    url = ws.validateWorkspaceURL(driver, nameValue)
+    
     #----update url in csv----
     data.addURL(customerList, nameValue, url)
+    
     #----add users----
     users.navUser(driver, url)
     users.addUsers(driver, salesRep)
+    
     #----add settings----
     setWSFilter(driver, nameValue)
 
+# ------ Future State TBD  ------ 
+    # after all workspaces were created the plan would be to then do another iteration through the customer list adding them to the pages. 
+    # I Created globalReportsSplit.csv in the event it was easy to get the data who had what and possibly automate adding in the correct reporting
+    # lastly I have made most of this modular with the thought we may be able to utilize this for other things 

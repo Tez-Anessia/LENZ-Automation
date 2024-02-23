@@ -28,6 +28,6 @@ def addURL(fileName, companyName, url):
     logging.info(f"Url: {url} added to Customer: {companyName}")
 
 #Test usage iteration:
-df = getdf('customerList.csv')
-for index, value in df.iterrows():
-    print(value['Company']) 
+#df = getdf('customerList.csv')
+#for index, value in df.iterrows():
+  #  print(value['Company']) 
