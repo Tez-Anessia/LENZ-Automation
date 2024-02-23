@@ -618,3 +618,243 @@
 2024-02-22 22:16:23,197 - automationLogger - INFO - Workspace for Test Customer 1 created
 2024-02-22 22:16:23,197 - automationLogger - INFO - Workspace for Test Customer 1 created
 2024-02-22 22:16:23,197 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:17:55,764 - automationLogger - INFO - login success
+2024-02-22 22:17:55,764 - automationLogger - INFO - login success
+2024-02-22 22:17:55,764 - automationLogger - INFO - login success
+2024-02-22 22:17:55,764 - automationLogger - INFO - login success
+2024-02-22 22:17:55,764 - automationLogger - INFO - login success
+2024-02-22 22:17:55,764 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:17:55,764 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:17:55,764 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:17:55,764 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:17:55,764 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:17:58,144 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:17:58,144 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:17:58,144 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:17:58,144 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:17:58,144 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:17:59,994 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:17:59,994 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:17:59,994 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:17:59,994 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:17:59,994 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:18:00,176 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:18:00,176 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:18:00,176 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:18:00,176 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:18:00,176 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:22:05,566 - automationLogger - INFO - login success
+2024-02-22 22:22:05,566 - automationLogger - INFO - login success
+2024-02-22 22:22:05,566 - automationLogger - INFO - login success
+2024-02-22 22:22:05,566 - automationLogger - INFO - login success
+2024-02-22 22:22:05,566 - automationLogger - INFO - login success
+2024-02-22 22:22:05,569 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:22:05,569 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:22:05,569 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:22:05,569 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:22:05,569 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:22:07,963 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:22:07,963 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:22:07,963 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:22:07,963 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:22:07,963 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:24:09,940 - automationLogger - INFO - login success
+2024-02-22 22:24:09,940 - automationLogger - INFO - login success
+2024-02-22 22:24:09,940 - automationLogger - INFO - login success
+2024-02-22 22:24:09,940 - automationLogger - INFO - login success
+2024-02-22 22:24:09,940 - automationLogger - INFO - login success
+2024-02-22 22:24:09,940 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:24:09,940 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:24:09,940 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:24:09,940 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:24:09,940 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:24:12,509 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:24:12,509 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:24:12,509 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:24:12,509 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:24:12,509 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:24:15,241 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:24:15,241 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:24:15,241 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:24:15,241 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:24:15,241 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:24:15,399 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:24:15,399 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:24:15,399 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:24:15,399 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:24:15,399 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:26:22,151 - automationLogger - INFO - login success
+2024-02-22 22:26:22,151 - automationLogger - INFO - login success
+2024-02-22 22:26:22,151 - automationLogger - INFO - login success
+2024-02-22 22:26:22,151 - automationLogger - INFO - login success
+2024-02-22 22:26:22,151 - automationLogger - INFO - login success
+2024-02-22 22:26:22,151 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:26:22,151 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:26:22,151 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:26:22,151 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:26:22,151 - automationLogger - INFO - Creating workspace for Test Customer 1
+2024-02-22 22:26:24,573 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:26:24,573 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:26:24,573 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:26:24,573 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:26:24,573 - automationLogger - INFO - Workspace for Test Customer 1 created
+2024-02-22 22:26:27,257 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:26:27,257 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:26:27,257 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:26:27,257 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:26:27,257 - automationLogger - INFO - workspace validated, url: https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-02-22 22:26:27,402 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:26:27,402 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:26:27,402 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:26:27,402 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN
+2024-02-22 22:26:27,402 - automationLogger - INFO - users list:                        User                      Email   Type
+0               Gary Salter     gary@teztechnology.com   User
+1            Justin Prewitt  justinp@teztechnology.com   User
+2               Samer Jabri      sam@teztechnology.com   User
+3                Trey Sweat     trey@teztechnology.com   User
+4             Brandon Dobbs  brandon@teztechnology.com   User
+5       Divisha Eppalapalli  divisha@teztechnology.com  Admin
+6             Craig McCrary    craig@teztechnology.com  Admin
+7               Nick Corona     nick@teztechnology.com  Admin
+8  Anessia Mejia-Santillana  anessia@teztechnology.com     QA
+9              Craig TEST 2                        NaN    NaN

@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+import time
 
 log = logger.setUp()
 
@@ -27,14 +27,15 @@ def createWorkspace(driver, companyName):
         WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.TAG_NAME, 'body')))
     except Exception as e:
         log.error(f"Failed to click element: {e}")
-        
+
     log.info(f"Workspace for {companyName} created")
 
 #this validates the workspace was made and adds the URL to the spreadsheet
 def validateWorkspaceURL(driver, companyName):
-    driver.find_element(By.ID, "search").click()
-    driver.find_element(By.ID, "search").send_keys(companyName)
-    WebDriverWait(driver, 30).until(EC.text_to_be_present_in_element((By.CSS_SELECTOR, ".relative:nth-child(1) > .break-all .w-\\[100px\\]"), companyName))
+    search = driver.find_element(By.ID, "search")
+    search.click()
+    search.send_keys(companyName)
+    time.sleep(2)
 
     try:
         driver.find_element(By.CSS_SELECTOR, ".relative:nth-child(1) > .break-all .w-\\[100px\\]").click()

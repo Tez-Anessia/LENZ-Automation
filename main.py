@@ -21,7 +21,7 @@ customerList = "Testsheet.csv"
 #----Driver & Actions setup-------------------------
 driver = webdriver.Chrome()
 driver.implicitly_wait(0.50)
-driver.set_window_size(2576, 1407)
+driver.set_window_size(1536, 814)
 actions = ActionChains(driver)
 
 #-------------start of script run -------------
