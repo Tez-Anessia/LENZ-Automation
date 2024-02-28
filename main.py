@@ -9,7 +9,7 @@ from selenium.webdriver import ActionChains
 
 #-----------------variables----------------
 userName = "anessia@teztechnology.com"
-passW = "Nitrogen14!"
+passW = "password"
 customerList = "Testsheet.csv" #dummy data before using customer data
 
 #-----------------Set-Up-----------------
