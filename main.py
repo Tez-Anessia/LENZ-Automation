@@ -8,14 +8,14 @@ from selenium import webdriver
 from selenium.webdriver import ActionChains
 
 #-----------------variables----------------
-userName = "anessia@teztechnology.com"
-passW = "Nitrogen14!"
+userName = "qa@email.com"
+passW = "T3Z@dm!nP@$$24^"
 customerList = "Testsheet.csv" #dummy data before using customer data
 
 #-----------------Set-Up-----------------
 driver = webdriver.Chrome()
 driver.implicitly_wait(0.50)
-driver.set_window_size(1536, 814)
+driver.maximize_window()
 actions = ActionChains(driver)
 log = logger.setUp()
 
