@@ -7,6 +7,7 @@ import time
 
 log = logger.setUp()
 
+#----This creates the workspace itself----
 def createWorkspace(driver, companyName):
     log.info(f"Creating workspace for {companyName}")
     

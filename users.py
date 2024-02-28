@@ -41,6 +41,7 @@ def addUsers(driver, salesPerson):
         searchInput.click()
 
     # Type into the search input
+        #-----This to be replaced with user loop when ready keep singular while testing------
     searchInput.send_keys("Anessia@teztechnology.com")
     searchInput.click()
     # Wait for the element to be located

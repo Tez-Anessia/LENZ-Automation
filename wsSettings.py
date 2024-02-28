@@ -7,6 +7,7 @@ from selenium.webdriver.common.keys import Keys
 
 log = logger.setUp()
 
+#update settings to filter by company name once the WS has been created
 def setWSFilter(driver, companyName):
     #----page and filter-----
     driver.find_element(By.XPATH, "//span[contains(.,\'Settings\')]").click()

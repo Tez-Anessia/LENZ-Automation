@@ -14,12 +14,13 @@ def getdf(fileName):
     df = pd.read_csv(getPath('data', fileName))
     return df
 
+#----getting data from a specific column instead of a dataframe option------
 def getColumnData(fileName, columnName):
     df = pd.read_csv(getPath('data', fileName))
     columnData = df[columnName].tolist()
     return columnData
 
-
+#-----append the csv to add the workspace direct URL for a list of all of them-------
 def addURL(fileName, companyName, url):
     filePath = getPath('data', fileName)
     df = pd.read_csv(filePath)
