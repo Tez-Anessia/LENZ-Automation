@@ -10,7 +10,7 @@ from selenium.webdriver import ActionChains
 #-----------------variables----------------
 userName = "qa@email.com"
 passW = "T3Z@dm!nP@$$24^"
-customerList = "customerList.csv"
+customerList = "testSheet.csv"
 #-----------------Set-Up-----------------
 driver = webdriver.Chrome()
 driver.implicitly_wait(0.50)
