@@ -8,8 +8,8 @@ from selenium import webdriver
 from selenium.webdriver import ActionChains
 
 #-----------------variables----------------
-userName = "qa@email.com"
-passW = "T3Z@dm!nP@$$24^"
+userName = "anessia@teztechnology.com"
+passW = "Nitrogen14!"
 customerList = "Testsheet.csv" #dummy data before using customer data
 
 #-----------------Set-Up-----------------
