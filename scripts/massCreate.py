@@ -1,8 +1,8 @@
 import logger
-from login import adminLogin
+from login import defaultLogin
 import getdata as data
 import workspace as ws
-import users
+import wsUsers
 from wsSettings import setWSFilter
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -22,7 +22,7 @@ log = logger.setUp()
 companyName = data.getdf(customerList)
 
 #-----------------start of script-----------------
-adminLogin(driver, userName, passW)
+defaultLogin(driver)
 
 #-----------------iterate through-----------------
 for index, value in companyName.iterrows():
@@ -39,8 +39,8 @@ for index, value in companyName.iterrows():
     data.addURL(customerList, nameValue, url)
     
     #----add users----
-    users.navUser(driver, url)
-    users.addUsers(driver, salesRep)
+    wsUsers.navUser(driver, url)
+    wsUsers.addUsers(driver, salesRep)
     
     #----add settings----
     setWSFilter(driver, nameValue)

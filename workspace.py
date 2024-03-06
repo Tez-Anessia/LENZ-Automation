@@ -18,7 +18,7 @@ def createWorkspace(driver, companyName):
     newWSButton.click()
 
     #enter workspace name
-    workspaceName = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.NAME, "name")))
+    workspaceName = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, "//input[@name='name']")))
     workspaceName.click()
     workspaceName.send_keys(companyName)
 

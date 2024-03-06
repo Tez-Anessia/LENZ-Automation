@@ -2,7 +2,7 @@ import logger
 from login import adminLogin
 import getdata as data
 import workspace as ws
-import pages as pg
+import LenzPages as pg
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 
@@ -21,4 +21,10 @@ log = logger.setUp()
 adminLogin(driver, userName, passW)
 
 pg.getGlobalPages(driver)
-pg.findPage(driver, "SMS Valet")
+pg.showAllPages(driver)
+path = pg.getPagePath("Text2Park")
+pg.clickpageMenu(driver, path)
+pg.menuEdit(driver)
+pg.addWS(driver, "A Test Customer 1")
+pg.submitWS(driver)
+
