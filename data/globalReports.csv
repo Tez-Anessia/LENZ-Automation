@@ -1,22 +1,21 @@
-﻿ReportName
-SMS Valet
-Text2Park
-LENZ Admin
-TEZPAY Deposit Report
-TEZPAY Transaction Detail Report
-Company Performance
-Location Revenue by Payment Type
-SMS Valet Daily Operations
-TEZ Home
-BYOMA Transactions by Card Type
-TEZPAY Transactions by Card Type
-BYOMA Batch Report
-TEZ Store
-Parkers by ZIP Code (TEZPAY)
-Parkers by ZIP Code (BYOMA)
-Text2Park Daily Operations
-Traffic Trends by City
-Location Performance Analysis
-Total Revenue & TEZ Fee
-Daily Operations Detail Report
-SMS Valet Delivery Time Analysis
+﻿ReportName,Group
+Location Revenue by Payment Type,Accounting Reports
+Company Performance,Operational Reports
+SMS Valet Daily Operations,Operational Reports
+Text2Park Daily Operations,Operational Reports
+Traffic Trends by City,Operational Reports
+Location Performance Analysis,Operational Reports
+SMS Valet Delivery Time Analysis,Operational Reports
+SMS Valet,TEZ Systems
+Text2Park,TEZ Systems
+TEZ Home,TEZ Systems
+TEZ Store,TEZ Systems
+TEZPAY Deposit Report,
+TEZPAY Transaction Detail Report,
+BYOMA Transactions by Card Type,
+TEZPAY Transactions by Card Type,
+BYOMA Batch Report,
+Parkers by ZIP Code (TEZPAY),
+Parkers by ZIP Code (BYOMA),
+Total Revenue & TEZ Fee,
+Daily Operations Detail Report,
