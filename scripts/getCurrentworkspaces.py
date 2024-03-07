@@ -4,9 +4,9 @@ the urls of any workspaces that have already been created in LENZ.
 This should help with not creating duplicates and helping the mass create script
 ensure its not overwriting any customer's data
 '''
-import logger
+import config.logger as logger
 from login import adminLogin
-import getdata as data
+import commonUtils.getdata as data
 import workspace as ws
 from selenium import webdriver
 from selenium.webdriver import ActionChains

@@ -1,9 +1,9 @@
 from typing import Self
-import logger
+import config.logger as logger
 from login import adminLogin
-import getdata as data
-from page.login_page import LoginPage
-from page.workspace_page import WSPage
+import commonUtils.getdata as data
+from pages.login_page import LoginPage
+from pages.workspace_page import WSPage
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 import time

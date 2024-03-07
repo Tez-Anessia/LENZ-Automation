@@ -1,5 +1,5 @@
-import logger
-import getdata as data
+import config.logger as logger
+import commonUtils.getdata as data
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC

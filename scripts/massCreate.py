@@ -1,6 +1,6 @@
-import logger
+import config.logger as logger
 from login import defaultLogin
-import getdata as data
+import commonUtils.getdata as data
 import workspace as ws
 import wsUsers
 from wsSettings import setWSFilter
@@ -13,7 +13,7 @@ passW = "T3Z@dm!nP@$$24^"
 customerList = "testSheet.csv"
 #-----------------Set-Up-----------------
 driver = webdriver.Chrome()
-driver.implicitly_wait(0.50)
+driver.implicitly_wait(2)
 driver.maximize_window()
 actions = ActionChains(driver)
 log = logger.setUp()
