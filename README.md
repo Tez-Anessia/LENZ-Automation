@@ -9,13 +9,13 @@ Below you can find a quick overview and description of the project structure and
 * commonUtils - this directory will house files with common functions and usability 
 * config - this directory is responsible for housing configuration files like logger
 * data - any file that needs to be read or updated will live here, this will be split between csv's and images
-* locators - locators for web elements will be housed here and grouped in different classes
-* pages - sets of methods and actions that can be used to build scripts and tests
-* scripts - will house any scripts which perform a complex action like mass updating all workspaces with a new report
+* locators - locators for web elements will be housed here and grouped in different classes.
+* pages - contains the page objects that house the methods to interat with the webpage
+* scripts - will house any scripts ranging from small actions to complex processes
 * tests - inside this directory any tests created like workspace QA will be found here
 
 ## Features 
-- Automation: Automate the creation of workspaces
+- Automation: Automate the creation of workspaces=
 - Customization: Dynamically add in contents for the workspaces
 - Flexibility: Supports different approaches and needs 
 
