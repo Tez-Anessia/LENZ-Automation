@@ -60,17 +60,17 @@ class WSPage:
         option.click()
     
     def findInTable(self, customerName):
-       self.driver.find_element(By.XPATH, "//div[contains(text(),'"+ customerName +"')]")                        
+       self.driver.find_element(By.XPATH, f"//div[contains(text(),'{customerName}')]")                        
 
 #THIS GETS THE URL INSTEAD
     def selectWorkspace(self, customerName):
-        ws = self.driver.find_element(By.XPATH, "//table/tbody/tr/td[.//div[contains(text(),'"+ customerName +"')]]/div/a[contains(@href,'/workspaces')]")
+        ws = self.driver.find_element(By.XPATH, f"//table/tbody/tr/td[.//div[contains(text(),'{customerName}')]]/div/a[contains(@href,'/workspaces')]")
         url = ws.get_attribute('href')
         print(url)
         ws.click()
         
     def getWSpath(self, customerName):
-        ws = "//table/tbody/tr/td[.//div[contains(text(),'"+ customerName +"')]]"
+        ws = f"//table/tbody/tr/td[.//div[contains(text(),'{customerName}')]]"
         return ws 
     
     #this works off the getWSpath function

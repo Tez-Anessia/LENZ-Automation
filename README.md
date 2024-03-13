@@ -23,4 +23,5 @@ Below you can find a quick overview and description of the project structure and
 * The driver will only work with Selenium version 14.0.0 listed in the requirments. 
 * All files will need to be housed in the same data folder. 
 * This currently works with the chrome browser
+* all values to pass through a workspace name is companyName 
 
