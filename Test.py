@@ -1,8 +1,8 @@
 from typing import Self
-import src.pages.login_page as loginPage
-import src.pages.workspaces_page as wsPage
-import src.pages.workspace.pages_tab as wsPages
-import src.pages.workspace.user_tab as wsUser
+import src.pages.login as loginPage
+import src.pages.workspaces as wsPage
+import src.pages.workspace.ws_pages as wsPages
+import src.pages.workspace.ws_users as wsUser
 import src.pages.common as common
 import config.logger
 from selenium import webdriver

@@ -16,7 +16,7 @@ class workspaces:
         self.driver = driver
     
  #--------Singular Functions--------
-    def openWS(self):
+    def directNav(self):
         self.driver.get("https://admin.tez.io/workspaces")   
 
     def searchFor(self, companyName):
