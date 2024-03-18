@@ -39,7 +39,7 @@ class wsuserElements:
 #---once you check the box for a user, these icons are clickable
     reinviteSelected = (By.XPATH, "//button[contains(@data-tooltip-id, 'Resend welcome invites')]")
     deactivateSelected = (By.XPATH, "//button[contains(@data-tooltip-id, 'Deactivate users')]")
-    deleteSelected = (By.XPATH, "//button[contains(@data-tooltip-id, 'Delete users')]")
+    delete_selected = (By.XPATH, "//button[contains(@data-tooltip-id, 'Delete users')]")
     add_user_btn = (By.XPATH, "//button[contains(@class,'sm:w-auto')]")
 #Table
 #-General paths to table columns
@@ -63,7 +63,7 @@ class wsuserElements:
     csv_option = (By.XPATH, "//li[(@role='option')][2]")
 #-XPATHS
 #---combine with //a[normalize-space()='{user}'] to find the specific user
-    userName_XPath = "//table/tbody/tr//td[.//div[@class='flex items-center']]//div[@class='flex items-center gap-x-2 font-medium text-gray-900']"
+    userName_XPATH = "//table/tbody/tr//td[.//div[@class='flex items-center']]//div[@class='flex items-center gap-x-2 font-medium text-gray-900']"
 
 class wsuserDialog:
 #General
@@ -100,46 +100,68 @@ class wsuserDialog:
 #-XPATHS
     existing_dropdown_text = "//div[contains(@class,'flex relative items-center')]//div[.='{user}']"
 
+#This section contains the workspace group tab. This has several layers. the most basic layer will be the main page
+#which contains the group package, then the group itself which is the expanded group package
 class wsgroupsElements:
 #General
-    main_container = (By.XPATH, "//div[contains(@class,'grid space-y')]")
+    main_section = (By.XPATH, "//div[contains(@class,'grid space-y')]")
     add_new_btn = (By.XPATH, "//div[contains(@class, 'flex sm:items-center')]/descendant::button[contains(@class,'group inline-flex items-center justify-center')]")
-#Group elements
-    group_elements_section = (By.XPATH, "//div[contains(@class,'space-y-4 pl-10')]")
+#Group Package elements
 #-General paths to the elements. Since the components duplicate, it will need to be called in the specified group path
  #---This element is the general path to find all of the group sections   
-    group_components = (By.XPATH, "//div[contains(@class,'flex items-center justify-between py-4 px-6 gap-10')]")
-    group_name_input = (By.XPATH, "//input[contains(@name,'workspace-name')]") #specific name = //input[@value='{groupName}']
+    group_package = (By.XPATH, "//div[contains(@class,'flex items-center justify-between py-4 px-6 gap-10')]")
+    package_name_input = (By.XPATH, "//input[contains(@name,'workspace-name') and contains (@class, 'w-full pr-4')]") 
 #---Settings menu button and options    
     settings_btn = (By.XPATH, "//button[contains(@id, 'headlessui-menu-button') and contains(@class, 'max-w-xs')]")
 #---These options only show once settings button has been pressed
-    settings_manage_users = (By.XPATH, "//button[normalize-space()='Manage users']")
+    settings_manage = (By.XPATH, "//button[normalize-space()='Manage users']")
     settings_add_page = (By.XPATH, "//button[normalize-space()='Add page']")
-    settings_clone_group = (By.XPATH, "//button[normalize-space()='Clone group']")
+    settings_clone = (By.XPATH, "//button[normalize-space()='Clone group']")
     settings_add_icon = (By.XPATH, "//button[normalize-space()='Add icon']")
-    settings_delete_group = (By.XPATH, "//button[normalize-space()='Delete group']")
+    settings_delete = (By.XPATH, "//button[normalize-space()='Delete group']")
 #-Expanded Section (still general paths)
     expand_button = (By.XPATH, "//button[contains(@class, '!shadow-non')]") #same expanded and not expanded
+#-XPATHS
+#---Add the exact group Path then exact group options then either settings buttons or expand button path to get the exact line
+    group_name_XPATH = "//input[@value='{groupName}'"
+    group_options_XPATH = "/ancestor::div[contains(@class, 'relative bg-white')]/descendant::"
+
+#Group Elements
 #---This portion only shows once expand button is clicked
-    expanded_section = (By.XPATH,"//div[@class='bg-white rounded-md flex justify-center items-center gap-x-4 w-full h-[120px]']")
     group_pages_components = (By.XPATH, "//div[contains(@class,'relative max-h-[200000px] py-3 sm:py-4 px-3 sm:px-6 border-t border-slate-200')]")
-    
     add_page_btn = (By.XPATH, "//button[contains(.,'Add page')]")
+#---These show after pressing the add page button
+    page_dropdown = (By.XPATH, "//select[@name='page_id']")
+    page_options_XPATH = "//option[. = '{pageName}']"
 #---These buttons have a disabled status
     update_group_btn = (By.XPATH, "//button[contains(@class, 'sm:w-auto') and contains(., 'Update')]")
     undo_changes_btn = (By.XPATH, "//button[contains(@class, 'sm:w-auto') and contains(., 'Undo changes')]")
 
-
 class wsgroupsDialog:
-    pass
+    ws_dialog_whitespace = (By.XPATH, "//div[contains(@class, 'flex justify-between py-4 px-4')]")
+    group_name_input = (By.XPATH, "//input[@name='name']")
+    assign_users_search = (By.XPATH, "//input[@name='search']")
+    checkbox_XPATH = "//input[@type='checkbox']"
+    add_page_btn =(By.XPATH, "//div[contains(text(),'Add Page')]")
+#XPATHS
+#---This xpath will bring the name in view once searched to be clicked 
+    users_in_list_XPATH ="//div[contains(@class, 'flex relative items-center justify-center') and contains(.,'{userName}')]"
+    specific_checkbox_XPATH= "//div[contains(text(),'{userName'}')]/ancestor::div[contains(@class, 'cursor-pointer')]/input[@type='checkbox']"
+    
+    page_dropdown = (By.XPATH, "//select[@name='page_id']")
+    page_options_XPATH = "//option[. = '{pageName}']"
+    
+    save_btn = (By.XPATH, "//button[normalize-space()='Save']")
 class wslayoutElements:
     pass
 class wsSettingsElements:
-    addWSFilterBtn = (By.XPATH, "//div[2]/div[(@class='w-full justify-between flex items-center gap-4')]/button")
-    filterColumnNameInput = (By.XPATH, "//input[contains(@name,'column-name')]")
+    add_filter_btn = (By.XPATH, "//div[2]/div[(@class='w-full justify-between flex items-center gap-4')]/button")
+    column_name_input = (By.XPATH, "//input[contains(@name,'column-name')]")
     filterOperatordropdown = (By.XPATH, "//div[@class='w-full h-full flex justify-between items-center']//button[contains(@class,'h-10 relative')]")
     equaltoOption = (By.XPATH, "(//li[@role='option'])[1]")
     allOptions = (By.XPATH, "(//li[@role='option'])")
     textValueInput = (By.XPATH, "//input[@name='column-value']")
     
     deleteWorkspace = (By.XPATH, "//button[@class='group inline-flex items-center justify-center transition-all duration-200 rounded-md border px-4 py-2 text-regular font-medium focus:ring-2 focus:border-highlightColor bg-white text-highlightColor border-[1px] border-highlightColor hover:shadow-sm  sm:w-auto h-12 !text-red-300 !border-red-300']")
+
+
