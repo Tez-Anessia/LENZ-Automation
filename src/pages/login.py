@@ -31,13 +31,14 @@ class login:
             log.info("login successful")
         else:
             log.info("unable to login")
+            self.driver.quit()
 
 #---Functions for Actions---
     def adminLogin(self, userName, passWord):
         log.info("Starting login process")
-        self.driver.find_element(*locator.login.username_input).send_keys(userName)
-        self.driver.find_element(*locator.login.password_input).send_keys(passWord)
-        self.driver.find_element(*locator.login.login_btn).click()
+        self.driver.find_element(*locator.loginElements.username_input).send_keys(userName)
+        self.driver.find_element(*locator.loginElements.password_input).send_keys(passWord)
+        self.driver.find_element(*locator.loginElements.login_btn).click()
         time.sleep(2)
         log.info("Validating login success")
         self.validateLogin()

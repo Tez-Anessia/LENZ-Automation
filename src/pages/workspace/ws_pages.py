@@ -1,3 +1,7 @@
+'''
+Note this page needs work to add wait elements when there are less than 10 pages assigned to a workspace.
+wait is currently set to work when there is the presence of a pagination box. 
+'''
 import sys
 sys.path.append('.')
 
@@ -5,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys;
-from src.locators import workspaces_locators as locator
+from src.locators import ws_locators as locator
 import config.logger
 
 log = config.logger.setUp()
@@ -17,7 +21,7 @@ class wspages:
 
     def pageLoadWait(self):
         try:
-            WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, "//div[@class='py-3 px-1 rounded-full hover:bg-gray-100 transition-colors duration-100 flex items-center justify-center']")))
+            WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, "//div[starts-with(text(),'User record')]")))
         except:
             log.error("no elements in table")
 
@@ -28,21 +32,22 @@ class wspages:
         self.pageLoadWait()
 
     def pagesTabClick(self):
-        self.driver.find_element(*locator.profileElements.pagesTab).click()
+        self.driver.find_element(*locator.wsprofileElements.pages_tab).click()
         self.pageLoadWait()
 
     def searchPages(self, pageName):
         log.info(f"Searching for page: {pageName}")
-        search = self.driver.find_element(*locator.wspagesElements.pages_search) 
+        search = self.driver.find_element(*locator.wspagesElements.search_input) 
         search.click()
         search.send_keys(pageName)
     
     def clearSearch(self):
+        log.info("clearing search input")
         search = self.driver.find_element(*locator.wspagesElements.search_input)
         search.send_keys(Keys.CONTROL, "a")
         search.send_keys(Keys.DELETE)
+        self.pageLoadWait()
 
-    
     def findInTable(self, pageName):
         self.pageLoadWait()
         log.info(f"starting process to find {pageName} in table")

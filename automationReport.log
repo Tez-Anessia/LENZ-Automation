@@ -1,398 +1,336 @@
-2024-02-28 18:23:30,943 - automationLogger - INFO - login success
-2024-02-28 18:24:12,208 - automationLogger - INFO - login success
-2024-02-28 18:27:23,146 - automationLogger - INFO - login success
-2024-02-28 18:29:16,892 - automationLogger - INFO - login success
-2024-02-28 18:30:53,966 - automationLogger - INFO - login success
-2024-02-28 18:31:56,022 - automationLogger - INFO - login success
-2024-02-28 18:33:48,606 - automationLogger - INFO - login success
-2024-02-28 19:02:38,107 - automationLogger - INFO - login success
-2024-02-28 19:03:48,959 - automationLogger - INFO - login success
-2024-02-28 20:11:14,246 - automationLogger - INFO - login success
-2024-02-28 20:14:21,654 - automationLogger - INFO - login success
-2024-02-28 20:14:48,879 - automationLogger - INFO - login success
-2024-02-28 20:42:15,978 - automationLogger - INFO - login success
-2024-02-28 20:43:04,740 - automationLogger - INFO - login success
-2024-02-28 20:44:26,823 - automationLogger - INFO - login success
-2024-02-28 20:50:01,619 - automationLogger - INFO - login success
-2024-02-28 20:52:07,411 - automationLogger - INFO - login success
-2024-03-05 16:07:35,571 - automationLogger - INFO - login success
-2024-03-05 16:08:43,788 - automationLogger - INFO - login success
-2024-03-05 16:10:55,651 - automationLogger - INFO - login success
-2024-03-05 16:13:14,903 - automationLogger - INFO - login success
-2024-03-05 16:37:33,034 - automationLogger - INFO - login success
-2024-03-05 16:38:47,199 - automationLogger - INFO - login success
-2024-03-05 16:45:15,808 - automationLogger - INFO - login success
-2024-03-05 16:47:14,792 - automationLogger - INFO - login success
-2024-03-05 16:48:06,256 - automationLogger - INFO - login success
-2024-03-05 16:49:32,375 - automationLogger - INFO - login success
-2024-03-05 16:51:53,684 - automationLogger - INFO - login success
-2024-03-05 16:55:23,591 - automationLogger - INFO - login success
-2024-03-05 17:00:41,304 - automationLogger - INFO - login success
-2024-03-05 17:02:30,860 - automationLogger - INFO - login success
-2024-03-05 17:05:28,593 - automationLogger - INFO - login success
-2024-03-05 17:06:46,025 - automationLogger - INFO - login success
-2024-03-05 17:07:44,207 - automationLogger - INFO - login success
-2024-03-05 17:13:27,692 - automationLogger - INFO - login success
-2024-03-12 16:24:15,087 - automationLogger - INFO - login successful
-2024-03-12 16:51:57,810 - automationLogger - INFO - Starting login process
-2024-03-12 16:52:00,451 - automationLogger - INFO - Validating login success
-2024-03-12 16:52:00,460 - automationLogger - INFO - login successful
-2024-03-12 16:52:01,854 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 16:52:01,854 - automationLogger - ERROR - Asta Parking not found in table
-2024-03-12 16:54:59,296 - automationLogger - INFO - Starting login process
-2024-03-12 16:55:01,908 - automationLogger - INFO - Validating login success
-2024-03-12 16:55:01,923 - automationLogger - INFO - login successful
-2024-03-12 16:55:03,154 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 16:55:03,154 - automationLogger - ERROR - Asta Parking not found in table
-2024-03-12 16:57:45,175 - automationLogger - INFO - Starting login process
-2024-03-12 16:57:47,760 - automationLogger - INFO - Validating login success
-2024-03-12 16:57:47,772 - automationLogger - INFO - login successful
-2024-03-12 16:57:49,509 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 16:57:49,509 - automationLogger - ERROR - Asta Parking not found in table
-2024-03-12 17:00:08,214 - automationLogger - INFO - Starting login process
-2024-03-12 17:00:10,819 - automationLogger - INFO - Validating login success
-2024-03-12 17:00:10,830 - automationLogger - INFO - login successful
-2024-03-12 17:00:11,821 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 17:00:11,821 - automationLogger - ERROR - Asta Parking not found in table
-2024-03-12 17:04:42,266 - automationLogger - INFO - Starting login process
-2024-03-12 17:04:44,899 - automationLogger - INFO - Validating login success
-2024-03-12 17:04:44,901 - automationLogger - INFO - login successful
-2024-03-12 17:04:46,223 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 17:04:46,223 - automationLogger - ERROR - Asta Parking not found in table
-2024-03-12 17:07:09,856 - automationLogger - INFO - Starting login process
-2024-03-12 17:07:12,499 - automationLogger - INFO - Validating login success
-2024-03-12 17:07:12,503 - automationLogger - INFO - login successful
-2024-03-12 17:07:14,320 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 17:07:14,320 - automationLogger - ERROR - Asta Parking not found in table
-2024-03-12 17:09:28,208 - automationLogger - INFO - Starting login process
-2024-03-12 17:09:30,815 - automationLogger - INFO - Validating login success
-2024-03-12 17:09:30,821 - automationLogger - INFO - login successful
-2024-03-12 17:09:32,257 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 17:09:32,257 - automationLogger - ERROR - Asta Parking not found in table
-2024-03-12 17:12:53,820 - automationLogger - INFO - Starting login process
-2024-03-12 17:12:56,439 - automationLogger - INFO - Validating login success
-2024-03-12 17:12:56,439 - automationLogger - INFO - login successful
-2024-03-12 17:12:57,385 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-03-12 17:13:39,354 - automationLogger - INFO - Starting login process
-2024-03-12 17:13:41,949 - automationLogger - INFO - Validating login success
-2024-03-12 17:13:41,952 - automationLogger - INFO - login successful
-2024-03-12 17:13:43,689 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
-2024-03-12 17:17:14,370 - automationLogger - INFO - Starting login process
-2024-03-12 17:17:16,963 - automationLogger - INFO - Validating login success
-2024-03-12 17:17:16,963 - automationLogger - INFO - login successful
-2024-03-12 17:17:24,418 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 17:17:24,418 - automationLogger - ERROR - Asta Parking not found in table
-2024-03-12 17:17:55,528 - automationLogger - INFO - Starting login process
-2024-03-12 17:17:58,111 - automationLogger - INFO - Validating login success
-2024-03-12 17:17:58,117 - automationLogger - INFO - login successful
-2024-03-12 17:17:59,661 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 17:17:59,661 - automationLogger - ERROR - Asta Parking not found in table
-2024-03-12 17:21:01,320 - automationLogger - INFO - Starting login process
-2024-03-12 17:21:03,957 - automationLogger - INFO - Validating login success
-2024-03-12 17:21:03,958 - automationLogger - INFO - login successful
-2024-03-12 17:21:03,958 - automationLogger - INFO - Setting pagination to All
-2024-03-12 17:21:05,421 - automationLogger - INFO - pagination set for page
-2024-03-12 17:21:05,439 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 17:21:05,450 - automationLogger - INFO - Asta Parking found in table
-2024-03-12 17:25:09,447 - automationLogger - INFO - Starting login process
-2024-03-12 17:25:12,047 - automationLogger - INFO - Validating login success
-2024-03-12 17:25:12,049 - automationLogger - INFO - login successful
-2024-03-12 17:25:12,049 - automationLogger - INFO - Setting pagination to All
-2024-03-12 17:25:12,958 - automationLogger - INFO - pagination set for page
-2024-03-12 17:25:12,989 - automationLogger - INFO - starting process to find Asta Parking in table
-2024-03-12 17:25:12,999 - automationLogger - INFO - Asta Parking found in table
-2024-03-12 18:08:07,502 - automationLogger - INFO - Starting login process
-2024-03-12 18:08:10,173 - automationLogger - INFO - Validating login success
-2024-03-12 18:08:10,189 - automationLogger - INFO - login successful
-2024-03-12 18:08:11,340 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:08:11,674 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:08:11,674 - automationLogger - INFO - Starting process to find all elements in table
-2024-03-12 18:08:11,699 - automationLogger - INFO - 106 elements found in table
-2024-03-12 18:08:11,699 - automationLogger - INFO - pages found: [<selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.50")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.51")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.52")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.43")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.44")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.53")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.54")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.49")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.55")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.56")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.57")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.58")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.59")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.60")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.61")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.62")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.63")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.64")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.65")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.66")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.67")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.68")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.69")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.70")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.71")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.72")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.73")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.74")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.75")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.76")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.77")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.78")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.79")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.80")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.81")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.82")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.83")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.84")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.85")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.86")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.87")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.88")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.89")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.90")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.91")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.92")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.93")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.94")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.95")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.96")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.97")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.98")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.99")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.100")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.101")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.102")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.103")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.104")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.105")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.106")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.107")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.108")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.109")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.110")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.111")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.112")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.113")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.114")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.115")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.116")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.117")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.118")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.119")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.120")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.121")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.122")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.123")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.124")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.125")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.126")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.127")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.128")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.129")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.130")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.131")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.132")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.133")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.134")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.135")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.136")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.137")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.138")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.139")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.140")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.141")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.142")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.143")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.144")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.145")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.146")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.147")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.148")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.149")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.150")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.151")>, <selenium.webdriver.remote.webelement.WebElement (session="86df58e37a95a04c9f9c59da33ecd0f2", element="f.9996048281B1C384911CD50CD3BE7EF9.d.DD3EE20D0C60655E73075BF7760ACBE9.e.152")>]
-2024-03-12 18:10:32,485 - automationLogger - INFO - Starting login process
-2024-03-12 18:10:35,089 - automationLogger - INFO - Validating login success
-2024-03-12 18:10:35,095 - automationLogger - INFO - login successful
-2024-03-12 18:10:36,774 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:10:37,089 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:10:37,105 - automationLogger - INFO - Starting process to extract text from 'name' column in table
-2024-03-12 18:10:37,208 - automationLogger - INFO - Extracted 4 text items from 'name' column in table
-2024-03-12 18:11:48,307 - automationLogger - INFO - Starting login process
-2024-03-12 18:11:50,933 - automationLogger - INFO - Validating login success
-2024-03-12 18:11:50,938 - automationLogger - INFO - login successful
-2024-03-12 18:11:52,289 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:11:52,655 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:11:52,674 - automationLogger - INFO - Starting process to extract text from 'name' column in table
-2024-03-12 18:11:52,791 - automationLogger - INFO - Extracted 4 text items from 'name' column in table
-2024-03-12 18:11:52,791 - automationLogger - INFO - Current Reports are: ['Daily Operations Detail Report\nGlobal', 'Lenz Internal Request Form\nGlobal', 'Location Performance Analysis\nGlobal', 'SMS Valet Daily Operations\nGlobal']
-2024-03-12 18:23:16,518 - automationLogger - INFO - Starting login process
-2024-03-12 18:23:19,111 - automationLogger - INFO - Validating login success
-2024-03-12 18:23:19,111 - automationLogger - INFO - login successful
-2024-03-12 18:23:19,233 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:23:20,940 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:23:21,295 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:23:21,295 - automationLogger - INFO - Searching for page: Daily Operations Detail Report
-2024-03-12 18:23:21,403 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:23:21,403 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:23:42,410 - automationLogger - INFO - Starting login process
-2024-03-12 18:23:45,002 - automationLogger - INFO - Validating login success
-2024-03-12 18:23:45,003 - automationLogger - INFO - login successful
-2024-03-12 18:23:45,115 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:23:46,967 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:23:47,336 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:23:47,336 - automationLogger - INFO - Searching for page: Daily Operations Detail Report
-2024-03-12 18:23:47,469 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:23:47,486 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:23:47,486 - automationLogger - INFO - Reading table for all pages
-2024-03-12 18:23:47,576 - automationLogger - ERROR - Error occurred while extracting text from 'name' column in table: cannot access local variable 'page_title' where it is not associated with a value
-2024-03-12 18:26:11,385 - automationLogger - INFO - Starting login process
-2024-03-12 18:26:14,050 - automationLogger - INFO - Validating login success
-2024-03-12 18:26:14,052 - automationLogger - INFO - login successful
-2024-03-12 18:26:14,181 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:26:16,022 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:26:16,369 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:26:16,369 - automationLogger - INFO - Searching for page: Daily Operations Detail Report
-2024-03-12 18:26:16,503 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:26:16,523 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:26:16,535 - automationLogger - INFO - Reading table for all pages
-2024-03-12 18:26:16,602 - automationLogger - ERROR - Error occurred while extracting text from 'name' column in table: cannot access local variable 'page_title' where it is not associated with a value
-2024-03-12 18:28:55,053 - automationLogger - INFO - Starting login process
-2024-03-12 18:28:57,686 - automationLogger - INFO - Validating login success
-2024-03-12 18:28:57,691 - automationLogger - INFO - login successful
-2024-03-12 18:28:57,823 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:28:58,858 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:29:00,038 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:29:00,038 - automationLogger - INFO - Searching for page: Daily Operations Detail Report
-2024-03-12 18:29:00,185 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:29:00,185 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:29:00,206 - automationLogger - INFO - Reading table for all pages
-2024-03-12 18:29:00,285 - automationLogger - INFO - Workspace has 1 pages assigned to it
-2024-03-12 18:29:00,285 - automationLogger - INFO - Current pages are: ['Loading...']
-2024-03-12 18:30:15,704 - automationLogger - INFO - Starting login process
-2024-03-12 18:30:18,306 - automationLogger - INFO - Validating login success
-2024-03-12 18:30:18,318 - automationLogger - INFO - login successful
-2024-03-12 18:30:18,433 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:30:20,034 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:30:20,385 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:30:20,385 - automationLogger - INFO - Searching for page: Daily Operations Detail Report
-2024-03-12 18:30:20,506 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:30:20,518 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:30:20,618 - automationLogger - INFO - Reading table for all pages
-2024-03-12 18:30:20,684 - automationLogger - INFO - Workspace has 1 pages assigned to it
-2024-03-12 18:30:20,684 - automationLogger - INFO - Current pages are: ['Loading...']
-2024-03-12 18:31:38,588 - automationLogger - INFO - Starting login process
-2024-03-12 18:31:41,199 - automationLogger - INFO - Validating login success
-2024-03-12 18:31:41,207 - automationLogger - INFO - login successful
-2024-03-12 18:31:41,328 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:31:43,019 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:31:43,373 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:31:43,373 - automationLogger - INFO - Searching for page: Daily Operations Detail Report
-2024-03-12 18:31:43,552 - automationLogger - INFO - starting process to find Daily Operations Detail Report in table
-2024-03-12 18:31:43,552 - automationLogger - INFO - Daily Operations Detail Report found in table
-2024-03-12 18:31:43,684 - automationLogger - INFO - Reading table for all pages
-2024-03-12 18:31:43,751 - automationLogger - INFO - Workspace has 1 pages assigned to it
-2024-03-12 18:31:43,751 - automationLogger - INFO - Current pages are: ['Loading...']
-2024-03-12 18:32:50,072 - automationLogger - INFO - Starting login process
-2024-03-12 18:32:52,677 - automationLogger - INFO - Validating login success
-2024-03-12 18:32:52,683 - automationLogger - INFO - unable to login
-2024-03-12 18:32:52,786 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:33:08,050 - automationLogger - ERROR - Error occurred while extracting text from 'name' column in table: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=122.0.6261.112)
+2024-03-18 11:39:13,674 - automationLogger - INFO - Starting login process
+2024-03-18 11:39:16,288 - automationLogger - INFO - Validating login success
+2024-03-18 11:39:16,292 - automationLogger - INFO - login successful
+2024-03-18 11:44:48,180 - automationLogger - INFO - Starting login process
+2024-03-18 11:44:50,788 - automationLogger - INFO - Validating login success
+2024-03-18 11:44:50,805 - automationLogger - INFO - login successful
+2024-03-18 11:44:51,261 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 11:44:52,171 - automationLogger - INFO - starting process to find Asta Parking in table
+2024-03-18 11:44:53,380 - automationLogger - INFO - Asta Parking found in table
+2024-03-18 11:44:53,380 - automationLogger - INFO - clearing search bar
+2024-03-18 11:44:53,468 - automationLogger - INFO - starting process to find Asta Parking in table
+2024-03-18 11:44:53,480 - automationLogger - INFO - Asta Parking found in table
+2024-03-18 11:44:53,530 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-18 11:44:53,545 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-18 11:44:53,545 - automationLogger - INFO - Creating workspace for AMS TEST2
+2024-03-18 11:44:54,471 - automationLogger - INFO - Created workspace for AMS TEST2
+2024-03-18 11:44:54,471 - automationLogger - INFO - Validating workspace for AMS TEST2 exists
+2024-03-18 11:44:54,471 - automationLogger - INFO - clearing search bar
+2024-03-18 11:49:18,456 - automationLogger - INFO - Starting login process
+2024-03-18 11:49:21,066 - automationLogger - INFO - Validating login success
+2024-03-18 11:49:21,080 - automationLogger - INFO - login successful
+2024-03-18 11:49:21,510 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 11:50:42,960 - automationLogger - INFO - Starting login process
+2024-03-18 11:50:45,576 - automationLogger - INFO - Validating login success
+2024-03-18 11:50:45,580 - automationLogger - INFO - login successful
+2024-03-18 11:50:45,804 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 11:50:46,842 - automationLogger - INFO - starting process to find Asta Parking in table
+2024-03-18 11:50:47,998 - automationLogger - INFO - Asta Parking found in table
+2024-03-18 11:50:47,999 - automationLogger - INFO - clearing search bar
+2024-03-18 11:50:48,098 - automationLogger - INFO - starting process to find Asta Parking in table
+2024-03-18 11:50:48,112 - automationLogger - INFO - Asta Parking found in table
+2024-03-18 11:50:48,155 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-18 11:50:48,178 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-18 11:50:48,178 - automationLogger - INFO - Creating workspace for AMS TEST2
+2024-03-18 11:50:48,651 - automationLogger - INFO - Created workspace for AMS TEST2
+2024-03-18 11:50:48,651 - automationLogger - INFO - Validating workspace for AMS TEST2 exists
+2024-03-18 11:50:48,651 - automationLogger - INFO - clearing search bar
+2024-03-18 11:52:12,665 - automationLogger - INFO - Starting login process
+2024-03-18 11:52:15,285 - automationLogger - INFO - Validating login success
+2024-03-18 11:52:15,290 - automationLogger - INFO - login successful
+2024-03-18 11:52:15,842 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 11:52:17,427 - automationLogger - INFO - starting process to find Asta Parking in table
+2024-03-18 11:52:18,627 - automationLogger - INFO - Asta Parking found in table
+2024-03-18 11:52:18,627 - automationLogger - INFO - clearing search bar
+2024-03-18 11:52:18,704 - automationLogger - INFO - starting process to find Asta Parking in table
+2024-03-18 11:52:18,704 - automationLogger - INFO - Asta Parking found in table
+2024-03-18 11:52:18,743 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-18 11:52:18,768 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-18 11:52:18,768 - automationLogger - INFO - Creating workspace for AMS TEST2
+2024-03-18 11:52:20,696 - automationLogger - INFO - Created workspace for AMS TEST2
+2024-03-18 11:52:20,696 - automationLogger - INFO - Validating workspace for AMS TEST2 exists
+2024-03-18 11:52:20,697 - automationLogger - INFO - clearing search bar
+2024-03-18 11:59:58,226 - automationLogger - INFO - Starting login process
+2024-03-18 12:00:00,832 - automationLogger - INFO - Validating login success
+2024-03-18 12:00:00,837 - automationLogger - INFO - login successful
+2024-03-18 12:00:01,103 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 12:00:01,984 - automationLogger - INFO - clearing search bar
+2024-03-18 12:01:01,012 - automationLogger - INFO - Starting login process
+2024-03-18 12:01:03,618 - automationLogger - INFO - Validating login success
+2024-03-18 12:01:03,635 - automationLogger - INFO - login successful
+2024-03-18 12:01:03,878 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 12:01:04,690 - automationLogger - INFO - starting process to find Asta Parking in table
+2024-03-18 12:01:05,764 - automationLogger - INFO - Asta Parking found in table
+2024-03-18 12:01:05,764 - automationLogger - INFO - clearing search bar
+2024-03-18 12:01:05,844 - automationLogger - INFO - starting process to find Asta Parking in table
+2024-03-18 12:01:05,859 - automationLogger - INFO - Asta Parking found in table
+2024-03-18 12:01:05,885 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-18 12:01:05,912 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-18 12:01:05,913 - automationLogger - INFO - Creating workspace for AMS TEST2
+2024-03-18 12:01:06,875 - automationLogger - INFO - Created workspace for AMS TEST2
+2024-03-18 12:01:06,875 - automationLogger - INFO - Validating workspace for AMS TEST2 exists
+2024-03-18 12:01:06,875 - automationLogger - INFO - Searching for AMS TEST2
+2024-03-18 12:23:22,212 - automationLogger - INFO - Starting login process
+2024-03-18 12:23:24,811 - automationLogger - INFO - Validating login success
+2024-03-18 12:23:24,829 - automationLogger - INFO - login successful
+2024-03-18 12:23:25,338 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 12:27:08,185 - automationLogger - INFO - Starting login process
+2024-03-18 12:27:10,790 - automationLogger - INFO - Validating login success
+2024-03-18 12:27:10,800 - automationLogger - INFO - login successful
+2024-03-18 12:27:11,048 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 12:30:42,119 - automationLogger - INFO - Starting login process
+2024-03-18 12:31:27,740 - automationLogger - INFO - Starting login process
+2024-03-18 12:31:30,356 - automationLogger - INFO - Validating login success
+2024-03-18 12:31:30,358 - automationLogger - INFO - login successful
+2024-03-18 12:31:30,476 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 12:33:39,583 - automationLogger - INFO - Starting login process
+2024-03-18 12:33:42,207 - automationLogger - INFO - Validating login success
+2024-03-18 12:33:42,211 - automationLogger - INFO - login successful
+2024-03-18 12:33:42,324 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 12:38:55,720 - automationLogger - INFO - Starting login process
+2024-03-18 12:38:58,319 - automationLogger - INFO - Validating login success
+2024-03-18 12:38:58,319 - automationLogger - INFO - login successful
+2024-03-18 12:38:58,440 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 12:39:44,281 - automationLogger - INFO - Starting login process
+2024-03-18 12:39:46,902 - automationLogger - INFO - Validating login success
+2024-03-18 12:39:46,904 - automationLogger - INFO - login successful
+2024-03-18 12:39:46,904 - automationLogger - INFO - Searching for Asta Parking
+2024-03-18 12:39:48,773 - automationLogger - INFO - starting process to find Asta Parking in table
+2024-03-18 12:39:48,801 - automationLogger - INFO - Asta Parking found in table
+2024-03-18 12:39:48,801 - automationLogger - INFO - clearing search bar
+2024-03-18 12:39:48,938 - automationLogger - INFO - starting process to find Asta Parking in table
+2024-03-18 12:39:48,950 - automationLogger - INFO - Asta Parking found in table
+2024-03-18 12:39:49,022 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-18 12:39:49,057 - automationLogger - INFO - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-18 12:39:49,057 - automationLogger - INFO - Creating workspace for AMS TEST2
+2024-03-18 12:39:50,244 - automationLogger - INFO - Created workspace for AMS TEST2
+2024-03-18 12:39:50,244 - automationLogger - INFO - Validating workspace for AMS TEST2 exists
+2024-03-18 12:39:50,244 - automationLogger - INFO - Searching for AMS TEST2
+2024-03-18 12:39:51,083 - automationLogger - INFO - starting process to find AMS TEST2 in table
+2024-03-18 12:39:51,095 - automationLogger - INFO - AMS TEST2 found in table
+2024-03-18 12:39:51,147 - automationLogger - INFO - found url for: AMS TEST2, https://admin.tez.io/workspaces/65f8735358521dc38f000db9
+2024-03-18 12:51:53,502 - automationLogger - INFO - Starting login process
+2024-03-18 12:51:56,121 - automationLogger - INFO - Validating login success
+2024-03-18 12:51:56,126 - automationLogger - INFO - unable to login
+2024-03-18 12:51:56,126 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Pages
+2024-03-18 12:52:11,902 - automationLogger - ERROR - no elements in table
+2024-03-18 12:53:33,138 - automationLogger - INFO - Starting login process
+2024-03-18 12:53:35,744 - automationLogger - INFO - Validating login success
+2024-03-18 12:53:35,749 - automationLogger - INFO - login successful
+2024-03-18 12:53:35,749 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Pages
+2024-03-18 12:55:51,961 - automationLogger - INFO - Starting login process
+2024-03-18 12:55:54,598 - automationLogger - INFO - Validating login success
+2024-03-18 12:55:54,604 - automationLogger - INFO - login successful
+2024-03-18 12:55:54,604 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Pages
+2024-03-18 12:55:56,474 - automationLogger - INFO - Searching for page: SMS Valet
+2024-03-18 12:55:56,571 - automationLogger - INFO - starting process to find SMS Valet in table
+2024-03-18 12:55:56,594 - automationLogger - INFO - SMS Valet found in table
+2024-03-18 12:59:23,186 - automationLogger - INFO - Starting login process
+2024-03-18 12:59:25,799 - automationLogger - INFO - Validating login success
+2024-03-18 12:59:25,804 - automationLogger - INFO - login successful
+2024-03-18 12:59:25,804 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Pages
+2024-03-18 12:59:27,632 - automationLogger - INFO - Searching for page: SMS Valet
+2024-03-18 12:59:27,707 - automationLogger - INFO - starting process to find SMS Valet in table
+2024-03-18 12:59:27,724 - automationLogger - INFO - SMS Valet found in table
+2024-03-18 12:59:28,076 - automationLogger - INFO - Reading table for all pages
+2024-03-18 12:59:28,124 - automationLogger - INFO - Workspace has 1 pages assigned to it
+2024-03-18 12:59:28,124 - automationLogger - INFO - Current pages are: ['SMS Valet']
+2024-03-18 13:01:32,613 - automationLogger - INFO - Starting login process
+2024-03-18 13:01:35,223 - automationLogger - INFO - Validating login success
+2024-03-18 13:01:35,228 - automationLogger - INFO - login successful
+2024-03-18 13:01:35,229 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Pages
+2024-03-18 13:01:37,042 - automationLogger - INFO - Searching for page: SMS Valet
+2024-03-18 13:01:37,137 - automationLogger - INFO - starting process to find SMS Valet in table
+2024-03-18 13:01:37,146 - automationLogger - INFO - SMS Valet found in table
+2024-03-18 13:01:37,146 - automationLogger - INFO - clearing search input
+2024-03-18 13:01:37,503 - automationLogger - INFO - Reading table for all pages
+2024-03-18 13:01:37,546 - automationLogger - INFO - Workspace has 1 pages assigned to it
+2024-03-18 13:01:37,546 - automationLogger - INFO - Current pages are: ['SMS Valet']
+2024-03-18 13:09:34,163 - automationLogger - INFO - Starting login process
+2024-03-18 13:09:36,779 - automationLogger - INFO - Validating login success
+2024-03-18 13:09:36,784 - automationLogger - INFO - login successful
+2024-03-18 13:09:36,784 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Pages
+2024-03-18 13:09:38,213 - automationLogger - INFO - Searching for page: SMS Valet
+2024-03-18 13:09:38,295 - automationLogger - INFO - starting process to find SMS Valet in table
+2024-03-18 13:09:38,574 - automationLogger - INFO - SMS Valet found in table
+2024-03-18 13:09:38,574 - automationLogger - INFO - clearing search input
+2024-03-18 13:09:38,666 - automationLogger - INFO - Reading table for all pages
+2024-03-18 13:09:38,707 - automationLogger - ERROR - Error occurred while extracting text from 'name' column in table: Message: stale element reference: stale element not found
+  (Session info: chrome=122.0.6261.129); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Stacktrace:
-	GetHandleVerifier [0x00007FF760DDAD02+56930]
-	(No symbol) [0x00007FF760D4F602]
-	(No symbol) [0x00007FF760C042E5]
-	(No symbol) [0x00007FF760BE1D4C]
-	(No symbol) [0x00007FF760C723F7]
-	(No symbol) [0x00007FF760C87891]
-	(No symbol) [0x00007FF760C6BA43]
-	(No symbol) [0x00007FF760C3D438]
-	(No symbol) [0x00007FF760C3E4D1]
-	GetHandleVerifier [0x00007FF761156F8D+3711213]
-	GetHandleVerifier [0x00007FF7611B04CD+4077101]
-	GetHandleVerifier [0x00007FF7611A865F+4044735]
-	GetHandleVerifier [0x00007FF760E79736+706710]
-	(No symbol) [0x00007FF760D5B8DF]
-	(No symbol) [0x00007FF760D56AC4]
-	(No symbol) [0x00007FF760D56C1C]
-	(No symbol) [0x00007FF760D468D4]
-	BaseThreadInitThunk [0x00007FF9F527257D+29]
-	RtlUserThreadStart [0x00007FF9F5CEAA58+40]
+	GetHandleVerifier [0x00007FF75C50AD02+56930]
+	(No symbol) [0x00007FF75C47F602]
+	(No symbol) [0x00007FF75C3342E5]
+	(No symbol) [0x00007FF75C339261]
+	(No symbol) [0x00007FF75C33B6EB]
+	(No symbol) [0x00007FF75C33B7B0]
+	(No symbol) [0x00007FF75C374D9B]
+	(No symbol) [0x00007FF75C39BC9A]
+	(No symbol) [0x00007FF75C36F09A]
+	(No symbol) [0x00007FF75C39BEB0]
+	(No symbol) [0x00007FF75C3B81E2]
+	(No symbol) [0x00007FF75C39BA43]
+	(No symbol) [0x00007FF75C36D438]
+	(No symbol) [0x00007FF75C36E4D1]
+	GetHandleVerifier [0x00007FF75C886F8D+3711213]
+	GetHandleVerifier [0x00007FF75C8E04CD+4077101]
+	GetHandleVerifier [0x00007FF75C8D865F+4044735]
+	GetHandleVerifier [0x00007FF75C5A9736+706710]
+	(No symbol) [0x00007FF75C48B8DF]
+	(No symbol) [0x00007FF75C486AC4]
+	(No symbol) [0x00007FF75C486C1C]
+	(No symbol) [0x00007FF75C4768D4]
+	BaseThreadInitThunk [0x00007FF9F835257D+29]
+	RtlUserThreadStart [0x00007FF9F9C6AA58+40]
 
-2024-03-12 18:33:37,363 - automationLogger - INFO - Starting login process
-2024-03-12 18:33:39,995 - automationLogger - INFO - Validating login success
-2024-03-12 18:33:39,998 - automationLogger - INFO - login successful
-2024-03-12 18:33:40,117 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:33:42,408 - automationLogger - INFO - Reading table for all pages
-2024-03-12 18:33:42,467 - automationLogger - INFO - Workspace has 1 pages assigned to it
-2024-03-12 18:33:42,467 - automationLogger - INFO - Current pages are: ['Loading...']
-2024-03-12 18:35:05,436 - automationLogger - INFO - Starting login process
-2024-03-12 18:35:08,029 - automationLogger - INFO - Validating login success
-2024-03-12 18:35:08,034 - automationLogger - INFO - login successful
-2024-03-12 18:35:08,168 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:35:08,603 - automationLogger - INFO - Reading table for all pages
-2024-03-12 18:35:10,043 - automationLogger - INFO - Workspace has 1 pages assigned to it
-2024-03-12 18:35:10,043 - automationLogger - INFO - Current pages are: ['Loading...']
-2024-03-12 18:40:13,940 - automationLogger - INFO - Starting login process
-2024-03-12 18:40:16,614 - automationLogger - INFO - Validating login success
-2024-03-12 18:40:16,615 - automationLogger - INFO - login successful
-2024-03-12 18:40:16,729 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:41:59,006 - automationLogger - INFO - Starting login process
-2024-03-12 18:42:01,726 - automationLogger - INFO - Validating login success
-2024-03-12 18:42:01,732 - automationLogger - INFO - login successful
-2024-03-12 18:42:01,845 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:42:03,933 - automationLogger - INFO - Reading table for all pages
-2024-03-12 18:42:04,016 - automationLogger - INFO - Workspace has 4 pages assigned to it
-2024-03-12 18:42:04,016 - automationLogger - INFO - Current pages are: ['Daily Operations Detail Report', 'Lenz Internal Request Form', 'Location Performance Analysis', 'SMS Valet Daily Operations']
-2024-03-12 18:46:11,517 - automationLogger - INFO - Starting login process
-2024-03-12 18:46:14,155 - automationLogger - INFO - Validating login success
-2024-03-12 18:46:14,155 - automationLogger - INFO - login successful
-2024-03-12 18:46:14,291 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:46:16,365 - automationLogger - INFO - Reading table for all pages
-2024-03-12 18:46:16,531 - automationLogger - INFO - Workspace has 4 pages assigned to it
-2024-03-12 18:46:16,531 - automationLogger - INFO - Current pages are: ['Daily Operations Detail Report', 'Lenz Internal Request Form', 'Location Performance Analysis', 'SMS Valet Daily Operations']
-2024-03-12 18:46:49,677 - automationLogger - INFO - Starting login process
-2024-03-12 18:46:52,329 - automationLogger - INFO - Validating login success
-2024-03-12 18:46:52,331 - automationLogger - INFO - login successful
-2024-03-12 18:46:52,509 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 18:46:54,663 - automationLogger - INFO - Reading table for all pages
-2024-03-12 18:46:54,848 - automationLogger - INFO - Workspace has 4 pages assigned to it
-2024-03-12 18:46:54,848 - automationLogger - INFO - Current pages are: ['Daily Operations Detail Report', 'Lenz Internal Request Form', 'Location Performance Analysis', 'SMS Valet Daily Operations']
-2024-03-12 19:02:59,515 - automationLogger - INFO - Starting login process
-2024-03-12 19:03:02,153 - automationLogger - INFO - Validating login success
-2024-03-12 19:03:02,161 - automationLogger - INFO - login successful
-2024-03-12 19:03:02,279 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 19:03:02,481 - automationLogger - ERROR - no elements in table
-2024-03-12 19:03:02,481 - automationLogger - ERROR - no elements in table
-2024-03-12 19:03:02,481 - automationLogger - INFO - Reading table for all pages
-2024-03-12 19:03:04,160 - automationLogger - INFO - Workspace has 1 pages assigned to it
-2024-03-12 19:03:04,160 - automationLogger - INFO - Current pages are: ['Loading...']
-2024-03-12 19:03:32,034 - automationLogger - INFO - Starting login process
-2024-03-12 19:03:34,695 - automationLogger - INFO - Validating login success
-2024-03-12 19:03:34,703 - automationLogger - INFO - login successful
-2024-03-12 19:03:34,832 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 19:03:34,985 - automationLogger - ERROR - no elements in table
-2024-03-12 19:03:34,985 - automationLogger - ERROR - no elements in table
-2024-03-12 19:03:34,985 - automationLogger - INFO - Reading table for all pages
-2024-03-12 19:03:36,544 - automationLogger - INFO - Workspace has 1 pages assigned to it
-2024-03-12 19:03:36,544 - automationLogger - INFO - Current pages are: ['Loading...']
-2024-03-12 19:04:48,648 - automationLogger - INFO - Starting login process
-2024-03-12 19:04:51,251 - automationLogger - INFO - Validating login success
-2024-03-12 19:04:51,255 - automationLogger - INFO - login successful
-2024-03-12 19:04:51,373 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067?tab=Pages
-2024-03-12 19:04:53,644 - automationLogger - INFO - Reading table for all pages
-2024-03-12 19:04:53,811 - automationLogger - INFO - Workspace has 4 pages assigned to it
-2024-03-12 19:04:53,811 - automationLogger - INFO - Current pages are: ['Daily Operations Detail Report', 'Lenz Internal Request Form', 'Location Performance Analysis', 'SMS Valet Daily Operations']
-2024-03-12 20:18:27,096 - automationLogger - INFO - Starting login process
-2024-03-12 20:18:29,726 - automationLogger - INFO - Validating login success
-2024-03-12 20:18:29,728 - automationLogger - INFO - login successful
-2024-03-12 20:18:29,855 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:18:32,812 - automationLogger - INFO - Searching for page: Anessia Mejia-Santillana
-2024-03-12 20:18:36,054 - automationLogger - INFO - starting process to find Anessia Mejia-Santillana in table
-2024-03-12 20:19:41,624 - automationLogger - INFO - Starting login process
-2024-03-12 20:19:44,297 - automationLogger - INFO - Validating login success
-2024-03-12 20:19:44,297 - automationLogger - INFO - login successful
-2024-03-12 20:19:44,416 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:19:47,336 - automationLogger - INFO - Searching for page: Anessia Mejia-Santillana
-2024-03-12 20:19:50,527 - automationLogger - INFO - starting process to find Anessia Mejia-Santillana in table
-2024-03-12 20:19:50,552 - automationLogger - INFO - Anessia Mejia-Santillana found in table
-2024-03-12 20:23:06,250 - automationLogger - INFO - Starting login process
-2024-03-12 20:23:08,937 - automationLogger - INFO - Validating login success
-2024-03-12 20:23:08,943 - automationLogger - INFO - login successful
-2024-03-12 20:23:09,067 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:24:18,347 - automationLogger - INFO - Starting login process
-2024-03-12 20:24:20,973 - automationLogger - INFO - Validating login success
-2024-03-12 20:24:20,976 - automationLogger - INFO - login successful
-2024-03-12 20:24:21,096 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:27:21,981 - automationLogger - INFO - Starting login process
-2024-03-12 20:27:24,678 - automationLogger - INFO - Validating login success
-2024-03-12 20:27:24,678 - automationLogger - INFO - login successful
-2024-03-12 20:27:24,804 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:30:53,081 - automationLogger - INFO - Starting login process
-2024-03-12 20:30:55,699 - automationLogger - INFO - Validating login success
-2024-03-12 20:30:55,707 - automationLogger - INFO - login successful
-2024-03-12 20:30:55,836 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:37:12,337 - automationLogger - INFO - Starting login process
-2024-03-12 20:37:14,980 - automationLogger - INFO - Validating login success
-2024-03-12 20:37:14,980 - automationLogger - INFO - login successful
-2024-03-12 20:37:15,119 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:37:18,240 - automationLogger - INFO - trying click add user
-2024-03-12 20:37:18,341 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:37:18,423 - automationLogger - INFO - trying assignuser
-2024-03-12 20:42:12,660 - automationLogger - INFO - Starting login process
-2024-03-12 20:42:15,346 - automationLogger - INFO - Validating login success
-2024-03-12 20:42:15,346 - automationLogger - INFO - login successful
-2024-03-12 20:42:15,484 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:42:18,341 - automationLogger - INFO - trying click add user
-2024-03-12 20:42:18,406 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:42:18,492 - automationLogger - INFO - trying assignuser
-2024-03-12 20:43:58,723 - automationLogger - INFO - Starting login process
-2024-03-12 20:44:01,383 - automationLogger - INFO - Validating login success
-2024-03-12 20:44:01,387 - automationLogger - INFO - login successful
-2024-03-12 20:44:01,517 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:44:04,588 - automationLogger - INFO - trying click add user
-2024-03-12 20:44:04,671 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:44:04,772 - automationLogger - INFO - trying assignuser
-2024-03-12 20:46:20,205 - automationLogger - INFO - Starting login process
-2024-03-12 20:46:22,866 - automationLogger - INFO - Validating login success
-2024-03-12 20:46:22,872 - automationLogger - INFO - login successful
-2024-03-12 20:46:22,984 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:46:25,865 - automationLogger - INFO - trying click add user
-2024-03-12 20:46:25,956 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:46:26,076 - automationLogger - INFO - trying assignuser
-2024-03-12 20:48:24,823 - automationLogger - INFO - Starting login process
-2024-03-12 20:48:27,426 - automationLogger - INFO - Validating login success
-2024-03-12 20:48:27,440 - automationLogger - INFO - login successful
-2024-03-12 20:48:27,562 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:48:30,604 - automationLogger - INFO - trying click add user
-2024-03-12 20:48:30,688 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:48:30,772 - automationLogger - INFO - trying assignuser
-2024-03-12 20:49:50,933 - automationLogger - INFO - Starting login process
-2024-03-12 20:49:53,537 - automationLogger - INFO - Validating login success
-2024-03-12 20:49:53,538 - automationLogger - INFO - login successful
-2024-03-12 20:49:53,651 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:49:56,705 - automationLogger - INFO - trying click add user
-2024-03-12 20:49:56,771 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:49:56,872 - automationLogger - INFO - trying assignuser
-2024-03-12 20:51:56,152 - automationLogger - INFO - Starting login process
-2024-03-12 20:51:58,773 - automationLogger - INFO - Validating login success
-2024-03-12 20:51:58,780 - automationLogger - INFO - login successful
-2024-03-12 20:51:58,898 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:52:01,848 - automationLogger - INFO - trying click add user
-2024-03-12 20:52:01,925 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:52:02,021 - automationLogger - INFO - trying assignuser
-2024-03-12 20:53:00,975 - automationLogger - INFO - Starting login process
-2024-03-12 20:53:03,593 - automationLogger - INFO - Validating login success
-2024-03-12 20:53:03,604 - automationLogger - INFO - login successful
-2024-03-12 20:53:03,736 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:53:06,704 - automationLogger - INFO - trying click add user
-2024-03-12 20:53:06,770 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:53:06,886 - automationLogger - INFO - trying assignuser
-2024-03-12 20:54:29,425 - automationLogger - INFO - Starting login process
-2024-03-12 20:54:32,030 - automationLogger - INFO - Validating login success
-2024-03-12 20:54:32,037 - automationLogger - INFO - login successful
-2024-03-12 20:54:32,153 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:54:35,153 - automationLogger - INFO - trying click add user
-2024-03-12 20:54:35,219 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:54:35,336 - automationLogger - INFO - trying assignuser
-2024-03-12 20:54:41,639 - automationLogger - INFO - User Divisha Eppalapalli found, selecting user
-2024-03-12 20:56:40,785 - automationLogger - INFO - Starting login process
-2024-03-12 20:56:43,542 - automationLogger - INFO - Validating login success
-2024-03-12 20:56:43,553 - automationLogger - INFO - login successful
-2024-03-12 20:56:43,679 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:56:46,641 - automationLogger - INFO - trying click add user
-2024-03-12 20:56:46,735 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:56:46,885 - automationLogger - INFO - trying assignuser
-2024-03-12 20:56:52,051 - automationLogger - INFO - User Divisha Eppalapalli found, selecting user
-2024-03-12 20:56:52,497 - automationLogger - INFO - Click whitespace
-2024-03-12 20:56:52,551 - automationLogger - INFO - clicking submit 
-2024-03-12 20:58:29,285 - automationLogger - INFO - Starting login process
-2024-03-12 20:58:31,882 - automationLogger - INFO - Validating login success
-2024-03-12 20:58:31,885 - automationLogger - INFO - login successful
-2024-03-12 20:58:32,007 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
-2024-03-12 20:58:34,886 - automationLogger - INFO - trying click add user
-2024-03-12 20:58:34,969 - automationLogger - INFO - trying click addexisting
-2024-03-12 20:58:35,068 - automationLogger - INFO - trying assignuser
-2024-03-12 20:58:42,175 - automationLogger - INFO - User Divisha Eppalapalli found, selecting user
-2024-03-12 20:58:44,635 - automationLogger - INFO - Click whitespace
-2024-03-12 20:58:44,703 - automationLogger - INFO - clicking submit 
+2024-03-18 13:18:01,680 - automationLogger - INFO - Starting login process
+2024-03-18 13:18:04,295 - automationLogger - INFO - Validating login success
+2024-03-18 13:18:04,311 - automationLogger - INFO - login successful
+2024-03-18 13:18:04,311 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Pages
+2024-03-18 13:18:06,030 - automationLogger - INFO - Searching for page: SMS Valet
+2024-03-18 13:18:06,166 - automationLogger - INFO - starting process to find SMS Valet in table
+2024-03-18 13:18:06,176 - automationLogger - INFO - SMS Valet found in table
+2024-03-18 13:18:06,176 - automationLogger - INFO - clearing search input
+2024-03-18 13:18:06,696 - automationLogger - INFO - Reading table for all pages
+2024-03-18 13:18:06,917 - automationLogger - INFO - Workspace has 10 pages assigned to it
+2024-03-18 13:18:06,917 - automationLogger - INFO - Current pages are: ['BYOMA Transactions by Card Type', 'Company Performance', 'Location Revenue by Payment Type', 'SMS Valet', 'SMS Valet Daily Operations', 'Text2Park', 'TEZ Home', 'TEZPAY Deposit Report', 'TEZPAY Transaction Detail Report', 'TEZPAY Transactions by Card Type']
+2024-03-18 13:37:11,112 - automationLogger - INFO - Starting login process
+2024-03-18 13:37:13,727 - automationLogger - INFO - Validating login success
+2024-03-18 13:37:13,732 - automationLogger - INFO - login successful
+2024-03-18 13:37:13,732 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
+2024-03-18 13:37:15,550 - automationLogger - INFO - Searching for page: Anessia Mejia-Santillana
+2024-03-18 13:37:15,652 - automationLogger - INFO - starting process to find Anessia Mejia-Santillana in table
+2024-03-18 13:37:15,665 - automationLogger - INFO - Anessia Mejia-Santillana found in table
+2024-03-18 13:37:15,739 - automationLogger - INFO - starting process to find Divisha Eppalapalli in table
+2024-03-18 13:37:15,748 - automationLogger - INFO - Divisha Eppalapalli found in table
+2024-03-18 13:41:22,788 - automationLogger - INFO - Starting login process
+2024-03-18 13:41:25,389 - automationLogger - INFO - Validating login success
+2024-03-18 13:41:25,396 - automationLogger - INFO - login successful
+2024-03-18 13:41:25,396 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
+2024-03-18 13:41:28,262 - automationLogger - INFO - Searching for page: Anessia Mejia-Santillana
+2024-03-18 13:41:28,352 - automationLogger - INFO - starting process to find Anessia Mejia-Santillana in table
+2024-03-18 13:41:28,352 - automationLogger - INFO - Anessia Mejia-Santillana found in table
+2024-03-18 13:41:28,446 - automationLogger - INFO - starting process to find Divisha Eppalapalli in table
+2024-03-18 13:41:28,451 - automationLogger - INFO - Divisha Eppalapalli found in table
+2024-03-18 13:41:28,451 - automationLogger - INFO - Assigning user process
+2024-03-18 13:52:28,371 - automationLogger - INFO - Starting login process
+2024-03-18 13:52:30,974 - automationLogger - INFO - Validating login success
+2024-03-18 13:52:30,980 - automationLogger - INFO - login successful
+2024-03-18 13:52:30,980 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
+2024-03-18 13:52:33,531 - automationLogger - INFO - Searching for page: Anessia Mejia-Santillana
+2024-03-18 13:52:33,630 - automationLogger - INFO - starting process to find Anessia Mejia-Santillana in table
+2024-03-18 13:52:33,631 - automationLogger - INFO - Anessia Mejia-Santillana found in table
+2024-03-18 13:52:33,682 - automationLogger - INFO - cleared search
+2024-03-18 13:52:33,702 - automationLogger - INFO - starting process to find Divisha Eppalapalli in table
+2024-03-18 13:52:33,710 - automationLogger - INFO - Divisha Eppalapalli found in table
+2024-03-18 13:52:33,710 - automationLogger - INFO - Assigning user process
+2024-03-18 13:52:33,710 - automationLogger - INFO - clicking add user button
+2024-03-18 13:52:33,782 - automationLogger - INFO - clicking add existing button
+2024-03-18 13:55:49,377 - automationLogger - INFO - Starting login process
+2024-03-18 13:55:51,986 - automationLogger - INFO - Validating login success
+2024-03-18 13:55:51,986 - automationLogger - INFO - login successful
+2024-03-18 13:55:51,986 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
+2024-03-18 13:55:54,086 - automationLogger - INFO - Searching for page: Anessia Mejia-Santillana
+2024-03-18 13:55:54,205 - automationLogger - INFO - starting process to find Anessia Mejia-Santillana in table
+2024-03-18 13:55:54,220 - automationLogger - INFO - Anessia Mejia-Santillana found in table
+2024-03-18 13:55:54,287 - automationLogger - INFO - cleared search
+2024-03-18 13:55:54,303 - automationLogger - INFO - starting process to find Divisha Eppalapalli in table
+2024-03-18 13:55:54,319 - automationLogger - INFO - Divisha Eppalapalli found in table
+2024-03-18 13:55:54,319 - automationLogger - INFO - Assigning user process
+2024-03-18 13:55:54,319 - automationLogger - INFO - clicking add user button
+2024-03-18 13:55:54,406 - automationLogger - INFO - clicking add existing button
+2024-03-18 13:59:59,157 - automationLogger - INFO - Starting login process
+2024-03-18 14:00:01,795 - automationLogger - INFO - Validating login success
+2024-03-18 14:00:01,802 - automationLogger - INFO - login successful
+2024-03-18 14:00:01,802 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
+2024-03-18 14:00:04,484 - automationLogger - INFO - Searching for page: Anessia Mejia-Santillana
+2024-03-18 14:00:04,609 - automationLogger - INFO - starting process to find Anessia Mejia-Santillana in table
+2024-03-18 14:00:04,610 - automationLogger - INFO - Anessia Mejia-Santillana found in table
+2024-03-18 14:00:04,690 - automationLogger - INFO - cleared search
+2024-03-18 14:00:04,695 - automationLogger - INFO - starting process to find Divisha Eppalapalli in table
+2024-03-18 14:00:04,706 - automationLogger - INFO - Divisha Eppalapalli found in table
+2024-03-18 14:00:04,706 - automationLogger - INFO - Assigning user process
+2024-03-18 14:00:04,706 - automationLogger - INFO - clicking add user button
+2024-03-18 14:00:04,800 - automationLogger - INFO - clicking add existing button
+2024-03-18 14:05:29,152 - automationLogger - INFO - Starting login process
+2024-03-18 14:05:31,776 - automationLogger - INFO - Validating login success
+2024-03-18 14:05:31,781 - automationLogger - INFO - login successful
+2024-03-18 14:05:31,781 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Users
+2024-03-18 14:05:33,647 - automationLogger - INFO - Searching for page: Anessia Mejia-Santillana
+2024-03-18 14:05:33,758 - automationLogger - INFO - starting process to find Anessia Mejia-Santillana in table
+2024-03-18 14:05:33,771 - automationLogger - INFO - Anessia Mejia-Santillana found in table
+2024-03-18 14:05:33,838 - automationLogger - INFO - cleared search
+2024-03-18 14:05:33,844 - automationLogger - INFO - starting process to find Divisha Eppalapalli in table
+2024-03-18 14:05:33,861 - automationLogger - INFO - Divisha Eppalapalli found in table
+2024-03-18 14:05:33,861 - automationLogger - INFO - Assigning user process
+2024-03-18 14:05:33,861 - automationLogger - INFO - clicking add user button
+2024-03-18 14:05:33,935 - automationLogger - INFO - clicking add existing button
+2024-03-18 14:05:33,989 - automationLogger - INFO - clicking search input
+2024-03-18 14:05:34,159 - automationLogger - INFO - element not found, retrying search click
+2024-03-18 14:05:34,205 - automationLogger - INFO - Searching for user: Craig McCrary in table 
+2024-03-18 14:05:41,729 - automationLogger - INFO - Click whitespace
+2024-03-18 14:05:41,771 - automationLogger - INFO - clicking submit 
+2024-03-18 14:31:00,874 - automationLogger - INFO - Starting login process
+2024-03-18 14:31:03,500 - automationLogger - INFO - Validating login success
+2024-03-18 14:31:03,513 - automationLogger - INFO - login successful
+2024-03-18 14:31:03,513 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:31:03,513 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:31:33,315 - automationLogger - INFO - Starting login process
+2024-03-18 14:31:35,923 - automationLogger - INFO - Validating login success
+2024-03-18 14:31:35,927 - automationLogger - INFO - login successful
+2024-03-18 14:31:35,927 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:31:35,927 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:34:06,470 - automationLogger - INFO - Starting login process
+2024-03-18 14:34:09,126 - automationLogger - INFO - Validating login success
+2024-03-18 14:34:09,133 - automationLogger - INFO - login successful
+2024-03-18 14:34:09,133 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:34:09,134 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:35:44,378 - automationLogger - INFO - Starting login process
+2024-03-18 14:35:46,979 - automationLogger - INFO - Validating login success
+2024-03-18 14:35:46,986 - automationLogger - INFO - login successful
+2024-03-18 14:35:46,986 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:35:46,986 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:37:28,212 - automationLogger - INFO - Starting login process
+2024-03-18 14:37:30,841 - automationLogger - INFO - Validating login success
+2024-03-18 14:37:30,841 - automationLogger - INFO - login successful
+2024-03-18 14:37:30,841 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:37:30,841 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:40:30,778 - automationLogger - INFO - Starting login process
+2024-03-18 14:40:33,365 - automationLogger - INFO - Validating login success
+2024-03-18 14:40:33,376 - automationLogger - INFO - login successful
+2024-03-18 14:40:33,376 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:40:33,376 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:41:44,455 - automationLogger - INFO - Starting login process
+2024-03-18 14:41:47,089 - automationLogger - INFO - Validating login success
+2024-03-18 14:41:47,103 - automationLogger - INFO - login successful
+2024-03-18 14:41:47,103 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:41:47,103 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:42:22,480 - automationLogger - INFO - Starting login process
+2024-03-18 14:42:25,109 - automationLogger - INFO - Validating login success
+2024-03-18 14:42:25,116 - automationLogger - INFO - login successful
+2024-03-18 14:42:25,116 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:42:25,116 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:43:19,202 - automationLogger - INFO - Starting login process
+2024-03-18 14:43:21,801 - automationLogger - INFO - Validating login success
+2024-03-18 14:43:21,801 - automationLogger - INFO - login successful
+2024-03-18 14:43:21,801 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:43:21,801 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:45:11,891 - automationLogger - INFO - Starting login process
+2024-03-18 14:45:14,495 - automationLogger - INFO - Validating login success
+2024-03-18 14:45:14,501 - automationLogger - INFO - login successful
+2024-03-18 14:45:14,501 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:45:14,501 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:46:26,722 - automationLogger - INFO - Starting login process
+2024-03-18 14:46:29,339 - automationLogger - INFO - Validating login success
+2024-03-18 14:46:29,346 - automationLogger - INFO - login successful
+2024-03-18 14:46:29,346 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:46:29,346 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:50:40,426 - automationLogger - INFO - Starting login process
+2024-03-18 14:50:43,028 - automationLogger - INFO - Validating login success
+2024-03-18 14:50:43,028 - automationLogger - INFO - login successful
+2024-03-18 14:50:43,028 - automationLogger - INFO - ------------Starting ws_settings test------------
+2024-03-18 14:50:43,028 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Settings
+2024-03-18 14:50:45,130 - automationLogger - INFO - new filter space created
+2024-03-18 14:50:45,130 - automationLogger - INFO - adding corporation to column name
+2024-03-18 14:50:45,230 - automationLogger - INFO - selecting equals to operator
+2024-03-18 14:50:45,346 - automationLogger - INFO - setting the parameter to A Test Customer 1

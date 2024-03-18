@@ -4,13 +4,20 @@ sys.path.append('.')
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.keys import Keys;
+from selenium.webdriver.common.keys import Keys
 from src.locators import workspaces_locators as locator
 import config.logger
 
 log = config.logger.setUp()
 
 class workspaces:
+    
+    #--Helpful XPATHS in the table
+    table_row_XPATH = "//tbody/tr/td" #tr = row, td = column, index position. td[4] - users column
+    #--Add these to the end of the workspace URL XPATH: "//table/tbody/tr/td[.//div[contains(text(),'{companyName}')]]"
+    workspace_pages_XPATH = "/following-sibling::td[1]/a[contains(@href,'tab=Pages')]"
+    workspace_groups_XPATH = "/following-sibling::td[2]/a[contains(@href,'tab=Groups')]"
+    workspace_users_XPATH = "/following-sibling::td[3]/a[contains(@href,'tab=Users')]"
     
     def __init__(self, driver):
         self.driver = driver
@@ -20,15 +27,27 @@ class workspaces:
         self.driver.get("https://admin.tez.io/workspaces")   
 
     def searchFor(self, companyName):
-        search = self.driver.find_element(*locator.pageElements.search_input)
-        search.click()
-        search.send_keys(companyName)
+        log.info(f"Searching for {companyName}")
+        #pagination will only appear once the page is fully loaded 
+        WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'bg-white relative')]")))
+        
+        search = self.driver.find_element(*locator.workspacesElements.search_input)
+        if search.get_attribute("value") == "":
+            search.send_keys(companyName)
+        else:
+            self.clearSearch()
+            search.send_keys(companyName)
 
     def clearSearch(self):
-        search = self.driver.find_element(*locator.pageElements.search_input)
+        log.info("clearing search bar")
+        
+        #pagination will only appear once the page is fully loaded 
+        WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, "//button[contains(@class, 'bg-white relative')]")))
+
+        search = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((locator.workspacesElements.search_input)))
         search.send_keys(Keys.CONTROL, "a")
         search.send_keys(Keys.DELETE)
-    
+
     #locate only, should have view set to All
     def findInTable(self, companyName):
         #wait until table loads
@@ -58,31 +77,28 @@ class workspaces:
 
     #----Create Workspace Specific----
     def clickCreateBtn(self):
-        btn = WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located(locator.pageElements.addWorkspace))
+        btn = WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located(locator.workspacesElements.add_ws_btn))
         btn.click()
     
     def addWSName(self, companyName):
-        input = self.driver.find_element(*locator.pageElements.wsName_input)
+        input = self.driver.find_element(*locator.workspacesElements.dialog_wsName_input)
         input.click()
         input.send_keys(companyName)
     
     def saveNewWS(self):
-        self.driver.find_element(*locator.pageElements.save_Btn).click()
+        self.driver.find_element(*locator.workspacesElements.dialog_save_Btn).click()
     
     #--------Actions--------
     def createWorkspace(self, companyName):
         log.info(f"Creating workspace for {companyName}")
         self.clickCreateBtn()
-        WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located(locator.pageElements.dialog_whiteSpace))
+        WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located(locator.workspacesElements.dialog_whiteSpace))
         self.addWSName(companyName)
         self.saveNewWS()
         log.info(f"Created workspace for {companyName}")
 
-        self.validateWorkspace(companyName)
-
     def validateWorkspace(self, companyName):
         log.info(f"Validating workspace for {companyName} exists")
-        self.clearSearch()
         self.searchFor(companyName)
         self.findInTable(companyName)
         self.getURL(companyName)

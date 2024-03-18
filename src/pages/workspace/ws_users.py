@@ -45,6 +45,7 @@ class wsusers:
         search = self.driver.find_element(*locator.wsuserElements.search_input) 
         search.send_keys(Keys.CONTROL, "a")
         search.send_keys(Keys.DELETE)
+        log.info("cleared search")
     
     def findInTable(self, user):
         self.pageLoadWait()
@@ -55,42 +56,35 @@ class wsusers:
             log.error(f"{user} not found in table")
 
     def clickAddUser(self):
+        log.info("clicking add user button")
         self.driver.find_element(*locator.wsuserElements.add_user_btn).click()
     
     #needs to have the dialog box present before using
     def clickAddExisting(self):
         WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, "//div[@class='flex justify-between py-4 px-4']")))
-
+        log.info("clicking add existing button")
         self.driver.find_element(*locator.wsuserDialog.add_existing_btn).click()
-    
-    def assignUser(self, user):
-        #self.driver.find_element(*locator.wsuserDialog.exsitingUserWhiteSpace).click()
+        WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((locator.wsuserDialog.exsiting_user_whitespace)))
+
+    def clickExistingSearch(self):
         try:
+            log.info("clicking search input")
             search = self.driver.find_element(By.XPATH, "//input[@placeholder='Search']")
             search.click()
-            search.send_keys(user)
         except StaleElementReferenceException:
+            log.info("element not found, retrying search click")
             # Element is stale, find it again
             search = self.driver.find_element(By.XPATH, "//input[@placeholder='Search']")
             search.click()
-            search.send_keys(user)
             # Retry actions on the element
 
-        WebDriverWait(self.driver, 30).until(EC.presence_of_element_located(locator.wsuserDialog.dropdown_viewable))
-        
-        #confirm if theyre found in dropdown
-        if self.driver.find_element(By.XPATH, f"//div[contains(text(),'{user}')]"):
-            log.info(f"User {user} found, selecting user")
-            dropdownOption = self.driver.find_element(By.XPATH, f"//div[contains(text(),'{user}')]")
-            AC(self.driver).move_to_element(dropdownOption).click().perform()
-            time.sleep(2)
-        else: 
-            log.info("user not found")
+    def assignUser(self, user):
+        self.clickExistingSearch()
+        log.info(f"Searching for user: {user} in table ")
+        user_element = WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, f"//div[contains(@class,'flex relative items-center')]//div[.='{user}']")))
+        user_element.click()
 ###UPDATE AFTER TESTING
         #clear input
-        search = self.driver.find_element(*locator.wsuserDialog.assign_search_input) 
-        search.send_keys(Keys.CONTROL, "a")
-        search.send_keys(Keys.DELETE)
         log.info("Click whitespace")
         self.driver.find_element(*locator.wsuserDialog.exsiting_user_whitespace).click()
         log.info("clicking submit ")
