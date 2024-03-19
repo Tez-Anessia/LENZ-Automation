@@ -1,4 +1,3 @@
-from typing import Self
 import src.pages.login as loginPage
 import src.pages.common as common
 import src.pages.workspace.ws_pages as wspg
@@ -26,6 +25,7 @@ nav = common.common(driver)
 ws_pg = wspg.wspages(driver)
 login.open_page("https://admin.tez.io/login")
 login.adminLogin(userName, passW)
+
 
 #driver.set_page_load_timeout(30)
 url = "https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35" #A test customer 1 URL 
