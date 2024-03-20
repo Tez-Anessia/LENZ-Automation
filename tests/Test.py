@@ -1,4 +1,5 @@
-from typing import Self
+import sys
+sys.path.append('.')
 import src.pages.login as loginPage
 import src.pages.workspaces as wsPage
 import src.pages.workspace.ws_pages as wsPages
@@ -18,9 +19,13 @@ customerList = "testSheet.csv"
 customerName = "Asta Parking"
 customerName2 = "AMS TEST2"
 #-----------------Set-Up-----------------
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.page_load_strategy = 'normal'
+options.add_argument("--start-maximized")
+options.add_experimental_option("detach", True)
+
+driver = webdriver.Chrome(options=options)
 driver.implicitly_wait(4)
-driver.maximize_window()
 actions = ActionChains(driver)
 
 login = loginPage.login(driver)
@@ -32,7 +37,7 @@ login.open_page("https://admin.tez.io/login")
 login.adminLogin(userName, passW)
 
 #driver.set_page_load_timeout(30)
-
+'''
 driver.get("https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067")
 url = "https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35"
 ws_user.directNav(url)
@@ -45,3 +50,5 @@ log.info("trying click addexisting")
 ws_user.clickAddExisting()
 log.info("trying assignuser")
 ws_user.assignUser(newUser)
+'''
+

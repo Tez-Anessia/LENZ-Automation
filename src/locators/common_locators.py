@@ -2,13 +2,14 @@ from selenium.webdriver.common.by import By
 
 #this will contain elements that are shown in each page
 class commonElements: 
+    #-----------------User Settings-----------------
     account_Menu = (By.XPATH, "//button[@id='headlessui-menu-button-1']")
-    #--Must click on account menu first before these are findable
+    #Must click on account menu first before these are findable
     myAccount = (By.XPATH, "//a[normalize-space()='My account']")
     userPortal= (By.XPATH, "//a[normalize-space()='User portal']")
     signout = (By.XPATH, "//button[normalize-space()='Sign out']")
 
-#-Pagination
+    #-----------------Pagination-----------------
     pgBox = (By.XPATH, "//button[contains(@class, 'bg-white relative')]")
     #--found only after paginationBox element is clicked
     see10 = (By.XPATH, "//p[normalize-space()='10']")

@@ -36,16 +36,16 @@ time.sleep(3)
 
 groups.directNav(Url)
 
-groups.clickAddGroup()
-groups.dialog_addGroupName(groupName)
+groups.click_add_group()
+groups.dialog_set_group_name(groupName)
 
-groups.dialog_searchUser(userName1)
+groups.dialog_search_user(userName1)
 groups.dialog_findUserinList(userName1)
 if groups.dialog_isChecked(userName1) == True:
     log.info("User already selected")
 else:
     groups.dialog_selectUser(userName1)
-groups.dialog_clearsearch()
+groups.dialog_clear_search()
 groups.dialog_findUserinList(userName2)
 groups.dialog_selectUser(userName2)
 

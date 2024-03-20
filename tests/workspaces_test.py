@@ -1,6 +1,7 @@
+from typing import Self
 import src.pages.login as loginPage
+import src.pages.workspaces as workspace
 import src.pages.common as common
-import src.pages.workspace.ws_pages as wspg
 import config.logger
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -22,16 +23,22 @@ actions = ActionChains(driver)
 
 login = loginPage.login(driver)
 nav = common.common(driver)
-ws_pg = wspg.wspages(driver)
+ws = workspace.workspaces(driver)
 login.open_page("https://admin.tez.io/login")
 login.adminLogin(userName, passW)
 
-
 #driver.set_page_load_timeout(30)
 url = "https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35" #A test customer 1 URL 
-log.info("------------Starting WS_Pages test------------")
-ws_pg.directNav(url)
-ws_pg.searchPages("SMS Valet")
-ws_pg.findInTable("SMS Valet")
-ws_pg.clearSearch()
-ws_pg.listCurrentPages()
+
+log.info("------------Starting workspaces test------------")
+#ws.directNav()
+ws.search(customerName)
+ws.find_in_table(customerName)
+ws.clear_search()
+ws.find_in_table(customerName)
+ws.getURL(customerName)
+print(ws.returnURL(customerName))
+
+ws.createWorkspace(customerName2)
+ws.validateWorkspace(customerName2)
+

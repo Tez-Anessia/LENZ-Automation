@@ -151,3 +151,103 @@
 2024-03-19 16:56:00,226 - automationLogger - INFO - Page <selenium.webdriver.remote.webelement.WebElement (session="8821d84a1b46a22d7d4f87e30f44afa5", element="f.B5970517F6255031F33649155BA7DE72.d.2A4FB2D49BF6EC4E69F95240728CB2EE.e.128")> found
 2024-03-19 16:56:00,430 - automationLogger - INFO - Page <selenium.webdriver.remote.webelement.WebElement (session="8821d84a1b46a22d7d4f87e30f44afa5", element="f.B5970517F6255031F33649155BA7DE72.d.2A4FB2D49BF6EC4E69F95240728CB2EE.e.154")> found
 2024-03-19 16:56:00,652 - automationLogger - INFO - Page <selenium.webdriver.remote.webelement.WebElement (session="8821d84a1b46a22d7d4f87e30f44afa5", element="f.B5970517F6255031F33649155BA7DE72.d.2A4FB2D49BF6EC4E69F95240728CB2EE.e.184")> found
+2024-03-20 10:21:22,767 - automationLogger - INFO - Starting login process
+2024-03-20 10:21:23,240 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 10:21:23,310 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 10:21:25,364 - automationLogger - INFO - Validating login success
+2024-03-20 10:21:25,372 - automationLogger - INFO - login successful
+2024-03-20 11:05:10,405 - automationLogger - INFO - Starting login process
+2024-03-20 11:05:10,893 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 11:05:10,970 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 11:05:13,045 - automationLogger - INFO - Validating login success
+2024-03-20 11:05:13,046 - automationLogger - INFO - login successful
+2024-03-20 11:05:58,438 - automationLogger - INFO - Starting login process
+2024-03-20 11:05:59,029 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 11:05:59,111 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 11:06:01,181 - automationLogger - INFO - Validating login success
+2024-03-20 11:06:01,187 - automationLogger - INFO - login successful
+2024-03-20 11:56:27,801 - automationLogger - INFO - Starting login process
+2024-03-20 11:56:28,306 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 11:56:28,375 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 11:56:30,430 - automationLogger - INFO - Validating login success
+2024-03-20 11:56:30,442 - automationLogger - INFO - login successful
+2024-03-20 11:56:52,784 - automationLogger - INFO - Starting login process
+2024-03-20 11:56:53,290 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 11:56:53,363 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 11:56:55,417 - automationLogger - INFO - Validating login success
+2024-03-20 11:56:55,425 - automationLogger - INFO - login successful
+2024-03-20 11:56:57,727 - automationLogger - INFO - Selected option Edit
+2024-03-20 13:06:58,173 - automationLogger - INFO - Starting login process
+2024-03-20 13:06:58,657 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 13:06:58,729 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 13:07:00,780 - automationLogger - INFO - Validating login success
+2024-03-20 13:07:00,785 - automationLogger - INFO - login successful
+2024-03-20 13:07:02,960 - automationLogger - INFO - Selected option Edit
+2024-03-20 13:10:37,356 - automationLogger - INFO - Starting login process
+2024-03-20 13:10:37,881 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 13:10:37,956 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 13:10:40,006 - automationLogger - INFO - Validating login success
+2024-03-20 13:10:51,003 - automationLogger - INFO - Starting login process
+2024-03-20 13:10:51,509 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 13:10:51,585 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 13:10:53,634 - automationLogger - INFO - Validating login success
+2024-03-20 13:10:53,653 - automationLogger - INFO - login successful
+2024-03-20 13:10:56,055 - automationLogger - INFO - Selected option Edit
+2024-03-20 13:13:26,626 - automationLogger - INFO - Starting login process
+2024-03-20 13:13:27,201 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 13:13:27,276 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 13:13:29,330 - automationLogger - INFO - Validating login success
+2024-03-20 13:13:29,338 - automationLogger - INFO - login successful
+2024-03-20 13:13:31,821 - automationLogger - INFO - Selected option Edit
+2024-03-20 13:41:29,179 - automationLogger - INFO - Starting login process
+2024-03-20 13:41:29,756 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 13:41:29,922 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 13:41:32,024 - automationLogger - INFO - Validating login success
+2024-03-20 13:41:32,027 - automationLogger - INFO - login successful
+2024-03-20 13:41:34,629 - automationLogger - INFO - Selected option Edit
+2024-03-20 13:42:15,646 - automationLogger - INFO - Starting login process
+2024-03-20 13:42:16,162 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 13:42:16,319 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 13:42:18,449 - automationLogger - INFO - Validating login success
+2024-03-20 13:42:18,455 - automationLogger - INFO - login successful
+2024-03-20 13:42:20,715 - automationLogger - INFO - Selected option Edit
+2024-03-20 13:46:51,093 - automationLogger - INFO - Starting login process
+2024-03-20 13:46:51,680 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 13:46:51,834 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 13:46:53,986 - automationLogger - INFO - Validating login success
+2024-03-20 13:46:53,992 - automationLogger - INFO - login successful
+2024-03-20 13:46:56,329 - automationLogger - INFO - Selected option Edit
+2024-03-20 13:47:27,744 - automationLogger - INFO - Starting login process
+2024-03-20 13:47:28,293 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 13:47:28,447 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 13:47:30,592 - automationLogger - INFO - Validating login success
+2024-03-20 13:47:30,592 - automationLogger - INFO - unable to login
+2024-03-20 13:48:11,029 - automationLogger - INFO - Starting login process
+2024-03-20 13:48:11,542 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 13:48:11,685 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 13:48:13,799 - automationLogger - INFO - Validating login success
+2024-03-20 13:48:13,799 - automationLogger - INFO - login successful
+2024-03-20 13:48:16,329 - automationLogger - INFO - Selected option Edit
+2024-03-20 13:49:24,855 - automationLogger - INFO - Starting login process
+2024-03-20 13:49:25,351 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 13:49:25,518 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 13:49:27,647 - automationLogger - INFO - Validating login success
+2024-03-20 13:49:27,654 - automationLogger - INFO - login successful
+2024-03-20 13:49:30,125 - automationLogger - INFO - Selected option Edit
+2024-03-20 13:49:30,575 - automationLogger - INFO - user is checked
+2024-03-20 13:49:30,665 - automationLogger - INFO - Workspace: Asta Parking assigned to Page
+2024-03-20 15:12:03,617 - automationLogger - INFO - Starting login process
+2024-03-20 15:12:04,121 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 15:12:04,198 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 15:12:06,249 - automationLogger - INFO - Validating login success
+2024-03-20 15:12:06,262 - automationLogger - INFO - login successful
+2024-03-20 15:12:25,606 - automationLogger - INFO - Starting login process
+2024-03-20 15:12:26,059 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 15:12:26,134 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 15:12:28,180 - automationLogger - INFO - Validating login success
+2024-03-20 15:12:28,189 - automationLogger - INFO - login successful
+2024-03-20 15:12:52,129 - automationLogger - INFO - Starting login process
+2024-03-20 15:12:52,569 - automationLogger - INFO - username set as qa@email.com
+2024-03-20 15:12:52,645 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-20 15:12:54,690 - automationLogger - INFO - Validating login success
+2024-03-20 15:12:54,694 - automationLogger - INFO - login successful

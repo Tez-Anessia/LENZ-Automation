@@ -23,7 +23,7 @@ class common:
         signout.click()
         log.info("user signed out")
     
-    def setPagination(self,viewable):
+    def set_pagination(self, viewable):
         log.info(f"Setting pagination to {viewable}")
         pagination = self.wait.until(EC.visibility_of_element_located(locator.elements.pgBox))
         pagination.click()

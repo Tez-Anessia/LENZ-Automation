@@ -25,17 +25,20 @@ class wsgroups:
         self.driver.get(url)
         self.wait.until(EC.presence_of_element_located((locator.wsgroupsElements.add_new_btn)))
 
-#Adding a new group section
-    def clickAddGroup(self):
+    def click_add_group(self):
         self.driver.find_element(*locator.wsgroupsElements.add_new_btn).click()
         log.info("clicking add group button")
-    
-#Dialog Box actions
+
+class dialog:
+    def __init__(self, driver)
+        self.driver = driver
+        self.wait = WebDriverWait(self.driver, 30)
+
     def dialog_clickwhitespace(self):
         self.driver.find_element(*locator.wsgroupsDialog.ws_dialog_whitespace).click()
         log.info("clicking whitespace in dialog")
     
-    def dialog_addGroupName(self, groupName):
+    def dialog_set_group_name(self, groupName):
         name_input = self.wait.until(EC.presence_of_element_located((locator.wsgroupsDialog.group_name_input)))
         name_input.click()
         name_input.send_keys(groupName)
@@ -43,31 +46,35 @@ class wsgroups:
 
 #Dialog: Add users section
     #user should use either a full name or an email address for exact results
-    def dialog_clickuserSearch(self):
+    def dialog_click_user_search(self):
         self.driver.find_element(*locator.wsgroupsDialog.assign_users_search).click()
         log.info("clicking user search bar")
         self.wait.until(EC.presence_of_element_located((locator.wsgroupsDialog.assign_users_selections)))
     
     #this is to use the search bar
-    def dialog_searchUser(self, userName):
-        self.dialog_clickuserSearch()
+    def dialog_search_user(self, userName):
+        self.dialog_click_user_search()
         log.info(f"starting search for {userName}")
-        input =  self.driver.find_element(*locator.wsgroupsDialog.assign_users_search)
-        input.send_keys(userName)
+        search =  self.driver.find_element(*locator.wsgroupsDialog.assign_users_search)
+
+        if search.get_attribute("value") == "":
+            search.send_keys(userName)
+        else:
+            self.dialog_clear_search()
+            search.send_keys(userName)
+    
+    #clear the search input, to be used before a new search
+    def dialog_clear_search(self):
+        search = self.driver.find_element(*locator.wsgroupsDialog.assign_users_search)
+        search.send_keys(Keys.CONTROL, "a")
+        search.send_keys(Keys.DELETE)
+        log.info("cleared search")
     
     #clicks the element that contains the user name "selecting it" can also "deselect" this can be used to select directly instead of searching and validating
     def dialog_selectUser(self, userName):
         log.info("selecting user")
         user = self.driver.find_element(By.XPATH, f"//div[contains(text(),'{userName}')]")
         user.click()
-    
-    #clear the search input, to be used before a new search
-    def dialog_clearsearch(self):
-        search = self.driver.find_element(*locator.wsgroupsDialog.assign_users_search)
-        search.send_keys(Keys.CONTROL, "a")
-        search.send_keys(Keys.DELETE)
-        self.wait.until(EC.presence_of_element_located((locator.wsgroupsDialog.assign_users_selections)))
-        log.info("cleared search")
 
     #this determines if the user is even in the list
     def dialog_findUserinList(self, userName):

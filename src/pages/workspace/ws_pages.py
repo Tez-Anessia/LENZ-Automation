@@ -8,7 +8,7 @@ sys.path.append('.')
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.keys import Keys;
+from selenium.webdriver.common.keys import Keys
 from src.locators import ws_locators as locator
 import config.logger
 
@@ -20,7 +20,7 @@ class wspages:
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 30)
 
-    def pageLoadWait(self):
+    def page_wait(self):
         try:
             self.wait.until(EC.presence_of_element_located((By.XPATH, "//div[starts-with(text(),'User record')]")))
         except:
@@ -30,41 +30,42 @@ class wspages:
         url = url + "?tab=Pages"
         log.info(f"Navigating to {url}")
         self.driver.get(url)
-        self.pageLoadWait()
+        self.page_wait()
 
-    def pagesTabClick(self):
+    def click_pages_tab(self):
         self.driver.find_element(*locator.wsprofileElements.pages_tab).click()
-        self.pageLoadWait()
+        self.page_wait()
     #Function to search using the search bar
-    def searchPages(self, pageName):
+    def search(self, pageName):
         log.info(f"Searching for page: {pageName}")
         search = self.driver.find_element(*locator.wspagesElements.search_input)
         if search.get_attribute("value") == "":
             search.send_keys(pageName)
         else:
-            self.clearSearch()
+            self.clear_search()
             search.send_keys(pageName)
 
-    def clearSearch(self):
+    def clear_search(self):
         search = self.driver.find_element(*locator.wspagesElements.search_input)
         search.send_keys(Keys.CONTROL, "a")
         search.send_keys(Keys.DELETE)
         log.info("cleared search input")
-        self.pageLoadWait()
+        self.page_wait()
 
     #function to find the page in the visibile table, to search all use pagination to set to all or use the search function then find in table to find specific
-    def findInTable(self, pageName):
-        self.pageLoadWait()
+    def find_in_table(self, pageName):
+        self.page_wait()
         log.info(f"starting process to find {pageName} in table")
         if self.driver.find_element(By.XPATH, f"//table/tbody/tr//td[.//div[contains(.,'{pageName}')]]"):
             log.info(f"{pageName} found in table")
         else:
             log.error(f"{pageName} not found in table")
     
+    #-----------------Actions-----------------   
     #set pagination to all before using this, only reads the visible table goes through the table and puts all the pages in the workspace into an array then returns the array
-    def listCurrentPages(self):
+    def get_all_pages(self):
         try:
-            self.pageLoadWait()
+            self.page_wait()
             log.info("Reading table for all pages")
             # Find the index of the 'name' column
             header_elements = self.driver.find_elements(By.XPATH, "//table//th")
