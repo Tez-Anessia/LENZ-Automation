@@ -18,10 +18,11 @@ class wspages:
     
     def __init__(self, driver):
         self.driver = driver
+        self.wait = WebDriverWait(self.driver, 30)
 
     def pageLoadWait(self):
         try:
-            WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, "//div[starts-with(text(),'User record')]")))
+            self.wait.until(EC.presence_of_element_located((By.XPATH, "//div[starts-with(text(),'User record')]")))
         except:
             log.error("no elements in table")
 
@@ -34,20 +35,24 @@ class wspages:
     def pagesTabClick(self):
         self.driver.find_element(*locator.wsprofileElements.pages_tab).click()
         self.pageLoadWait()
-
+    #Function to search using the search bar
     def searchPages(self, pageName):
         log.info(f"Searching for page: {pageName}")
-        search = self.driver.find_element(*locator.wspagesElements.search_input) 
-        search.click()
-        search.send_keys(pageName)
-    
+        search = self.driver.find_element(*locator.wspagesElements.search_input)
+        if search.get_attribute("value") == "":
+            search.send_keys(pageName)
+        else:
+            self.clearSearch()
+            search.send_keys(pageName)
+
     def clearSearch(self):
-        log.info("clearing search input")
         search = self.driver.find_element(*locator.wspagesElements.search_input)
         search.send_keys(Keys.CONTROL, "a")
         search.send_keys(Keys.DELETE)
+        log.info("cleared search input")
         self.pageLoadWait()
 
+    #function to find the page in the visibile table, to search all use pagination to set to all or use the search function then find in table to find specific
     def findInTable(self, pageName):
         self.pageLoadWait()
         log.info(f"starting process to find {pageName} in table")
@@ -56,7 +61,7 @@ class wspages:
         else:
             log.error(f"{pageName} not found in table")
     
-    #set pagination to all before using this, only reads the visible table
+    #set pagination to all before using this, only reads the visible table goes through the table and puts all the pages in the workspace into an array then returns the array
     def listCurrentPages(self):
         try:
             self.pageLoadWait()

@@ -17,12 +17,13 @@ class wsgroups:
 
     def __init__(self, driver):
         self.driver = driver
+        self.wait = WebDriverWait(self.driver, 30)
     #direct navigation if base url is known
     def directNav(self, url):
         url = url + "?tab=Groups"
         log.info(f"Navigating to {url}")
         self.driver.get(url)
-        WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((locator.wsgroupsElements.add_new_btn)))
+        self.wait.until(EC.presence_of_element_located((locator.wsgroupsElements.add_new_btn)))
 
 #Adding a new group section
     def clickAddGroup(self):
@@ -35,17 +36,18 @@ class wsgroups:
         log.info("clicking whitespace in dialog")
     
     def dialog_addGroupName(self, groupName):
-        name_input = WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((locator.wsgroupsDialog.group_name_input)))
+        name_input = self.wait.until(EC.presence_of_element_located((locator.wsgroupsDialog.group_name_input)))
         name_input.click()
         name_input.send_keys(groupName)
         log.info(f"group name input sent as {groupName}")
 
 #Dialog: Add users section
-# user should use either a full name or an email address for exact results
+    #user should use either a full name or an email address for exact results
     def dialog_clickuserSearch(self):
         self.driver.find_element(*locator.wsgroupsDialog.assign_users_search).click()
         log.info("clicking user search bar")
-        WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((locator.wsgroupsDialog.assign_users_selections)))
+        self.wait.until(EC.presence_of_element_located((locator.wsgroupsDialog.assign_users_selections)))
+    
     #this is to use the search bar
     def dialog_searchUser(self, userName):
         self.dialog_clickuserSearch()
@@ -64,7 +66,7 @@ class wsgroups:
         search = self.driver.find_element(*locator.wsgroupsDialog.assign_users_search)
         search.send_keys(Keys.CONTROL, "a")
         search.send_keys(Keys.DELETE)
-        WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((locator.wsgroupsDialog.assign_users_selections)))
+        self.wait.until(EC.presence_of_element_located((locator.wsgroupsDialog.assign_users_selections)))
         log.info("cleared search")
 
     #this determines if the user is even in the list
@@ -93,7 +95,7 @@ class wsgroups:
         add_pg = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((locator.wsgroupsDialog.add_page_btn)))
         add_pg.click()
         log.info("New Page created")
-        WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, "//div[@class='w-full flex items-center justify-between py-3 px-4']")))
+        self.wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='w-full flex items-center justify-between py-3 px-4']")))
         #time.sleep(5) 
     
     #function to select the dropdown, using action chains else the element is not interactable. 

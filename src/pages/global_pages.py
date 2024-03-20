@@ -14,8 +14,8 @@ class globalpages:
 
         def __init__(self, driver):
             self.driver = driver
-    
- #--------Singular Functions--------
+            self.wait = WebDriverWait(self.driver, 30)
+ 
         def directNav(self):
             self.driver.get("https://admin.tez.io/pages?tab=Global+pages")
         
