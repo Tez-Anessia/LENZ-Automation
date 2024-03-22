@@ -8,7 +8,7 @@ Dynamic Paths:
 - get workspace url: f"//table/tbody/tr/td[.//div[contains(text(),'{companyName}')]]/div/a[contains(@href,'/workspaces')]"
 - find workspace in table(locate only): f"//div[contains(text(),'{companyName}')]"  
 '''
-class workspacesElements:
+class WorkspacesElements:
     search_input = (By.XPATH, "//input[@id='search']")
     #Pagination element used for waiting strategy, any functional use will be with common pom
     pagination_element = (By.XPATH, "//button[contains(@class, 'bg-white relative')]")

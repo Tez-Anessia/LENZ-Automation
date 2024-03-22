@@ -1,6 +1,6 @@
 import src.pages.login as loginPage
 import src.pages.common as common
-import src.pages.workspace.ws_users as ws_users
+import src.pages.workspace.users_tab as Users
 import config.logger
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -20,22 +20,22 @@ driver.implicitly_wait(4)
 driver.maximize_window()
 actions = ActionChains(driver)
 
-login = loginPage.login(driver)
-nav = common.common(driver)
-ws_users = ws_users.wsusers(driver)
+login = loginPage.Login(driver)
+nav = common.Common(driver)
+Users = Users.Users(driver)
 login.open_page("https://admin.tez.io/login")
 login.adminLogin(userName, passW)
 
 #driver.set_page_load_timeout(30)
 url = "https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35" #A test customer 1 URL 
 log.info("------------Starting ws_users test------------")
-ws_users.directNav(url)
-ws_users.search("Anessia Mejia-Santillana")
-ws_users.find_in_table("Anessia Mejia-Santillana")
-ws_users.clear_search()
+Users.directNav(url)
+Users.search("Anessia Mejia-Santillana")
+Users.find_in_table("Anessia Mejia-Santillana")
+Users.clear_search()
 
-ws_users.find_in_table("Divisha Eppalapalli")
+Users.find_in_table("Divisha Eppalapalli")
 log.info("Assigning user process")
-ws_users.click_add_user()
-ws_users.click_add_existing()
-ws_users.assign_user("Craig McCrary")
+Users.click_add_user()
+Users.click_add_existing()
+Users.assign_user("Craig McCrary")

@@ -1,10 +1,15 @@
+import sys
+sys.path.append('.')
+
 import src.pages.login as loginPage
 import src.pages.common as common
-import src.pages.workspace.ws_pages as wspg
+import src.pages.pages as pages
 import config.logger
 from selenium import webdriver
 from selenium.webdriver import ActionChains
+from selenium.common.exceptions import TimeoutException
 import time
+
 
 log = config.logger.setUp()
 
@@ -20,18 +25,21 @@ driver.implicitly_wait(4)
 driver.maximize_window()
 actions = ActionChains(driver)
 
-login = loginPage.login(driver)
-nav = common.common(driver)
-ws_pg = wspg.wspages(driver)
+login = loginPage.Login(driver)
+nav = common.Common(driver)
+pg = pages.Pages(driver)
+pgdialog = pages.Dialog(driver)
 login.open_page("https://admin.tez.io/login")
 login.adminLogin(userName, passW)
 
-
-#driver.set_page_load_timeout(30)
-url = "https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35" #A test customer 1 URL 
-log.info("------------Starting WS_Pages test------------")
-ws_pg.directNav(url)
-ws_pg.search("SMS Valet")
-ws_pg.find_in_table("SMS Valet")
-ws_pg.clear_search()
-ws_pg.get_all_pages()
+pg.directNav_global()
+#pages.search("LENZ Admin")
+pgdialog.get_assigned("TEZ Home")
+# pages.dialog_search(customerName)
+# pages.dialog_click_search()
+# pages.dialog_wait()
+# pages.dialog_isChecked(customerName)
+# pages.dialog_click_whitespace()
+# pages.dialog_findCurrentlyAssigned(customerName)
+# pages.dialog_submit()
+time.sleep(5)

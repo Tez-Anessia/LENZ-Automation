@@ -1,253 +1,110 @@
-2024-03-19 14:47:05,033 - automationLogger - INFO - ------------Starting WS_groups test------------
-2024-03-19 14:47:05,967 - automationLogger - INFO - Starting login process
-2024-03-19 14:47:06,446 - automationLogger - INFO - username set as qa@email.com
-2024-03-19 14:47:06,531 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-19 14:47:08,582 - automationLogger - INFO - Validating login success
-2024-03-19 14:47:08,587 - automationLogger - INFO - login successful
-2024-03-19 14:47:11,588 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
-2024-03-19 14:47:12,824 - automationLogger - INFO - clicking add group button
-2024-03-19 14:47:12,929 - automationLogger - INFO - group name input sent as Group Test
-2024-03-19 14:47:12,988 - automationLogger - INFO - clicking user search bar
-2024-03-19 14:47:19,436 - automationLogger - INFO - starting search for Anessia Mejia-Santillana
-2024-03-19 14:47:19,527 - automationLogger - INFO - looking for Anessia Mejia-Santillana in list
-2024-03-19 14:47:19,542 - automationLogger - INFO - Anessia Mejia-Santillana found in table
-2024-03-19 14:47:19,570 - automationLogger - INFO - selecting user
-2024-03-19 14:47:19,752 - automationLogger - INFO - cleared search
-2024-03-19 14:47:19,752 - automationLogger - INFO - looking for Craig McCrary in list
-2024-03-19 14:47:19,767 - automationLogger - INFO - Craig McCrary found in table
-2024-03-19 14:47:19,767 - automationLogger - INFO - selecting user
-2024-03-19 14:47:19,874 - automationLogger - INFO - clicking whitespace in dialog
-2024-03-19 14:47:19,874 - automationLogger - INFO - Adding pages
-2024-03-19 14:47:19,959 - automationLogger - INFO - New Page created
-2024-03-19 14:47:19,971 - automationLogger - INFO - Selecting page: Company Performance
-2024-03-19 14:47:20,303 - automationLogger - INFO - element clickable
-2024-03-19 14:47:20,372 - automationLogger - INFO - page has been set to Company Performance
-2024-03-19 14:47:20,372 - automationLogger - INFO - Adding pages
-2024-03-19 14:47:20,449 - automationLogger - INFO - New Page created
-2024-03-19 14:47:20,829 - automationLogger - INFO - selected SMS Valet
-2024-03-19 14:47:23,862 - automationLogger - INFO - saving new group
-2024-03-19 14:48:48,994 - automationLogger - INFO - ------------Starting WS_groups test------------
-2024-03-19 14:48:53,527 - automationLogger - INFO - Starting login process
-2024-03-19 14:48:54,020 - automationLogger - INFO - username set as qa@email.com
-2024-03-19 14:48:54,094 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-19 14:48:56,144 - automationLogger - INFO - Validating login success
-2024-03-19 14:48:56,144 - automationLogger - INFO - login successful
-2024-03-19 14:48:59,152 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
-2024-03-19 14:49:00,768 - automationLogger - INFO - clicking add group button
-2024-03-19 14:49:00,882 - automationLogger - INFO - group name input sent as Group Test
-2024-03-19 14:49:00,947 - automationLogger - INFO - clicking user search bar
-2024-03-19 14:49:08,980 - automationLogger - INFO - starting search for Anessia Mejia-Santillana
-2024-03-19 14:49:09,066 - automationLogger - INFO - looking for Anessia Mejia-Santillana in list
-2024-03-19 14:49:09,079 - automationLogger - INFO - Anessia Mejia-Santillana found in table
-2024-03-19 14:49:09,100 - automationLogger - INFO - selecting user
-2024-03-19 14:49:09,242 - automationLogger - INFO - cleared search
-2024-03-19 14:49:09,242 - automationLogger - INFO - looking for Craig McCrary in list
-2024-03-19 14:49:09,273 - automationLogger - INFO - Craig McCrary found in table
-2024-03-19 14:49:09,273 - automationLogger - INFO - selecting user
-2024-03-19 14:49:09,408 - automationLogger - INFO - clicking whitespace in dialog
-2024-03-19 14:49:12,423 - automationLogger - INFO - saving new group
-2024-03-19 16:20:13,281 - automationLogger - INFO - ------------Starting WS_groups test------------
-2024-03-19 16:20:14,148 - automationLogger - INFO - Starting login process
-2024-03-19 16:20:25,750 - automationLogger - INFO - ------------Starting WS_groups test------------
-2024-03-19 16:20:26,875 - automationLogger - INFO - Starting login process
-2024-03-19 16:20:27,395 - automationLogger - INFO - username set as qa@email.com
-2024-03-19 16:20:27,515 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-19 16:20:29,592 - automationLogger - INFO - Validating login success
-2024-03-19 16:20:29,598 - automationLogger - INFO - login successful
-2024-03-19 16:20:32,601 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
-2024-03-19 16:20:34,253 - automationLogger - INFO - clicking add group button
-2024-03-19 16:20:34,423 - automationLogger - INFO - group name input sent as Group Test
-2024-03-19 16:20:34,521 - automationLogger - INFO - clicking user search bar
-2024-03-19 16:20:42,682 - automationLogger - INFO - starting search for Anessia Mejia-Santillana
-2024-03-19 16:20:42,773 - automationLogger - INFO - looking for Anessia Mejia-Santillana in list
-2024-03-19 16:20:42,792 - automationLogger - INFO - Anessia Mejia-Santillana found in table
-2024-03-19 16:20:42,812 - automationLogger - INFO - selecting user
-2024-03-19 16:20:43,029 - automationLogger - INFO - cleared search
-2024-03-19 16:20:43,029 - automationLogger - INFO - looking for Craig McCrary in list
-2024-03-19 16:20:43,041 - automationLogger - INFO - Craig McCrary found in table
-2024-03-19 16:20:43,042 - automationLogger - INFO - selecting user
-2024-03-19 16:20:43,180 - automationLogger - INFO - clicking whitespace in dialog
-2024-03-19 16:20:43,180 - automationLogger - INFO - Adding pages
-2024-03-19 16:20:43,282 - automationLogger - INFO - New Page created
-2024-03-19 16:20:43,298 - automationLogger - INFO - Selecting page: Company Performance
-2024-03-19 16:20:43,597 - automationLogger - INFO - element clickable
-2024-03-19 16:21:10,581 - automationLogger - INFO - ------------Starting WS_groups test------------
-2024-03-19 16:21:11,924 - automationLogger - INFO - Starting login process
-2024-03-19 16:21:12,427 - automationLogger - INFO - username set as qa@email.com
-2024-03-19 16:21:12,561 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-19 16:21:14,639 - automationLogger - INFO - Validating login success
-2024-03-19 16:21:14,643 - automationLogger - INFO - login successful
-2024-03-19 16:21:17,647 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
-2024-03-19 16:21:19,260 - automationLogger - INFO - clicking add group button
-2024-03-19 16:21:19,412 - automationLogger - INFO - group name input sent as Group Test
-2024-03-19 16:21:19,510 - automationLogger - INFO - clicking user search bar
-2024-03-19 16:21:28,608 - automationLogger - INFO - starting search for Anessia Mejia-Santillana
-2024-03-19 16:21:28,704 - automationLogger - INFO - looking for Anessia Mejia-Santillana in list
-2024-03-19 16:21:28,727 - automationLogger - INFO - Anessia Mejia-Santillana found in table
-2024-03-19 16:21:28,743 - automationLogger - INFO - selecting user
-2024-03-19 16:21:29,003 - automationLogger - INFO - cleared search
-2024-03-19 16:21:29,005 - automationLogger - INFO - looking for Craig McCrary in list
-2024-03-19 16:21:29,019 - automationLogger - INFO - Craig McCrary found in table
-2024-03-19 16:21:29,019 - automationLogger - INFO - selecting user
-2024-03-19 16:21:29,165 - automationLogger - INFO - clicking whitespace in dialog
-2024-03-19 16:21:29,165 - automationLogger - INFO - Adding pages
-2024-03-19 16:21:29,279 - automationLogger - INFO - New Page created
-2024-03-19 16:21:29,294 - automationLogger - INFO - Selecting page: Company Performance
-2024-03-19 16:21:29,616 - automationLogger - INFO - element clickable
-2024-03-19 16:21:29,711 - automationLogger - INFO - page has been set to Company Performance
-2024-03-19 16:21:29,711 - automationLogger - INFO - Adding pages
-2024-03-19 16:21:29,818 - automationLogger - INFO - New Page created
-2024-03-19 16:21:30,261 - automationLogger - INFO - selected SMS Valet
-2024-03-19 16:21:33,275 - automationLogger - INFO - saving new group
-2024-03-19 16:21:33,333 - automationLogger - INFO - New Group Saved
-2024-03-19 16:49:22,631 - automationLogger - INFO - ------------Starting WS_groups test------------
-2024-03-19 16:49:27,645 - automationLogger - INFO - Starting login process
-2024-03-19 16:49:28,159 - automationLogger - INFO - username set as qa@email.com
-2024-03-19 16:49:28,283 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-19 16:49:30,379 - automationLogger - INFO - Validating login success
-2024-03-19 16:49:30,383 - automationLogger - INFO - login successful
-2024-03-19 16:49:33,387 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
-2024-03-19 16:49:34,420 - automationLogger - INFO - Validating group: Group Test has been created
-2024-03-19 16:49:34,420 - automationLogger - INFO - searching for Group Test on page
-2024-03-19 16:52:19,027 - automationLogger - INFO - ------------Starting WS_groups test------------
-2024-03-19 16:52:21,420 - automationLogger - INFO - Starting login process
-2024-03-19 16:52:22,059 - automationLogger - INFO - username set as qa@email.com
-2024-03-19 16:52:22,314 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-19 16:52:24,461 - automationLogger - INFO - Validating login success
-2024-03-19 16:52:24,463 - automationLogger - INFO - login successful
-2024-03-19 16:52:27,469 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
-2024-03-19 16:52:28,526 - automationLogger - INFO - Validating group: Group Test has been created
-2024-03-19 16:52:28,526 - automationLogger - INFO - searching for Group Test on page
-2024-03-19 16:53:55,868 - automationLogger - INFO - ------------Starting WS_groups test------------
-2024-03-19 16:53:57,813 - automationLogger - INFO - Starting login process
-2024-03-19 16:53:58,315 - automationLogger - INFO - username set as qa@email.com
-2024-03-19 16:53:58,418 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-19 16:54:00,517 - automationLogger - INFO - Validating login success
-2024-03-19 16:54:00,517 - automationLogger - INFO - login successful
-2024-03-19 16:54:03,524 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
-2024-03-19 16:54:04,749 - automationLogger - INFO - Validating group: Group Test has been created
-2024-03-19 16:54:04,749 - automationLogger - INFO - searching for Group Test on page
-2024-03-19 16:55:04,278 - automationLogger - INFO - ------------Starting WS_groups test------------
-2024-03-19 16:55:06,978 - automationLogger - INFO - Starting login process
-2024-03-19 16:55:07,473 - automationLogger - INFO - username set as qa@email.com
-2024-03-19 16:55:07,582 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-19 16:55:09,655 - automationLogger - INFO - Validating login success
-2024-03-19 16:55:09,661 - automationLogger - INFO - login successful
-2024-03-19 16:55:12,663 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
-2024-03-19 16:55:14,247 - automationLogger - INFO - Validating group: Group Test has been created
-2024-03-19 16:55:14,247 - automationLogger - INFO - searching for Group Test on page
-2024-03-19 16:55:50,705 - automationLogger - INFO - ------------Starting WS_groups test------------
-2024-03-19 16:55:51,883 - automationLogger - INFO - Starting login process
-2024-03-19 16:55:52,420 - automationLogger - INFO - username set as qa@email.com
-2024-03-19 16:55:52,529 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-19 16:55:54,603 - automationLogger - INFO - Validating login success
-2024-03-19 16:55:54,603 - automationLogger - INFO - login successful
-2024-03-19 16:55:57,608 - automationLogger - INFO - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
-2024-03-19 16:55:59,183 - automationLogger - INFO - Validating group: Group Test has been created
-2024-03-19 16:55:59,183 - automationLogger - INFO - searching for Group Test on page
-2024-03-19 16:55:59,879 - automationLogger - INFO - Group Created
-2024-03-19 16:55:59,948 - automationLogger - INFO - Group Group Test has 4 currently assigned to it
-2024-03-19 16:56:00,041 - automationLogger - INFO - Page <selenium.webdriver.remote.webelement.WebElement (session="8821d84a1b46a22d7d4f87e30f44afa5", element="f.B5970517F6255031F33649155BA7DE72.d.2A4FB2D49BF6EC4E69F95240728CB2EE.e.84")> found
-2024-03-19 16:56:00,226 - automationLogger - INFO - Page <selenium.webdriver.remote.webelement.WebElement (session="8821d84a1b46a22d7d4f87e30f44afa5", element="f.B5970517F6255031F33649155BA7DE72.d.2A4FB2D49BF6EC4E69F95240728CB2EE.e.128")> found
-2024-03-19 16:56:00,430 - automationLogger - INFO - Page <selenium.webdriver.remote.webelement.WebElement (session="8821d84a1b46a22d7d4f87e30f44afa5", element="f.B5970517F6255031F33649155BA7DE72.d.2A4FB2D49BF6EC4E69F95240728CB2EE.e.154")> found
-2024-03-19 16:56:00,652 - automationLogger - INFO - Page <selenium.webdriver.remote.webelement.WebElement (session="8821d84a1b46a22d7d4f87e30f44afa5", element="f.B5970517F6255031F33649155BA7DE72.d.2A4FB2D49BF6EC4E69F95240728CB2EE.e.184")> found
-2024-03-20 10:21:22,767 - automationLogger - INFO - Starting login process
-2024-03-20 10:21:23,240 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 10:21:23,310 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 10:21:25,364 - automationLogger - INFO - Validating login success
-2024-03-20 10:21:25,372 - automationLogger - INFO - login successful
-2024-03-20 11:05:10,405 - automationLogger - INFO - Starting login process
-2024-03-20 11:05:10,893 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 11:05:10,970 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 11:05:13,045 - automationLogger - INFO - Validating login success
-2024-03-20 11:05:13,046 - automationLogger - INFO - login successful
-2024-03-20 11:05:58,438 - automationLogger - INFO - Starting login process
-2024-03-20 11:05:59,029 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 11:05:59,111 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 11:06:01,181 - automationLogger - INFO - Validating login success
-2024-03-20 11:06:01,187 - automationLogger - INFO - login successful
-2024-03-20 11:56:27,801 - automationLogger - INFO - Starting login process
-2024-03-20 11:56:28,306 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 11:56:28,375 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 11:56:30,430 - automationLogger - INFO - Validating login success
-2024-03-20 11:56:30,442 - automationLogger - INFO - login successful
-2024-03-20 11:56:52,784 - automationLogger - INFO - Starting login process
-2024-03-20 11:56:53,290 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 11:56:53,363 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 11:56:55,417 - automationLogger - INFO - Validating login success
-2024-03-20 11:56:55,425 - automationLogger - INFO - login successful
-2024-03-20 11:56:57,727 - automationLogger - INFO - Selected option Edit
-2024-03-20 13:06:58,173 - automationLogger - INFO - Starting login process
-2024-03-20 13:06:58,657 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 13:06:58,729 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 13:07:00,780 - automationLogger - INFO - Validating login success
-2024-03-20 13:07:00,785 - automationLogger - INFO - login successful
-2024-03-20 13:07:02,960 - automationLogger - INFO - Selected option Edit
-2024-03-20 13:10:37,356 - automationLogger - INFO - Starting login process
-2024-03-20 13:10:37,881 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 13:10:37,956 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 13:10:40,006 - automationLogger - INFO - Validating login success
-2024-03-20 13:10:51,003 - automationLogger - INFO - Starting login process
-2024-03-20 13:10:51,509 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 13:10:51,585 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 13:10:53,634 - automationLogger - INFO - Validating login success
-2024-03-20 13:10:53,653 - automationLogger - INFO - login successful
-2024-03-20 13:10:56,055 - automationLogger - INFO - Selected option Edit
-2024-03-20 13:13:26,626 - automationLogger - INFO - Starting login process
-2024-03-20 13:13:27,201 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 13:13:27,276 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 13:13:29,330 - automationLogger - INFO - Validating login success
-2024-03-20 13:13:29,338 - automationLogger - INFO - login successful
-2024-03-20 13:13:31,821 - automationLogger - INFO - Selected option Edit
-2024-03-20 13:41:29,179 - automationLogger - INFO - Starting login process
-2024-03-20 13:41:29,756 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 13:41:29,922 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 13:41:32,024 - automationLogger - INFO - Validating login success
-2024-03-20 13:41:32,027 - automationLogger - INFO - login successful
-2024-03-20 13:41:34,629 - automationLogger - INFO - Selected option Edit
-2024-03-20 13:42:15,646 - automationLogger - INFO - Starting login process
-2024-03-20 13:42:16,162 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 13:42:16,319 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 13:42:18,449 - automationLogger - INFO - Validating login success
-2024-03-20 13:42:18,455 - automationLogger - INFO - login successful
-2024-03-20 13:42:20,715 - automationLogger - INFO - Selected option Edit
-2024-03-20 13:46:51,093 - automationLogger - INFO - Starting login process
-2024-03-20 13:46:51,680 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 13:46:51,834 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 13:46:53,986 - automationLogger - INFO - Validating login success
-2024-03-20 13:46:53,992 - automationLogger - INFO - login successful
-2024-03-20 13:46:56,329 - automationLogger - INFO - Selected option Edit
-2024-03-20 13:47:27,744 - automationLogger - INFO - Starting login process
-2024-03-20 13:47:28,293 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 13:47:28,447 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 13:47:30,592 - automationLogger - INFO - Validating login success
-2024-03-20 13:47:30,592 - automationLogger - INFO - unable to login
-2024-03-20 13:48:11,029 - automationLogger - INFO - Starting login process
-2024-03-20 13:48:11,542 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 13:48:11,685 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 13:48:13,799 - automationLogger - INFO - Validating login success
-2024-03-20 13:48:13,799 - automationLogger - INFO - login successful
-2024-03-20 13:48:16,329 - automationLogger - INFO - Selected option Edit
-2024-03-20 13:49:24,855 - automationLogger - INFO - Starting login process
-2024-03-20 13:49:25,351 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 13:49:25,518 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 13:49:27,647 - automationLogger - INFO - Validating login success
-2024-03-20 13:49:27,654 - automationLogger - INFO - login successful
-2024-03-20 13:49:30,125 - automationLogger - INFO - Selected option Edit
-2024-03-20 13:49:30,575 - automationLogger - INFO - user is checked
-2024-03-20 13:49:30,665 - automationLogger - INFO - Workspace: Asta Parking assigned to Page
-2024-03-20 15:12:03,617 - automationLogger - INFO - Starting login process
-2024-03-20 15:12:04,121 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 15:12:04,198 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 15:12:06,249 - automationLogger - INFO - Validating login success
-2024-03-20 15:12:06,262 - automationLogger - INFO - login successful
-2024-03-20 15:12:25,606 - automationLogger - INFO - Starting login process
-2024-03-20 15:12:26,059 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 15:12:26,134 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 15:12:28,180 - automationLogger - INFO - Validating login success
-2024-03-20 15:12:28,189 - automationLogger - INFO - login successful
-2024-03-20 15:12:52,129 - automationLogger - INFO - Starting login process
-2024-03-20 15:12:52,569 - automationLogger - INFO - username set as qa@email.com
-2024-03-20 15:12:52,645 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
-2024-03-20 15:12:54,690 - automationLogger - INFO - Validating login success
-2024-03-20 15:12:54,694 - automationLogger - INFO - login successful
+2024-03-21 15:40:11,031 - automationLogger - INFO - Starting login process
+2024-03-21 15:40:11,531 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 15:40:11,619 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 15:40:13,709 - automationLogger - INFO - Validating login success
+2024-03-21 15:40:13,716 - automationLogger - INFO - login successful
+2024-03-21 15:40:59,423 - automationLogger - INFO - Starting login process
+2024-03-21 15:40:59,914 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 15:41:00,021 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 15:41:02,123 - automationLogger - INFO - Validating login success
+2024-03-21 15:41:02,134 - automationLogger - INFO - login successful
+2024-03-21 15:41:55,963 - automationLogger - INFO - Starting login process
+2024-03-21 15:41:56,504 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 15:41:56,606 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 15:41:58,680 - automationLogger - INFO - Validating login success
+2024-03-21 15:41:58,690 - automationLogger - INFO - login successful
+2024-03-21 15:48:04,653 - automationLogger - INFO - Starting login process
+2024-03-21 15:48:05,193 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 15:48:05,311 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 15:48:07,380 - automationLogger - INFO - Validating login success
+2024-03-21 15:48:07,383 - automationLogger - INFO - login successful
+2024-03-21 15:49:20,439 - automationLogger - INFO - Starting login process
+2024-03-21 15:49:21,563 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 15:49:21,680 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 15:49:23,762 - automationLogger - INFO - Validating login success
+2024-03-21 15:49:23,771 - automationLogger - INFO - login successful
+2024-03-21 15:50:02,072 - automationLogger - INFO - Starting login process
+2024-03-21 15:50:02,619 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 15:50:02,751 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 15:50:04,838 - automationLogger - INFO - Validating login success
+2024-03-21 15:50:04,845 - automationLogger - INFO - login successful
+2024-03-21 15:50:55,435 - automationLogger - INFO - Starting login process
+2024-03-21 15:50:55,952 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 15:50:56,039 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 15:50:58,110 - automationLogger - INFO - Validating login success
+2024-03-21 15:50:58,119 - automationLogger - INFO - login successful
+2024-03-21 15:52:58,026 - automationLogger - INFO - Starting login process
+2024-03-21 15:52:58,561 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 15:52:58,696 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 15:53:00,795 - automationLogger - INFO - Validating login success
+2024-03-21 15:53:00,805 - automationLogger - INFO - login successful
+2024-03-21 15:59:48,337 - automationLogger - INFO - Starting login process
+2024-03-21 15:59:48,872 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 15:59:49,052 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 15:59:51,162 - automationLogger - INFO - Validating login success
+2024-03-21 15:59:51,168 - automationLogger - INFO - login successful
+2024-03-21 15:59:53,868 - automationLogger - INFO - Selected option Edit
+2024-03-21 16:01:39,787 - automationLogger - INFO - Starting login process
+2024-03-21 16:01:40,381 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 16:01:40,574 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 16:01:42,680 - automationLogger - INFO - Validating login success
+2024-03-21 16:01:42,687 - automationLogger - INFO - login successful
+2024-03-21 16:01:45,193 - automationLogger - INFO - Selected option Edit
+2024-03-21 16:05:46,625 - automationLogger - INFO - Starting login process
+2024-03-21 16:05:47,169 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 16:05:47,293 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 16:05:49,367 - automationLogger - INFO - Validating login success
+2024-03-21 16:05:49,367 - automationLogger - INFO - login successful
+2024-03-21 16:05:51,615 - automationLogger - INFO - Selected option Edit
+2024-03-21 16:07:48,415 - automationLogger - INFO - Starting login process
+2024-03-21 16:07:48,936 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 16:07:49,049 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 16:07:51,151 - automationLogger - INFO - Validating login success
+2024-03-21 16:07:51,160 - automationLogger - INFO - login successful
+2024-03-21 16:07:53,523 - automationLogger - INFO - Selected option Edit
+2024-03-21 16:12:14,572 - automationLogger - INFO - Starting login process
+2024-03-21 16:12:15,700 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 16:12:15,798 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 16:12:17,861 - automationLogger - INFO - Validating login success
+2024-03-21 16:12:17,872 - automationLogger - INFO - login successful
+2024-03-21 16:12:20,032 - automationLogger - INFO - Selected option Edit
+2024-03-21 16:12:49,056 - automationLogger - INFO - Starting login process
+2024-03-21 16:12:49,603 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 16:12:49,760 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 16:12:51,862 - automationLogger - INFO - Validating login success
+2024-03-21 16:12:51,873 - automationLogger - INFO - login successful
+2024-03-21 16:12:54,110 - automationLogger - INFO - Selected option Edit
+2024-03-21 16:13:25,342 - automationLogger - INFO - Starting login process
+2024-03-21 16:13:25,886 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 16:13:26,037 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 16:13:28,139 - automationLogger - INFO - Validating login success
+2024-03-21 16:13:28,144 - automationLogger - INFO - login successful
+2024-03-21 16:13:30,706 - automationLogger - INFO - Selected option Edit
+2024-03-21 16:14:07,236 - automationLogger - INFO - Starting login process
+2024-03-21 16:14:07,773 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 16:14:07,927 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 16:14:10,042 - automationLogger - INFO - Validating login success
+2024-03-21 16:14:10,049 - automationLogger - INFO - login successful
+2024-03-21 16:14:12,407 - automationLogger - INFO - Selected option Edit
+2024-03-21 16:15:45,544 - automationLogger - INFO - Starting login process
+2024-03-21 16:15:46,092 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 16:15:46,216 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 16:15:48,300 - automationLogger - INFO - Validating login success
+2024-03-21 16:15:48,307 - automationLogger - INFO - login successful
+2024-03-21 16:15:50,673 - automationLogger - INFO - Selected option Edit
+2024-03-21 16:17:01,686 - automationLogger - INFO - Starting login process
+2024-03-21 16:17:02,171 - automationLogger - INFO - username set as qa@email.com
+2024-03-21 16:17:02,311 - automationLogger - INFO - pass set as T3Z@dm!nP@$$24^
+2024-03-21 16:17:04,456 - automationLogger - INFO - Validating login success
+2024-03-21 16:17:04,461 - automationLogger - INFO - login successful
+2024-03-21 16:17:06,615 - automationLogger - INFO - Selected option Edit
+2024-03-21 16:17:07,191 - automationLogger - INFO - Workspaces assigned to TEZ Home are: ['8th Street Development', 'A Test Customer 1', 'ABM Houston', 'Ace Parking', 'Affiliated Parking Systems', 'Appleton International Airport-ATW', 'Ashland Hospital Corporation', 'Asta Parking', 'Beach Club Master Association', 'Berkshire Investments', 'BrightBase', 'Charleston County Aviation Authority', 'Colonial Parking', 'Corinthian International', 'Cornerstone Parking', 'Eli Valet', 'Fontainebleau Las Vegas', 'Harbor Parking', 'Intracoastal Parking LLC', 'Jacobsen/Daniels Associates, LLC', 'LAZ Parking', 'LAZ Parking Mid-Atlantic LLC', 'Lovegreen Parking', 'Luxe Parking Management', 'Metropolis', 'Metropolitan Healthcare Services', 'Miami Design District', 'Miami Parking', 'National Parking (GA)', 'Nevada Premier Valet', 'North American Properties', 'Ocean Horizon Properties LC', 'One Fifty One At Biscayne Condominium Association Inc', 'Park Rite', 'Parking Concepts Inc', 'Parking Systems of America', 'Pivot Parking', 'Pristine Auto Spa and Valet', 'Propark Mobility', 'Propark Sovereign Services LLC', 'Refined Parking Solutions LLC', 'Republic Parking Systems', 'Royal Parking', 'Royal Parking LLC dbc GOPARK', 'SP+ Corporation', 'SafetyPark Corporation', 'Savannah Hilton Head International Airport', 'Seastreak LLC', 'South Coast Plaza', 'TEZ LENZ Demo', 'The Crescent', 'US Parking Inc', 'UT Southwestern', 'Universal Parking and Transportation', 'Xclusive Auto Spa & Valet']
+2024-03-22 16:39:04,018 [INFO] automationLogger: login.py - Starting login process
+2024-03-22 16:39:04,528 [INFO] automationLogger: login.py - username set as qa@email.com
+2024-03-22 16:39:04,610 [INFO] automationLogger: login.py - pass set as T3Z@dm!nP@$$24^
+2024-03-22 16:39:06,678 [INFO] automationLogger: login.py - Validating login success
+2024-03-22 16:39:06,684 [INFO] automationLogger: login.py - login successful
+2024-03-22 16:39:09,085 [INFO] automationLogger: pages.py - Selected option Edit
+2024-03-22 16:39:09,654 [INFO] automationLogger: pages.py - There are 55 workspaces assigned to TEZ Home
+2024-03-22 16:39:09,654 [INFO] automationLogger: pages.py - Getting list of workspaces
+2024-03-22 16:39:10,017 [INFO] automationLogger: pages.py - Workspaces assigned to TEZ Home are: ['8th Street Development', 'A Test Customer 1', 'ABM Houston', 'Ace Parking', 'Affiliated Parking Systems', 'Appleton International Airport-ATW', 'Ashland Hospital Corporation', 'Asta Parking', 'Beach Club Master Association', 'Berkshire Investments', 'BrightBase', 'Charleston County Aviation Authority', 'Colonial Parking', 'Corinthian International', 'Cornerstone Parking', 'Eli Valet', 'Fontainebleau Las Vegas', 'Harbor Parking', 'Intracoastal Parking LLC', 'Jacobsen/Daniels Associates, LLC', 'LAZ Parking', 'LAZ Parking Mid-Atlantic LLC', 'Lovegreen Parking', 'Luxe Parking Management', 'Metropolis', 'Metropolitan Healthcare Services', 'Miami Design District', 'Miami Parking', 'National Parking (GA)', 'Nevada Premier Valet', 'North American Properties', 'Ocean Horizon Properties LC', 'One Fifty One At Biscayne Condominium Association Inc', 'Park Rite', 'Parking Concepts Inc', 'Parking Systems of America', 'Pivot Parking', 'Pristine Auto Spa and Valet', 'Propark Mobility', 'Propark Sovereign Services LLC', 'Refined Parking Solutions LLC', 'Republic Parking Systems', 'Royal Parking', 'Royal Parking LLC dbc GOPARK', 'SP+ Corporation', 'SafetyPark Corporation', 'Savannah Hilton Head International Airport', 'Seastreak LLC', 'South Coast Plaza', 'TEZ LENZ Demo', 'The Crescent', 'US Parking Inc', 'UT Southwestern', 'Universal Parking and Transportation', 'Xclusive Auto Spa & Valet']
