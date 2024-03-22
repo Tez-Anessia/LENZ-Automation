@@ -5,14 +5,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-from src.locators import ws_locators as locator
+from src.locators.workspace.users_tab import UserElements, DialogElements
+from src.locators.workspace.ws_locators import WorkspaceProfile as profile
+
 from selenium.common.exceptions import StaleElementReferenceException
 
 import config.logger
 
 log = config.logger.setUp()
 
-class wsusers:
+class Users:
         
     def __init__(self, driver):
         self.driver = driver
@@ -20,57 +22,74 @@ class wsusers:
 
     def page_wait(self):
         try:
-            self.wait.until(EC.presence_of_element_located(locator.wsuserElements.user_Menu_btn))
+            self.wait.until(EC.presence_of_element_located(UserElements.user_menu_btn))
         except:
             log.error("no elements in table")
 
-    def directNav(self, url):
+    def nav(self, url):
         url = url + "?tab=Users"
         log.info(f"Navigating to {url}")
         self.driver.get(url)
         self.page_wait()  
 
     def click_user_tab(self):
-        self.driver.find_element(*locator.wsprofileElements.users_tab).click()
+        self.driver.find_element(*profile.users_tab).click()
         self.page_wait()
 
-    #This function is to search users using the search bar
+    # Function which sends the value of user to the search bar input
+    # If Else statement will check if the field is empty. If its not, then it will clear the input field then send the search params 
     def search(self, user):
         log.info(f"Searching for page: {user}")
-        search = self.wait.until(EC.presence_of_element_located(locator.wsuserElements.search_input))
+        search = self.wait.until(EC.presence_of_element_located(UserElements.search_input))
         if search.get_attribute("value") == "":
             search.send_keys(user)
         else:
             self.clear_search()
             search.send_keys(user)
 
+    # Function to clear the input from the search field
     def clear_search(self):
-        search = self.driver.find_element(*locator.wsuserElements.search_input) 
+        search = self.driver.find_element(*UserElements.search_input) 
         search.send_keys(Keys.CONTROL, "a")
         search.send_keys(Keys.DELETE)
         log.info("cleared search")
     
+    # Function to check if the value set to the user variable is in the visible table
+    # Created to work with other functions as a validation for the present element
+    # Returns True of False to allow the program to evaluate
     def find_in_table(self, user):
         self.page_wait()
+        isFound = True
         log.info(f"starting process to find {user} in table")
-        if self.driver.find_element(By.XPATH, f"{locator.wsuserElements.userName_XPATH}//a[normalize-space()='{user}']"):
+        if self.driver.find_element(By.XPATH, f"{UserElements.userName_XPATH}//a[normalize-space()='{user}']"):
             log.info(f"{user} found in table")
         else:
             log.error(f"{user} not found in table")
+            isFound = False
+        return isFound
 
     #-----------------Add Existing-----------------
     def click_add_user(self):
         log.info("clicking add user button")
-        self.driver.find_element(*locator.wsuserElements.add_user_btn).click()
+        self.driver.find_element(*UserElements.add_user_btn).click()
 
+# Currently this class functions contain interactions and actions for Add Existing option
+# This class can be expanded on, locators for the other elements are available in the locator file. 
+class Dialog:
+
+    def __init__(self, driver):
+        self.driver = driver
+        self.wait = WebDriverWait(self.driver, 30)
+        self.user = self.Users(self.driver)
+    
     #-----------------Dialog Box: Add User-----------------
-    #needs to have the dialog box present before using
+    # Needs to have the dialog box present before using
     def click_add_existing(self):
         self.wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='flex justify-between py-4 px-4']")))
         log.info("clicking add existing button")
-        button = self.wait.until(EC.presence_of_element_located(locator.wsuserDialog.add_existing_btn))
+        button = self.wait.until(EC.presence_of_element_located(DialogElements.add_existing_btn))
         button.click()
-        self.wait.until(EC.presence_of_element_located((locator.wsuserDialog.exsiting_user_whitespace)))
+        self.wait.until(EC.presence_of_element_located((DialogElements.exsiting_user_whitespace)))
 
     #-----------------Dialog Box: Add Exisiting-----------------
     def click_existing_search(self):
@@ -85,17 +104,17 @@ class wsusers:
             search.click()
             # Retry actions on the element
 
-    #click the whitespace in assign existing user dialog box
+    # Click the whitespace in assign existing user dialog box, used to get the dialog box out of view to perform other actions
     def click_existing_whitespace(self):
         log.info("Click whitespace")
-        self.driver.find_element(*locator.wsuserDialog.exsiting_user_whitespace).click()
+        self.driver.find_element(*DialogElements.exsiting_user_whitespace).click()
     
-    #click the submit button in assign existing user dialog box
+    # Clicks the submit button in assign existing user dialog box
     def click_existing_submit(self):
-        self.driver.find_element(*locator.wsuserDialog.submit_btn).click()
+        self.driver.find_element(*DialogElements.submit_btn).click()
 
     #-----------------Actions-----------------
-    #this function adds a single user to the workspace
+    # Function adds a single user to the workspace
     def assign_user(self, user):
         self.click_existing_search() #to bring the dialog box into view
         log.info(f"Searching for user: {user} in table ")
@@ -103,36 +122,36 @@ class wsusers:
         user_element.click()
         log.info(f"Added user {user}")
         
-        #click out of the dropdown so submit button is in view
+        # Click out of the dropdown so submit button is in view
         self.click_existing_whitespace()
-        #click submit
+        # Click submit
         self.click_existing_submit()
     
-        #wait for the table to populate with the new users
+        # Wait for the table to populate with the new users
         self.page_wait()
         
-        #validate that the users have been added
+        # Validate that the users have been added
         self.find_in_table(user)
         log.info(f"User: {user} found in table")
  
-    #this function accepts an array and iterates through users adding multiple at once then validates that the users were added to the workspace 
+    # Function which accepts an array and iterates through users adding multiple at once then validates that the users were added to the workspace 
     def assign_users(self, users):
         self.click_existing_search() #to bring the dialog box into view
         log.info(f"Searching for user: {user} in table ")
         
-        #iterate through the opened dropdown and find the array of users
+        # Iterate through the opened dropdown and find the array of users
         for user in users:
             user_element = self.wait.until(EC.presence_of_element_located((By.XPATH, f"//div[contains(@class,'flex relative items-center')]//div[.='{user}']")))
             user_element.click()
             log.info(f"Added user {user}")
         
-        #click out of the dropdown so submit button is in view
+        # Click out of the dropdown so submit button is in view
         self.click_existing_whitespace()
-        #click submit
+        # Click submit
         self.click_existing_submit()
-        #wait for the table to populate with the new users
+        # Wait for the table to populate with the new users
         self.page_wait()
-        #validate that the users have been added
+        # Validate that the users have been added
         log.info("Validating users have been added to workspace")
         for user in users:
             self.find_in_table(user)

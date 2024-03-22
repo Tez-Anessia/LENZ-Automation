@@ -2,8 +2,8 @@ import sys
 sys.path.append('.')
 import src.pages.login as loginPage
 import src.pages.workspaces as wsPage
-import src.pages.workspace.ws_pages as wsPages
-import src.pages.workspace.ws_users as wsUser
+import src.pages.workspace.pages_tab as wsPages
+import src.pages.workspace.Users as wsUser
 import src.pages.common as common
 import config.logger
 from selenium import webdriver
@@ -28,11 +28,11 @@ driver = webdriver.Chrome(options=options)
 driver.implicitly_wait(4)
 actions = ActionChains(driver)
 
-login = loginPage.login(driver)
+login = loginPage.Login(driver)
 ws_Main = wsPage.workspaces(driver)
 ws_Pages = wsPages.wspages(driver)
-ws_user = wsUser.wsusers(driver)
-nav = common.common(driver)
+ws_user = wsUser.Users(driver)
+nav = common.Common(driver)
 login.open_page("https://admin.tez.io/login")
 login.adminLogin(userName, passW)
 

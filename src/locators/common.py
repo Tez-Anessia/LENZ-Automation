@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 #this will contain elements that are shown in each page
-class commonElements: 
+class CommonElements: 
     #-----------------User Settings-----------------
     account_Menu = (By.XPATH, "//button[@id='headlessui-menu-button-1']")
     #Must click on account menu first before these are findable

@@ -9,12 +9,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-from src.locators import ws_locators as locator
+from src.locators.workspace.pages_tab import PagesElements
+from src.locators.workspace.ws_locators import WorkspaceProfile
 import config.logger
 
 log = config.logger.setUp()
 
-class wspages:
+class Pages:
     
     def __init__(self, driver):
         self.driver = driver
@@ -26,19 +27,16 @@ class wspages:
         except:
             log.error("no elements in table")
 
-    def directNav(self, url):
+    def nav(self, url):
         url = url + "?tab=Pages"
         log.info(f"Navigating to {url}")
         self.driver.get(url)
         self.page_wait()
 
-    def click_pages_tab(self):
-        self.driver.find_element(*locator.wsprofileElements.pages_tab).click()
-        self.page_wait()
-    #Function to search using the search bar
+    # Function to search using the search bar
     def search(self, pageName):
         log.info(f"Searching for page: {pageName}")
-        search = self.driver.find_element(*locator.wspagesElements.search_input)
+        search = self.driver.find_element(*PagesElements.search_input)
         if search.get_attribute("value") == "":
             search.send_keys(pageName)
         else:
@@ -46,13 +44,18 @@ class wspages:
             search.send_keys(pageName)
 
     def clear_search(self):
-        search = self.driver.find_element(*locator.wspagesElements.search_input)
+        search = self.driver.find_element(*PagesElements.search_input)
         search.send_keys(Keys.CONTROL, "a")
         search.send_keys(Keys.DELETE)
         log.info("cleared search input")
         self.page_wait()
 
-    #function to find the page in the visibile table, to search all use pagination to set to all or use the search function then find in table to find specific
+    def click_pages_tab(self):
+        self.driver.find_element(*WorkspaceProfile.pages_tab).click()
+        self.page_wait()
+    
+    # Function to find the page in the visibile table
+    # To search all use pagination to set to all or use the search function then find in table to find specific
     def find_in_table(self, pageName):
         self.page_wait()
         log.info(f"starting process to find {pageName} in table")
@@ -62,7 +65,7 @@ class wspages:
             log.error(f"{pageName} not found in table")
     
     #-----------------Actions-----------------   
-    #set pagination to all before using this, only reads the visible table goes through the table and puts all the pages in the workspace into an array then returns the array
+    # Set pagination to all before using this, only reads the visible table goes through the table and puts all the pages in the workspace into an array then returns the array
     def get_all_pages(self):
         try:
             self.page_wait()

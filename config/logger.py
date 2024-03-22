@@ -12,13 +12,13 @@ def setUp(logFile='automationReport.log'):
         fileHandler.setLevel(logging.DEBUG)
         
         # -------formatter-------
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(name)s: %(filename)s - %(message)s')
         fileHandler.setFormatter(formatter)
         
         # -------Add handler to logger-------
         logger.addHandler(fileHandler)
     
-    return logger
+    return logger        
 
 # -------summary for end report results-------
 def generateReport(logFile='automationReport.log'):
