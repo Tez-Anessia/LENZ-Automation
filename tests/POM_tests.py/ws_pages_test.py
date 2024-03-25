@@ -1,12 +1,12 @@
-import src.pages.login as loginPage
-import src.pages.common as common
-from src.pages.workspace.pages_tab import Pages
-import config.logger
+import pageobjects.pages.login as loginPage
+import pageobjects.pages.common as common
+from pageobjects.pages.workspace.pages_tab import Pages
+import commonUtils.logger as logger
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 import time
 
-log = config.logger.setUp()
+log = logger.setUp()
 
 #-----------------variables----------------
 userName = 'qa@email.com'

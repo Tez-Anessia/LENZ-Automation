@@ -1,13 +1,13 @@
 from typing import Self
-import src.pages.login as loginPage
-import src.pages.workspaces as workspace
-import src.pages.common as common
-import config.logger
+import pageobjects.pages.login as loginPage
+import pageobjects.pages.workspaces as workspace
+import pageobjects.pages.common as common
+import commonUtils.logger as logger
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 import time
 
-log = config.logger.setUp()
+log = logger.setUp()
 
 #-----------------variables----------------
 userName = 'qa@email.com'

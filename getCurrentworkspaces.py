@@ -4,7 +4,7 @@ the urls of any workspaces that have already been created in LENZ.
 This should help with not creating duplicates and helping the mass create script
 ensure its not overwriting any customer's data
 '''
-import config.logger as logger
+import commonUtils.logger as logger
 from login import adminLogin
 import commonUtils.getdata as data
 import workspace as ws

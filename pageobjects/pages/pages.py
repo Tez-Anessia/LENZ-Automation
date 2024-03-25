@@ -13,10 +13,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-from src.locators.pages import PagesElements, DialogElements
-import config.logger
+from pageobjects.locators.pages import PagesElements, DialogElements
+import commonUtils.logger as logger
 
-log = config.logger.setUp()
+log = logger.setUp()
 
 class Pages:
 

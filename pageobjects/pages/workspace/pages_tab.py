@@ -9,11 +9,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-from src.locators.workspace.pages_tab import PagesElements
-from src.locators.workspace.ws_locators import WorkspaceProfile
-import config.logger
+from pageobjects.locators.workspace.pages_tab import PagesElements
+from pageobjects.locators.workspace.ws_locators import WorkspaceProfile
+import commonUtils.logger as logger
 
-log = config.logger.setUp()
+log = logger.setUp()
 
 class Pages:
     

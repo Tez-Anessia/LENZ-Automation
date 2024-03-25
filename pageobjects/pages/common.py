@@ -3,10 +3,10 @@ sys.path.append('.')
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from src.locators.common import CommonElements as locator
-import config.logger
+from pageobjects.locators.common import CommonElements as locator
+import commonUtils.logger as logger
 
-log = config.logger.setUp()
+log = logger.setUp()
 
 class Common:
 

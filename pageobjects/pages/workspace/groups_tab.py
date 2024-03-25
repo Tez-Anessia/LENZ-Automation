@@ -7,11 +7,11 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
 from selenium.webdriver import ActionChains
-from src.locators.workspace.groups_tab import GroupsElements, DialogElements
-import config.logger
+from pageobjects.locators.workspace.groups_tab import GroupsElements, DialogElements
+import commonUtils.logger as logger
 import time
 
-log = config.logger.setUp()
+log = logger.setUp()
 
 class Groups:
 

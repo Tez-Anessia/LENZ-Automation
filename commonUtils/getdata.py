@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-import config.logger as logging
+import commonUtils.logger as logging
 
 #dynamic function to get the current path to use when getting the data for the data frame
 def getPath(folder, fileName): 

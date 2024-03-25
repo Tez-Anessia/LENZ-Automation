@@ -7,12 +7,12 @@ import sys
 sys.path.append('.')
 
 import time
-from src.locators.login import LoginElements
+from pageobjects.locators.login import LoginElements
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import config.logger
+import commonUtils.logger as logger
 
-log = config.logger.setUp()
+log = logger.setUp()
 
 class Login: 
 

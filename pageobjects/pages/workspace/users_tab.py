@@ -5,14 +5,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
-from src.locators.workspace.users_tab import UserElements, DialogElements
-from src.locators.workspace.ws_locators import WorkspaceProfile as profile
+from pageobjects.locators.workspace.users_tab import UserElements, DialogElements
+from pageobjects.locators.workspace.ws_locators import WorkspaceProfile as profile
 
 from selenium.common.exceptions import StaleElementReferenceException
 
-import config.logger
+import commonUtils.logger as logger
 
-log = config.logger.setUp()
+log = logger.setUp()
 
 class Users:
         

@@ -1,17 +1,17 @@
 import sys
 sys.path.append('.')
 
-import src.pages.login as loginPage
-import src.pages.common as common
-import src.pages.pages as pages
-import config.logger
+import pageobjects.pages.login as loginPage
+import pageobjects.pages.common as common
+import pageobjects.pages.pages as pages
+import commonUtils.logger as logger
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.common.exceptions import TimeoutException
 import time
 
 
-log = config.logger.setUp()
+log = logger.setUp()
 
 #-----------------variables----------------
 userName = 'qa@email.com'

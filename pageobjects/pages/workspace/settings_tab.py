@@ -8,12 +8,12 @@ sys.path.append('.')
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from src.locators.workspace.settings_tab import SettingsElements
-from src.locators.workspace.ws_locators import WorkspaceProfile
-import config.logger
+from pageobjects.locators.workspace.settings_tab import SettingsElements
+from pageobjects.locators.workspace.ws_locators import WorkspaceProfile
+import commonUtils.logger as logger
 import time
 
-log = config.logger.setUp()
+log = logger.setUp()
 
 class SettingsTab:
 

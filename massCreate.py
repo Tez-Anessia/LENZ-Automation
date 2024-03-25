@@ -1,4 +1,4 @@
-import config.logger as logger
+import commonUtils.logger as logger
 from login import defaultLogin
 import commonUtils.getdata as data
 import workspace as ws
