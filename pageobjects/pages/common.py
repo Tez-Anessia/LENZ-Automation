@@ -50,5 +50,6 @@ class Common:
             case _:
                 log.error("no element matched")
         
+        self.wait.until(EC.invisibility_of_element_located(locator.loading_element))
         log.info("pagination set for page")
         

@@ -18,3 +18,5 @@ class CommonElements:
     see75 = (By.XPATH, "//p[normalize-space()='75']")
     see100 = (By.XPATH, "//p[normalize-space()='100']")
     seeAll = (By.XPATH, "//p[normalize-space()='All']")
+    #this will appear, wait condition should be when this element disappears
+    loading_element = (By.XPATH, "//div[@class='absolute -bottom-3.5 -right-6 h-8 transition-all duration-500 ease-out opacity-100']")

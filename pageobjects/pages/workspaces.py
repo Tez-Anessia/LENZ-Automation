@@ -73,6 +73,19 @@ class Workspaces:
         else:
             log.error(f"{companyName} not found in table")
             url = "Not Found"
+    
+    def get_current_workspaces(self):
+        self.wait.until(EC.presence_of_all_elements_located(workspace.nameColumn_elements))
+        elements = self.driver.find_elements(*workspace.nameColumn_elements)
+        count = len(elements)
+        log.info(f"There are {count} workspaces in Lenz")
+        log.info(f"Getting list of workspaces")
+        names=[]
+        for element in elements:
+            wsName = element.text
+            names.append(wsName)
+        
+        return names
 
     #-----------------Create Workspace Specific-----------------
     def click_create_btn(self):

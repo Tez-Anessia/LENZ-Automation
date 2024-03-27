@@ -4,47 +4,51 @@ the urls of any workspaces that have already been created in LENZ.
 This should help with not creating duplicates and helping the mass create script
 ensure its not overwriting any customer's data
 '''
-import commonUtils.logger as logger
-from login import adminLogin
+from commonUtils import logger
+from pageobjects.pages import login
+from pageobjects.pages import workspaces
+from pageobjects.pages import common
 import commonUtils.getdata as data
-import workspace as ws
+
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 import pandas as pd
-
+import time
 #-----------------variables----------------
 userName = "qa@email.com"
 passW = "T3Z@dm!nP@$$24^"
-customerList = "customerList.csv"
+customerList = "workspaces.csv"
 
 #-----------------Set-Up-----------------
-driver = webdriver.Chrome()
-driver.implicitly_wait(0.50)
-driver.maximize_window()
+options = webdriver.ChromeOptions()
+options.page_load_strategy = 'normal'
+options.add_argument("--start-maximized")
+options.add_experimental_option("detach", True)
+driver = webdriver.Chrome(options=options)
+driver.implicitly_wait(4)
 actions = ActionChains(driver)
-log = logger.setUp()
 
+log = logger.setUp()
+log_in = login.Login(driver)
+ws = workspaces.Workspaces(driver)
+nav = common.Common(driver)
 #-----------------Data Gathering -----------------
-companydf = data.getdf(customerList)
+path = data.get_path("data", customerList)
 
 #-----------------start of script-----------------
-adminLogin(driver, userName, passW)
+log_in.adminLogin(userName, passW)
 
-#----Iterate through the CSV------
-for index, value in companydf.iterrows():
-    nameValue = value['Company']
+nav.set_pagination("All")
+time.sleep(2)
 
-    if pd.isna(value['URL']):
-        result = ws.validateWorkspaceURL(driver, nameValue)
-        if result == "not in workspace":
-            log.info(f"No URL found for {nameValue}")
-        else:
-            log.info(f"Found workspace for: {nameValue} under {result}")
-            companydf.loc[companydf['Company'] == nameValue, 'URL'] = str(result)
-            data.addURL(customerList, nameValue, result)
-    else:
-        print(f"Skipping validation for {nameValue} as URL is not empty")
+names = ws.get_current_workspaces()
+url=[]
+for name in names:
+    wsurl = ws.returnURL(name)
+    url.append(wsurl)
 
-log.info("Script complete, worksheet has been updated with any new URLs")
-driver.quit()
+df = pd.DataFrame({'Customer': names, 'SalesRep': " ", 'URL': url})
+df.to_csv(path, mode='a', index=False, header=False)
+
+# driver.quit()
 

@@ -30,10 +30,13 @@ class GroupsElements:
 
     #-----------------Group Elements-----------------
     # This portion only shows once expand button is clicked
+    group_expanded_XPATH = "//div[contains(@class,'relative max-h-[200000px] py-3 sm:py-4 px-3 sm:px-6 border-t border-slate-200')]"
     group_pages_components = (By.XPATH, "//div[contains(@class,'relative max-h-[200000px] py-3 sm:py-4 px-3 sm:px-6 border-t border-slate-200')]")
-    add_page_btn = (By.XPATH, "//div[2]/div[2]/div/div[2]/button/div")
+    add_page_btn = (By.XPATH, f"{group_expanded_XPATH}/descendant::button[contains(.,'Add page')]")
     # These show after pressing the add page button
-    page_dropdown = (By.XPATH, "//div[@class='flex pr-4 min-w-[200px]']")
+    # /descendant::select[contains(@name,'page_id')]
+    page_dropdown = (By.XPATH, f"{group_expanded_XPATH}/descendant::div[@class='flex pr-4 min-w-[200px]']")
+    last_page_dropdown = (By.XPATH, f"({group_expanded_XPATH}//select[@name='page_id'])[last()]")
     page_options_XPATH = "//option[. = '{pageName}']"
     # These buttons have a disabled status
     update_group_btn = (By.XPATH, "//button[contains(@class, 'sm:w-auto') and contains(., 'Update')]")

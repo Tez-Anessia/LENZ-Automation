@@ -18,7 +18,8 @@ class Groups:
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 30)
-    
+
+    # -----------General-----------
     # Direct navigation if base url is known
     def nav(self, url):
         url = url + "?tab=Groups"
@@ -26,44 +27,46 @@ class Groups:
         self.driver.get(url)
         self.wait.until(EC.presence_of_element_located((GroupsElements.add_new_btn)))
 
+    #this add group will bring up the dialog box 
     def click_add_group(self):
         self.driver.find_element(*GroupsElements.add_new_btn).click()
         log.info("clicking add group button")
+
+    # Expands a specified group to see more details
+    def click_expand_group(self, groupName):
+        group_options_XPATH = "/ancestor::div[contains(@class, 'relative bg-white')]/descendant::"
+        expand_XPATH = "button[contains(@class,'!shadow-non')]"
+        expand = self.driver.find_element(By.XPATH, f"//input[@value='{groupName}']{group_options_XPATH}{expand_XPATH}")
+        expand.click()
     
-        # Should be called to validate the new group and the pages have been made    
+    # This clicks the add page button within the expanded group
+    def click_add_page(self):
+        add_pg = self.wait.until(EC.visibility_of_element_located(GroupsElements.add_page_btn))
+        add_pg.click()
     
-    def validate_group(self, groupName):
-        log.info(f"Validating group: {groupName} has been created")
-        self.find_group(groupName)
-        self.expand_group(groupName)
-        self.count_pages(groupName)
-        listed_pages = self.find_pages(groupName)
-        return listed_pages  
-    
-    # Group Actions in tab
+    # -----------Validations-----------
+    # Function looks for a specific group name within the groups tab
+    # Returns a True or False 
     def find_group(self, groupName):
         log.info(f"searching for {groupName} on page")
         # WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.XPATH, "div[contains(@class, 'relative bg-white')]")))
         if self.driver.find_element(By.XPATH, f"//input[@value='{groupName}']"):
             log.info(f"Group: {groupName} Created")
+            return True
         else:
             log.info(f"Group: {groupName} not found")
-    
-    # Expands a specified group to see more details
-    def expand_group(self, groupName):
-        group_options_XPATH = "/ancestor::div[contains(@class, 'relative bg-white')]/descendant::"
-        expand_XPATH = "button[contains(@class,'!shadow-non')]"
-        expand = self.driver.find_element(By.XPATH, f"//input[@value='{groupName}']{group_options_XPATH}{expand_XPATH}")
-        expand.click()
+            return False
 
-    # Function will count all the pages found in the group package
+    # Function will count all the pages found in the group package. groupName should be exact and is case sensitive
+    # Returns the total count of the pages in the specified group
     def count_pages(self, groupName):
         elements = self.driver.find_elements(By.XPATH, f"//input[contains(@value,'{groupName}')]/ancestor::div[contains(@class, 'relative bg-white')]/descendant::form")
         total = len(elements)
         log.info(f"{groupName} current has {total} pages assigned")
         return total
     
-    # Function will iterate through the select elements related to the searched group and return an array of the selected options 
+    # Function will iterate through the pages within the groupName passed through the args. groupName should be exact and is case sensitive
+    # Returns an array of the pages assigned to the group. 
     def find_pages(self, groupName):
         log.info(f"Retrieving pages in {groupName}")
         select_elements = self.driver.find_elements(By.XPATH, f"//input[contains(@value,'{groupName}')]/ancestor::div[contains(@class, 'relative bg-white')]/descendant::select[@name='page_id']")
@@ -74,6 +77,37 @@ class Groups:
             log.info(f"Page {selected_option.text} found")
             listed_pages.append(selected_option.text)
         return listed_pages
+
+    # Function validates the contents of the newly created group. Expectation is the group exists
+    # This will return a list of the pages that is currently assigned to the group
+    def validate_group(self, groupName):
+        log.info(f"Validating group: {groupName} has been created")
+        self.click_expand_group(groupName)
+        actual_count = self.count_pages(groupName)
+        log.info(f"{groupName}: has {actual_count} pages assigned")
+        listed_pages = self.find_pages(groupName)
+        log.info(f"{groupName} contains pages: {listed_pages}")
+        return listed_pages
+    
+    # -----------Actions-----------
+    # This function adds a page to a specified group. The function assumes the group does exist
+    def add_group_page(self, groupName, pageName):
+        log.info(f"Adding page {pageName} to group: {groupName}")
+        # expand the specified group
+        self.click_expand_group(groupName)
+        # click add page
+        self.click_add_page()
+        # add new page
+        new_page = self.wait.until(EC.presence_of_element_located(GroupsElements.last_page_dropdown))
+        ac = ActionChains(self.driver)
+        ac.move_to_element(new_page)
+        ac.click()
+        ac.perform()
+        log.info("element clickable")
+        #time.sleep(5)
+        select = Select(new_page)
+        select.select_by_visible_text(pageName)
+        log.info(f"page has been set to {pageName}")
 
 class Dialog:
 
@@ -92,10 +126,11 @@ class Dialog:
         name_input.send_keys(groupName)
         log.info(f"group name input sent as {groupName}")
 
-# Dialog: Add users section
+    # -----------Dialog: Add users section-----------
     # User should use either a full name or an email address for exact results
     def click_user_search(self):
-        self.driver.find_element(*DialogElements.assign_users_search).click()
+        search = self.wait.until(EC.element_to_be_clickable(DialogElements.assign_users_search))
+        search.click()
         log.info("clicking user search bar")
         self.wait.until(EC.presence_of_element_located((DialogElements.assign_users_selections)))
     
@@ -121,7 +156,7 @@ class Dialog:
     # Clicks the element that contains the user name "selecting it" can also "deselect" this can be used to select directly instead of searching and validating
     def select_user(self, userName):
         log.info("selecting user")
-        user = self.driver.find_element(By.XPATH, f"//div[contains(text(),'{userName}')]")
+        user = self.wait.until(EC.element_to_be_clickable((By.XPATH, f"//div[contains(text(),'{userName}')]")))
         user.click()
 
     # This determines if the user is even in the list
@@ -143,7 +178,7 @@ class Dialog:
             checked = False
         return checked
     
-# Dialog: Add Pages Section
+    # -----------Dialog: Add Pages Section -----------
     # Clicks the add page button, uncomment time.sleep if debugging
     def add_page_btn(self):
         log.info("Adding pages")
@@ -189,3 +224,32 @@ class Dialog:
         save.click()
         log.info("New Group Saved")
     
+    # This will create a new group from the dialog button. The arguments needed are groupName, users, pageNames
+    # groupName should be a string, users and pageNames should be arrays
+    def create_group(self, groupName, users, pageNames):
+        self.group.click_add_group()
+        self.set_group_name(groupName)
+
+        # Add users to the group
+        self.click_user_search()
+        # Loop clicking all users
+        for user in users:
+            self.search_user(user)
+            if self.isChecked(user) == False:
+                self.select_user(user)
+            else:
+                log.info(f"User {user} is already selected")
+        
+        # Adding pages
+        for i, pageName in enumerate(pageNames):
+            # using an index to differentiate the first page and the residual pages
+            if i == 0:
+                self.add_page_btn()
+                self.select_page(pageName)
+            else:
+                self.add_more_pages(pageName)
+        # Click the save button
+        self.click_save_btn()
+
+        
+

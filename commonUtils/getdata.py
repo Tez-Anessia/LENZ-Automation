@@ -1,34 +1,41 @@
 import pandas as pd
 import os
-import commonUtils.logger as logging
+from pathlib import Path
+# import logger 
 
-#dynamic function to get the current path to use when getting the data for the data frame
-def getPath(folder, fileName): 
-    currDir = os.getcwd()
-    filePath = os.path.join(currDir, folder, fileName)
+# log = logger.setUp()
+
+# Dynamic function to get the file path for the files in the data folder. The function goes back to the parent dir "LENZ-Automation", then appends the file path to put folder and file name in the path
+# assumes file structure where commonUtils and data folders are in the same level
+def get_path(folder, fileName):
+    #path gets out of commonUtils and gets us in the main folder
+    parentDir = Path(__file__).parents[1]
+    #combine the parent path and enter in folder file. for img send "data/imgs"
+    filePath = os.path.join(parentDir, folder, fileName)
     return filePath
 
-#general function to get a dataframe for any file and specific column
-#file must be put in the data folder of the workspace
-def getdf(fileName):
-    df = pd.read_csv(getPath('data', fileName))
+# General function to get a dataframe for any file and specific column
+# File must be put in the data folder of the workspace
+def get_df(fileName):
+    filePath = get_path("data", fileName)
+    df = pd.read_csv(filePath)
     return df
 
-#----getting data from a specific column instead of a dataframe option------
-def getColumnData(fileName, columnName):
-    df = pd.read_csv(getPath('data', fileName))
+# Getting data from a specific column instead of a dataframe option
+def get_column_data(fileName, columnName):
+    df = pd.read_csv(get_path('data', fileName))
     columnData = df[columnName].tolist()
     return columnData
 
-#-----append the csv to add the workspace direct URL for a list of all of them-------
-def addURL(fileName, companyName, url):
-    filePath = getPath('data', fileName)
+# Append the csv to add the workspace direct URL for a list of all of them
+# The CSV should have the headers [Company, SalesRep, URL]
+def add_URL(fileName, companyName, url):
+    filePath = get_path('data', fileName)
     df = pd.read_csv(filePath)
     df.loc[df['Company'] == companyName, 'URL'] = url
     df.to_csv(filePath, index=False)  
-    logging.info(f"Url: {url} added to Customer: {companyName}")
+   # log.info(f"Url: {url} added to Customer: {companyName}")
 
-#Test usage iteration:
-#df = getdf('customerList.csv')
-#for index, value in df.iterrows():
-  #  print(value['Company']) 
+# Function that reads a csv, searches the column company for companyName then returns the value in the column URL that is in the same row
+def get_url(fileName, companyName):
+    pass

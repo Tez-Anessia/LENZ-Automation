@@ -37,6 +37,7 @@ class Login:
         login_btn.click()
 
     def admin_validate(self):
+        log.info("Validating login success")
         currentURL = self.driver.current_url
         if currentURL == "https://admin.tez.io/workspaces":
             log.info("login successful")
@@ -44,13 +45,12 @@ class Login:
             log.info("unable to login")
 
     def adminLogin(self, userName, passWord):
-        log.info("Starting login process")
-        self.driver.find_element(*LoginElements.username_input).send_keys(userName)
-        log.info(f"username set as {userName}")
+        log.info("Logging in to Lenz Admin")
+        self.open_page("https://admin.tez.io/login")
+        username = self.wait.until(EC.visibility_of_element_located(LoginElements.username_input))
+        username.send_keys(userName)
         self.driver.find_element(*LoginElements.password_input).send_keys(passWord)
-        log.info(f"pass set as {passWord}")
         self.driver.find_element(*LoginElements.login_btn).click()
         time.sleep(2)
-        log.info("Validating login success")
         self.admin_validate()
     

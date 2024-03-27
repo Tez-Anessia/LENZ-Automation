@@ -19,7 +19,7 @@ actions = ActionChains(driver)
 log = logger.setUp()
 
 #-----------------Data Gathering -----------------
-companyName = data.getdf(customerList)
+companyName = data.get_df(customerList)
 
 #-----------------start of script-----------------
 defaultLogin(driver)
@@ -36,7 +36,7 @@ for index, value in companyName.iterrows():
     url = ws.validateWorkspaceURL(driver, nameValue)
     
     #----update url in csv----
-    data.addURL(customerList, nameValue, url)
+    data.add_url(customerList, nameValue, url)
     
     #----add users----
     wsUsers.navUser(driver, url)

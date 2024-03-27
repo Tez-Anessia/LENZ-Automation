@@ -3,7 +3,7 @@ sys.path.append('.')
 
 import pageobjects.pages.login as loginPage
 import pageobjects.pages.common as common
-import pageobjects.pages.pages as pages
+from pageobjects.pages import pages
 import commonUtils.logger as logger
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -19,22 +19,43 @@ passW = "T3Z@dm!nP@$$24^"
 customerList = "testSheet.csv"
 customerName = "Asta Parking" #should be in table
 customerName2 = "AMS TEST2"
+pageName = "Total Revenue & TEZ Fee"
+
+workspace1 = "A Test Customer 1"
+workspace2 = "Benjamin Test"
+
+workspaces = [workspace1, workspace2]
 #-----------------Set-Up-----------------
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.page_load_strategy = 'normal'
+options.add_argument("--start-maximized")
+options.add_experimental_option("detach", True)
+driver = webdriver.Chrome(options=options)
 driver.implicitly_wait(4)
-driver.maximize_window()
 actions = ActionChains(driver)
 
 login = loginPage.Login(driver)
 nav = common.Common(driver)
 pg = pages.Pages(driver)
 pgdialog = pages.Dialog(driver)
-login.open_page("https://admin.tez.io/login")
+
+log.info("-------- Starting Pages Test ----------")
 login.adminLogin(userName, passW)
 
-pg.directNav_global()
+pg.nav_global()
+nav.set_pagination("All")
+pg.find_in_table(pageName)
+#pg.select_menu_option(pageName, "Edit")
+pgdialog.get_assigned(pageName)
+
+pgdialog.add_multiple_workspaces(workspaces)
+
+for workspace in workspaces:
+    pgdialog.isAssigned(workspace)
+# pgdialog.add_workspace(workspace1)
+# pgdialog.isAssigned(workspace1)
 #pages.search("LENZ Admin")
-pgdialog.get_assigned("TEZ Home")
+# pgdialog.get_assigned("TEZ Home")
 # pages.dialog_search(customerName)
 # pages.dialog_click_search()
 # pages.dialog_wait()

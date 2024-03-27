@@ -110,6 +110,18 @@ class Dialog:
     # Function to click the whitespace to get out of the dropdown
     def click_whitespace(self):
         self.driver.find_element(*DialogElements.dialog_whitespace).click()
+
+    # Clicks submit button
+    def click_submit(self):
+        submit_btn = self.driver.find_element(*DialogElements.submit_btn)
+        submit_btn.click()
+        self.wait.until(EC.invisibility_of_element_located(DialogElements.dialog_box))
+    
+    # Function clicks a specified workspace in the dropdown
+    # Expects the dropdown to be visible
+    def click_workspace(self, companyName):
+        workspace = self.driver.find_element(By.XPATH, f"//div[.='{companyName}']")
+        workspace.click()
     
     # Searches for a workspace, checks if there is anything in it and clears the input before sending another input
     def search(self, companyName):
@@ -147,13 +159,7 @@ class Dialog:
             log.info("user is checked")
         else:
             log.info("not checked")
-
-    # Clicks submit button
-    def click_submit(self):
-        submit_btn = self.driver.find_element(*DialogElements.submit_btn)
-        submit_btn.click()
-        self.wait.until(EC.invisibility_of_element_located(DialogElements.dialog_box))
-    
+ 
     # Function which validates the function exists in the assigned section of the dialog box, returns true or false to evaluate
     def isAssigned(self, companyName):
         if self.driver.find_element(By.XPATH, f"//p[contains(text(),'{companyName}')]"):
@@ -165,6 +171,7 @@ class Dialog:
     
     #-----------------Actions-----------------
     # Function which will iterate through all the currently assigned workspaces and return an array of the workspaces assigned
+    # Assumes the page is in view
     def get_assigned(self, pageName):
         self.pages.select_menu_option(pageName, "Edit")
         assigned=[] #array to hold the workspace names
@@ -178,24 +185,32 @@ class Dialog:
             assigned.append(workspace)
         
         log.info(f"Workspaces assigned to {pageName} are: {assigned}")
+        return assigned
 
     # This function will add a workspace to the page. This function should be called once the dialog has already been opened
     def add_workspace(self, companyName):
         #check for presence of dialog
-
-        #click search
-        #send workspace keys
+        search = self.wait.until(EC.visibility_of_element_located(DialogElements.search_input))
+        #click search to get the dropdown to populate
+        search.click()
         #validate the dropdown is present, else click the search bar
-        #find in dropdown
+        self.find_in_dropdown(companyName)
         #click dropdown element
-        #validate the page has been added 
-        pass
+        self.click_workspace(companyName)
+        self.click_whitespace()
 
     # Works the same as add_workspace except anticpates companyNames is an array it can iterate through
     def add_multiple_workspaces(self, companyNames):
-        pass
-    
-    # Function which will check to see if the workspace passed as companyName is present in the assigned section of the dialog box
-    # Will return True or false to evaluate how to proceed
-    def validate(self):
-        pass
+        #check for presence of dialog
+        search = self.wait.until(EC.visibility_of_element_located(DialogElements.search_input))
+        #click search to get the dropdown to populate
+        search.click()
+        for companyName in companyNames:
+            #validate the dropdown is present, else click the search bar
+            self.find_in_dropdown(companyName)
+            #click dropdown element
+            self.click_workspace(companyName)
+        
+        # Once the loop completes, click whitespace to get rid of the dropdown
+        self.click_whitespace()
+

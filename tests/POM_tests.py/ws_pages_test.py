@@ -15,10 +15,12 @@ customerList = "testSheet.csv"
 customerName = "Asta Parking" #should be in table
 customerName2 = "AMS TEST2"
 #-----------------Set-Up-----------------
-driver = webdriver.Chrome()
+options = webdriver.ChromeOptions()
+options.page_load_strategy = 'normal'
+options.add_argument("--start-maximized")
+options.add_experimental_option("detach", True)
+driver = webdriver.Chrome(options=options)
 driver.implicitly_wait(4)
-driver.maximize_window()
-actions = ActionChains(driver)
 
 login = loginPage.Login(driver)
 nav = common.Common(driver)

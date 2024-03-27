@@ -3,7 +3,7 @@ sys.path.append('.')
 
 import pageobjects.pages.login as loginPage
 import pageobjects.pages.common as common
-import pageobjects.pages.workspace.groups_tab as wsgroups
+from pageobjects.pages.workspace import groups_tab
 import commonUtils.logger as logger
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -14,14 +14,20 @@ log = logger.setUp()
 #-----------------variables----------------
 userName = 'qa@email.com'
 passW = "T3Z@dm!nP@$$24^"
-customerList = "testSheet.csv"
+
 customerName = "A Test Customer 1" #should be in table
 Url = "https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35"
 groupName = "Group class test"
+
 userName1 = "Anessia Mejia-Santillana"
 userName2 = "Craig McCrary"
-pageName = "Company Performance"
-pageName2 = "SMS Valet"
+
+userNames = [userName1, userName2]
+pageNames = ["Company Performance", "SMS Valet"]
+
+pageName1 = "SMS Valet"
+pageName2 = "Company Performance"
+
 
 options = webdriver.ChromeOptions()
 options.page_load_strategy = 'normal'
@@ -32,42 +38,44 @@ driver.implicitly_wait(4)
 
 actions = ActionChains(driver)
 
-groups = wsgroups.wsgroups(driver)
-group_dialog = wsgroups.Dialog(driver)
+groups = groups_tab.Groups(driver)
+group_dialog = groups_tab.Dialog(driver)
 
 login = loginPage.Login(driver)
 nav = common.Common(driver)
 log.info("------------Starting WS_groups test------------")
 
-login.open_page("https://admin.tez.io/login")
 login.adminLogin(userName, passW)
 time.sleep(3)
 
-groups.directNav(Url)
+groups.nav(Url)
 
-groups.click_add_group()
+# ----------ARRAY TEST ------------
+group_dialog.create_group(groupName, userNames, pageNames)
 
-#DIALOG
-group_dialog.set_group_name(groupName)
+# groups.click_add_group()
 
-group_dialog.search_user(userName1)
-group_dialog.find_in_list(userName1)
-if group_dialog.isChecked(userName1) == True:
-    log.info("User already selected")
-else:
-    group_dialog.select_user(userName1)
-group_dialog.clear_search()
-group_dialog.find_in_list(userName2)
-group_dialog.select_user(userName2)
+# #DIALOG
+# group_dialog.set_group_name(groupName)
 
-group_dialog.click_whitespace()
-group_dialog.add_page_btn()
+# group_dialog.search_user(userName1)
+# group_dialog.find_in_list(userName1)
+# if group_dialog.isChecked(userName1) == True:
+#     log.info("User already selected")
+# else:
+#     group_dialog.select_user(userName1)
+# group_dialog.clear_search()
+# group_dialog.find_in_list(userName2)
+# group_dialog.select_user(userName2)
 
-group_dialog.select_page(pageName)
-group_dialog.add_more_pages(pageName2)
-time.sleep(3)
-group_dialog.click_save_btn()
-time.sleep(3)
+# group_dialog.click_whitespace()
+# group_dialog.add_page_btn()
 
-pages = groups.validateNewGroup(groupName)
-print(pages)
+# group_dialog.select_page(pageName)
+# group_dialog.add_more_pages(pageName2)
+# time.sleep(3)
+# group_dialog.click_save_btn()
+# time.sleep(3)
+
+# pages = groups.validateNewGroup(groupName)
+# print(pages)

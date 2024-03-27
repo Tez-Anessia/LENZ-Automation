@@ -108,3 +108,656 @@
 2024-03-22 16:39:09,654 [INFO] automationLogger: pages.py - There are 55 workspaces assigned to TEZ Home
 2024-03-22 16:39:09,654 [INFO] automationLogger: pages.py - Getting list of workspaces
 2024-03-22 16:39:10,017 [INFO] automationLogger: pages.py - Workspaces assigned to TEZ Home are: ['8th Street Development', 'A Test Customer 1', 'ABM Houston', 'Ace Parking', 'Affiliated Parking Systems', 'Appleton International Airport-ATW', 'Ashland Hospital Corporation', 'Asta Parking', 'Beach Club Master Association', 'Berkshire Investments', 'BrightBase', 'Charleston County Aviation Authority', 'Colonial Parking', 'Corinthian International', 'Cornerstone Parking', 'Eli Valet', 'Fontainebleau Las Vegas', 'Harbor Parking', 'Intracoastal Parking LLC', 'Jacobsen/Daniels Associates, LLC', 'LAZ Parking', 'LAZ Parking Mid-Atlantic LLC', 'Lovegreen Parking', 'Luxe Parking Management', 'Metropolis', 'Metropolitan Healthcare Services', 'Miami Design District', 'Miami Parking', 'National Parking (GA)', 'Nevada Premier Valet', 'North American Properties', 'Ocean Horizon Properties LC', 'One Fifty One At Biscayne Condominium Association Inc', 'Park Rite', 'Parking Concepts Inc', 'Parking Systems of America', 'Pivot Parking', 'Pristine Auto Spa and Valet', 'Propark Mobility', 'Propark Sovereign Services LLC', 'Refined Parking Solutions LLC', 'Republic Parking Systems', 'Royal Parking', 'Royal Parking LLC dbc GOPARK', 'SP+ Corporation', 'SafetyPark Corporation', 'Savannah Hilton Head International Airport', 'Seastreak LLC', 'South Coast Plaza', 'TEZ LENZ Demo', 'The Crescent', 'US Parking Inc', 'UT Southwestern', 'Universal Parking and Transportation', 'Xclusive Auto Spa & Valet']
+2024-03-25 18:53:06,122 [INFO] automationLogger: login.py - Starting login process
+2024-03-25 18:54:19,319 [INFO] automationLogger: login.py - Starting login process
+2024-03-25 18:56:52,953 [INFO] automationLogger: login.py - Starting login process
+2024-03-25 18:56:53,491 [INFO] automationLogger: login.py - username set as qa@email.com
+2024-03-25 18:56:53,580 [INFO] automationLogger: login.py - pass set as T3Z@dm!nP@$$24^
+2024-03-25 18:56:55,631 [INFO] automationLogger: login.py - Validating login success
+2024-03-25 18:56:55,642 [INFO] automationLogger: login.py - login successful
+2024-03-26 16:57:36,338 [INFO] automationLogger: ws_groups_test.py - ------------Starting WS_groups test------------
+2024-03-26 16:57:36,338 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 16:57:40,226 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 16:57:40,230 [INFO] automationLogger: login.py - login successful
+2024-03-26 16:57:43,234 [INFO] automationLogger: groups_tab.py - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
+2024-03-26 16:57:44,486 [INFO] automationLogger: groups_tab.py - clicking add group button
+2024-03-26 16:57:44,598 [INFO] automationLogger: groups_tab.py - group name input sent as Group class test
+2024-03-26 16:57:44,650 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 16:57:50,151 [INFO] automationLogger: groups_tab.py - selecting user
+2024-03-26 17:03:03,454 [INFO] automationLogger: ws_groups_test.py - ------------Starting WS_groups test------------
+2024-03-26 17:03:03,455 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:03:07,935 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:03:07,943 [INFO] automationLogger: login.py - unable to login
+2024-03-26 17:03:10,944 [INFO] automationLogger: groups_tab.py - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
+2024-03-26 17:03:35,254 [INFO] automationLogger: ws_groups_test.py - ------------Starting WS_groups test------------
+2024-03-26 17:03:35,255 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:03:41,054 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:03:41,061 [INFO] automationLogger: login.py - login successful
+2024-03-26 17:03:44,061 [INFO] automationLogger: groups_tab.py - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
+2024-03-26 17:03:45,294 [INFO] automationLogger: groups_tab.py - clicking add group button
+2024-03-26 17:03:45,418 [INFO] automationLogger: groups_tab.py - group name input sent as Group class test
+2024-03-26 17:03:45,479 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 17:03:52,089 [INFO] automationLogger: groups_tab.py - looking for A in list
+2024-03-26 17:03:52,097 [INFO] automationLogger: groups_tab.py - A found in table
+2024-03-26 17:03:52,101 [INFO] automationLogger: groups_tab.py - selecting user
+2024-03-26 17:05:48,171 [INFO] automationLogger: ws_groups_test.py - ------------Starting WS_groups test------------
+2024-03-26 17:05:48,171 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:05:55,437 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:05:55,443 [INFO] automationLogger: login.py - login successful
+2024-03-26 17:05:58,445 [INFO] automationLogger: groups_tab.py - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
+2024-03-26 17:05:59,653 [INFO] automationLogger: groups_tab.py - clicking add group button
+2024-03-26 17:05:59,781 [INFO] automationLogger: groups_tab.py - group name input sent as Group class test
+2024-03-26 17:05:59,855 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 17:06:11,060 [INFO] automationLogger: groups_tab.py - looking for A in list
+2024-03-26 17:06:11,068 [INFO] automationLogger: groups_tab.py - A found in table
+2024-03-26 17:06:11,086 [INFO] automationLogger: groups_tab.py - selecting user
+2024-03-26 17:08:09,323 [INFO] automationLogger: ws_groups_test.py - ------------Starting WS_groups test------------
+2024-03-26 17:08:09,323 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:08:17,088 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:08:17,088 [INFO] automationLogger: login.py - login successful
+2024-03-26 17:08:20,094 [INFO] automationLogger: groups_tab.py - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
+2024-03-26 17:08:21,249 [INFO] automationLogger: groups_tab.py - clicking add group button
+2024-03-26 17:08:21,403 [INFO] automationLogger: groups_tab.py - group name input sent as Group class test
+2024-03-26 17:08:21,494 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 17:08:28,369 [INFO] automationLogger: groups_tab.py - looking for A in list
+2024-03-26 17:08:28,383 [INFO] automationLogger: groups_tab.py - A found in table
+2024-03-26 17:08:28,409 [INFO] automationLogger: groups_tab.py - selecting user
+2024-03-26 17:10:09,704 [INFO] automationLogger: ws_groups_test.py - ------------Starting WS_groups test------------
+2024-03-26 17:10:09,704 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:10:16,677 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:10:16,697 [INFO] automationLogger: login.py - login successful
+2024-03-26 17:10:19,701 [INFO] automationLogger: groups_tab.py - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
+2024-03-26 17:10:20,924 [INFO] automationLogger: groups_tab.py - clicking add group button
+2024-03-26 17:10:21,047 [INFO] automationLogger: groups_tab.py - group name input sent as Group class test
+2024-03-26 17:10:21,129 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 17:10:26,781 [INFO] automationLogger: groups_tab.py - looking for A in list
+2024-03-26 17:10:26,798 [INFO] automationLogger: groups_tab.py - A found in table
+2024-03-26 17:10:26,813 [INFO] automationLogger: groups_tab.py - selecting user
+2024-03-26 17:11:19,229 [INFO] automationLogger: ws_groups_test.py - ------------Starting WS_groups test------------
+2024-03-26 17:11:19,230 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:11:25,946 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:11:25,955 [INFO] automationLogger: login.py - login successful
+2024-03-26 17:11:28,956 [INFO] automationLogger: groups_tab.py - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
+2024-03-26 17:11:30,597 [INFO] automationLogger: groups_tab.py - clicking add group button
+2024-03-26 17:11:30,705 [INFO] automationLogger: groups_tab.py - group name input sent as Group class test
+2024-03-26 17:11:30,774 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 17:11:39,849 [INFO] automationLogger: groups_tab.py - starting search for Anessia Mejia-Santillana
+2024-03-26 17:11:39,933 [INFO] automationLogger: groups_tab.py - looking for Anessia Mejia-Santillana in list
+2024-03-26 17:11:39,948 [INFO] automationLogger: groups_tab.py - Anessia Mejia-Santillana found in table
+2024-03-26 17:11:39,965 [INFO] automationLogger: groups_tab.py - selecting user
+2024-03-26 17:11:40,128 [INFO] automationLogger: groups_tab.py - cleared search
+2024-03-26 17:11:40,128 [INFO] automationLogger: groups_tab.py - looking for Craig McCrary in list
+2024-03-26 17:11:40,128 [INFO] automationLogger: groups_tab.py - Craig McCrary found in table
+2024-03-26 17:11:40,128 [INFO] automationLogger: groups_tab.py - selecting user
+2024-03-26 17:11:40,254 [INFO] automationLogger: groups_tab.py - clicking whitespace in dialog
+2024-03-26 17:11:40,254 [INFO] automationLogger: groups_tab.py - Adding pages
+2024-03-26 17:11:40,311 [INFO] automationLogger: groups_tab.py - New Page created
+2024-03-26 17:14:23,735 [INFO] automationLogger: ws_groups_test.py - ------------Starting WS_groups test------------
+2024-03-26 17:14:23,735 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:14:28,066 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:14:28,066 [INFO] automationLogger: login.py - login successful
+2024-03-26 17:14:31,072 [INFO] automationLogger: groups_tab.py - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
+2024-03-26 17:14:32,700 [INFO] automationLogger: groups_tab.py - clicking add group button
+2024-03-26 17:14:32,829 [INFO] automationLogger: groups_tab.py - group name input sent as Group class test
+2024-03-26 17:14:32,916 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 17:14:41,980 [INFO] automationLogger: groups_tab.py - looking for Anessia Mejia-Santillana in list
+2024-03-26 17:14:41,996 [INFO] automationLogger: groups_tab.py - Anessia Mejia-Santillana found in table
+2024-03-26 17:14:42,104 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 17:14:42,114 [INFO] automationLogger: groups_tab.py - starting search for Anessia Mejia-Santillana
+2024-03-26 17:14:42,231 [INFO] automationLogger: groups_tab.py - selecting user
+2024-03-26 17:14:42,327 [INFO] automationLogger: groups_tab.py - looking for Craig McCrary in list
+2024-03-26 17:16:18,476 [INFO] automationLogger: ws_groups_test.py - ------------Starting WS_groups test------------
+2024-03-26 17:16:18,476 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:16:25,345 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:16:25,352 [INFO] automationLogger: login.py - login successful
+2024-03-26 17:16:28,353 [INFO] automationLogger: groups_tab.py - Navigating to https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35?tab=Groups
+2024-03-26 17:16:30,000 [INFO] automationLogger: groups_tab.py - clicking add group button
+2024-03-26 17:16:30,108 [INFO] automationLogger: groups_tab.py - group name input sent as Group class test
+2024-03-26 17:16:30,187 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 17:16:38,864 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 17:16:38,872 [INFO] automationLogger: groups_tab.py - starting search for Anessia Mejia-Santillana
+2024-03-26 17:16:38,977 [INFO] automationLogger: groups_tab.py - selecting user
+2024-03-26 17:16:39,101 [INFO] automationLogger: groups_tab.py - clicking user search bar
+2024-03-26 17:16:39,108 [INFO] automationLogger: groups_tab.py - starting search for Craig McCrary
+2024-03-26 17:16:39,193 [INFO] automationLogger: groups_tab.py - cleared search
+2024-03-26 17:16:39,283 [INFO] automationLogger: groups_tab.py - selecting user
+2024-03-26 17:16:39,342 [INFO] automationLogger: groups_tab.py - Adding pages
+2024-03-26 17:16:39,402 [INFO] automationLogger: groups_tab.py - New Page created
+2024-03-26 17:16:39,412 [INFO] automationLogger: groups_tab.py - Selecting page: Company Performance
+2024-03-26 17:16:39,739 [INFO] automationLogger: groups_tab.py - element clickable
+2024-03-26 17:16:39,804 [INFO] automationLogger: groups_tab.py - page has been set to Company Performance
+2024-03-26 17:16:39,804 [INFO] automationLogger: groups_tab.py - Adding pages
+2024-03-26 17:16:39,888 [INFO] automationLogger: groups_tab.py - New Page created
+2024-03-26 17:16:40,264 [INFO] automationLogger: groups_tab.py - selected SMS Valet
+2024-03-26 17:16:40,272 [INFO] automationLogger: groups_tab.py - saving new group
+2024-03-26 17:16:40,317 [INFO] automationLogger: groups_tab.py - New Group Saved
+2024-03-26 17:30:54,467 [INFO] automationLogger: ws_groups_test.py - ------------Starting WS_groups test------------
+2024-03-26 17:30:54,469 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:41:52,523 [INFO] automationLogger: pages_test.py - -------- Starting Pages Test ----------
+2024-03-26 17:41:52,523 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:41:56,694 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:41:56,694 [INFO] automationLogger: login.py - login successful
+2024-03-26 17:41:56,821 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 17:41:58,681 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 17:41:59,485 [INFO] automationLogger: pages.py - Page: Total Revenue & TEZ Fee can be found in the table
+2024-03-26 17:42:00,206 [INFO] automationLogger: pages.py - Selected option Edit
+2024-03-26 17:42:00,240 [INFO] automationLogger: pages.py - There are 2 workspaces assigned to Total Revenue & TEZ Fee
+2024-03-26 17:42:00,241 [INFO] automationLogger: pages.py - Getting list of workspaces
+2024-03-26 17:42:00,264 [INFO] automationLogger: pages.py - Workspaces assigned to Total Revenue & TEZ Fee are: ['Fontainebleau Las Vegas', 'Savannah Hilton Head International Airport']
+2024-03-26 17:42:00,348 [INFO] automationLogger: pages.py - Element found
+2024-03-26 17:42:00,357 [INFO] automationLogger: pages.py - Workspace A Test Customer 1 is found in the dropdown
+2024-03-26 17:42:00,461 [INFO] automationLogger: pages.py - Workspace: A Test Customer 1 assigned to Page
+2024-03-26 17:44:58,282 [INFO] automationLogger: pages_test.py - -------- Starting Pages Test ----------
+2024-03-26 17:44:58,282 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:45:02,445 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:45:02,451 [INFO] automationLogger: login.py - login successful
+2024-03-26 17:45:02,606 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 17:45:04,823 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 17:45:06,417 [INFO] automationLogger: pages.py - Page: Total Revenue & TEZ Fee can be found in the table
+2024-03-26 17:45:07,178 [INFO] automationLogger: pages.py - Selected option Edit
+2024-03-26 17:45:07,226 [INFO] automationLogger: pages.py - There are 2 workspaces assigned to Total Revenue & TEZ Fee
+2024-03-26 17:45:07,227 [INFO] automationLogger: pages.py - Getting list of workspaces
+2024-03-26 17:45:07,251 [INFO] automationLogger: pages.py - Workspaces assigned to Total Revenue & TEZ Fee are: ['Fontainebleau Las Vegas', 'Savannah Hilton Head International Airport']
+2024-03-26 17:45:07,367 [INFO] automationLogger: pages.py - Element found
+2024-03-26 17:45:07,403 [INFO] automationLogger: pages.py - Workspace A Test Customer 1 is found in the dropdown
+2024-03-26 17:45:07,530 [INFO] automationLogger: pages.py - Element found
+2024-03-26 17:45:07,541 [INFO] automationLogger: pages.py - Workspace Benjamin Test is found in the dropdown
+2024-03-26 17:45:07,653 [INFO] automationLogger: pages.py - Workspace: A Test Customer 1 assigned to Page
+2024-03-26 17:45:07,662 [INFO] automationLogger: pages.py - Workspace: Benjamin Test assigned to Page
+2024-03-26 17:45:58,774 [INFO] automationLogger: pages_test.py - -------- Starting Pages Test ----------
+2024-03-26 17:45:58,774 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 17:46:02,585 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 17:46:02,597 [INFO] automationLogger: login.py - login successful
+2024-03-26 17:46:02,704 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 17:46:04,714 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 17:46:05,738 [INFO] automationLogger: pages.py - Page: Total Revenue & TEZ Fee can be found in the table
+2024-03-26 17:46:06,473 [INFO] automationLogger: pages.py - Selected option Edit
+2024-03-26 17:46:07,060 [INFO] automationLogger: pages.py - There are 2 workspaces assigned to Total Revenue & TEZ Fee
+2024-03-26 17:46:07,061 [INFO] automationLogger: pages.py - Getting list of workspaces
+2024-03-26 17:46:07,084 [INFO] automationLogger: pages.py - Workspaces assigned to Total Revenue & TEZ Fee are: ['Fontainebleau Las Vegas', 'Savannah Hilton Head International Airport']
+2024-03-26 17:46:07,163 [INFO] automationLogger: pages.py - Element found
+2024-03-26 17:46:07,182 [INFO] automationLogger: pages.py - Workspace A Test Customer 1 is found in the dropdown
+2024-03-26 17:46:07,258 [INFO] automationLogger: pages.py - Element found
+2024-03-26 17:46:07,268 [INFO] automationLogger: pages.py - Workspace Benjamin Test is found in the dropdown
+2024-03-26 17:46:07,369 [INFO] automationLogger: pages.py - Workspace: A Test Customer 1 assigned to Page
+2024-03-26 17:46:07,378 [INFO] automationLogger: pages.py - Workspace: Benjamin Test assigned to Page
+2024-03-26 18:13:10,006 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 18:13:14,134 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 18:13:14,143 [INFO] automationLogger: login.py - login successful
+2024-03-26 18:13:14,143 [INFO] automationLogger: getCurrentworkspaces.py - Script complete, worksheet has been updated with any new URLs
+2024-03-26 18:14:07,706 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 18:14:12,178 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 18:14:12,184 [INFO] automationLogger: login.py - login successful
+2024-03-26 18:14:12,184 [INFO] automationLogger: getCurrentworkspaces.py - Script complete, worksheet has been updated with any new URLs
+2024-03-26 18:24:33,695 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 18:24:40,380 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 18:24:40,385 [INFO] automationLogger: login.py - login successful
+2024-03-26 18:24:40,386 [INFO] automationLogger: getCurrentworkspaces.py - Script complete, worksheet has been updated with any new URLs
+2024-03-26 18:25:35,209 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 18:25:42,547 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 18:25:42,554 [INFO] automationLogger: login.py - login successful
+2024-03-26 18:25:42,554 [INFO] automationLogger: getCurrentworkspaces.py - Script complete, worksheet has been updated with any new URLs
+2024-03-26 18:26:09,453 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 18:26:16,786 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 18:26:16,790 [INFO] automationLogger: login.py - login successful
+2024-03-26 18:26:16,790 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 18:26:18,102 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 18:26:18,118 [INFO] automationLogger: workspaces.py - There are 20 workspaces in Lenz
+2024-03-26 18:26:18,118 [INFO] automationLogger: workspaces.py - Getting list of workspaces
+2024-03-26 18:27:01,343 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 18:27:05,100 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 18:27:05,100 [INFO] automationLogger: login.py - login successful
+2024-03-26 18:27:05,100 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 18:27:06,105 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 18:27:06,130 [INFO] automationLogger: workspaces.py - There are 20 workspaces in Lenz
+2024-03-26 18:27:06,131 [INFO] automationLogger: workspaces.py - Getting list of workspaces
+2024-03-26 18:27:31,589 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 18:27:35,511 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 18:27:35,532 [INFO] automationLogger: login.py - login successful
+2024-03-26 18:27:35,533 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 18:27:36,755 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 18:27:36,759 [INFO] automationLogger: workspaces.py - There are 20 workspaces in Lenz
+2024-03-26 18:27:36,759 [INFO] automationLogger: workspaces.py - Getting list of workspaces
+2024-03-26 18:37:52,657 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 18:37:56,594 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 18:37:56,606 [INFO] automationLogger: login.py - login successful
+2024-03-26 18:37:56,606 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 18:38:02,210 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 18:38:02,236 [INFO] automationLogger: workspaces.py - There are 59 workspaces in Lenz
+2024-03-26 18:38:02,236 [INFO] automationLogger: workspaces.py - Getting list of workspaces
+2024-03-26 18:44:40,966 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 18:44:47,710 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 18:44:47,722 [INFO] automationLogger: login.py - login successful
+2024-03-26 18:44:47,722 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 18:44:53,752 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 18:44:53,781 [INFO] automationLogger: workspaces.py - There are 59 workspaces in Lenz
+2024-03-26 18:44:53,782 [INFO] automationLogger: workspaces.py - Getting list of workspaces
+2024-03-26 18:44:54,372 [INFO] automationLogger: workspaces.py - found url for: 8th Street Development, https://admin.tez.io/workspaces/6545003ca42f83c8aeca4250
+2024-03-26 18:44:54,388 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: 8th Street Development
+2024-03-26 18:44:54,418 [INFO] automationLogger: workspaces.py - found url for: A Test Customer 1, https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35
+2024-03-26 18:44:54,427 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: A Test Customer 1
+2024-03-26 18:44:54,458 [INFO] automationLogger: workspaces.py - found url for: ABM Houston, https://admin.tez.io/workspaces/6554ed4a9668a19cf006658b
+2024-03-26 18:44:54,467 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: ABM Houston
+2024-03-26 18:44:54,501 [INFO] automationLogger: workspaces.py - found url for: Ace Parking, https://admin.tez.io/workspaces/65407e502b36370e82c2ce87
+2024-03-26 18:44:54,503 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Ace Parking
+2024-03-26 18:44:54,544 [INFO] automationLogger: workspaces.py - found url for: Affiliated Parking Systems, https://admin.tez.io/workspaces/65e1098358521dc38ffb23a2
+2024-03-26 18:44:54,553 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Affiliated Parking Systems
+2024-03-26 18:44:54,588 [INFO] automationLogger: workspaces.py - found url for: Appleton International Airport-ATW, https://admin.tez.io/workspaces/65e8ac2658521dc38ffd0508
+2024-03-26 18:44:54,598 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Appleton International Airport-ATW
+2024-03-26 18:44:54,633 [INFO] automationLogger: workspaces.py - found url for: Ashland Hospital Corporation, https://admin.tez.io/workspaces/65f8b02558521dc38f00574a
+2024-03-26 18:44:54,641 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Ashland Hospital Corporation
+2024-03-26 18:44:54,676 [INFO] automationLogger: workspaces.py - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-26 18:44:54,686 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Asta Parking
+2024-03-26 18:44:54,720 [INFO] automationLogger: workspaces.py - found url for: Beach Club Master Association, https://admin.tez.io/workspaces/65e7377158521dc38ffb9d49
+2024-03-26 18:44:54,738 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Beach Club Master Association
+2024-03-26 18:44:54,768 [INFO] automationLogger: workspaces.py - found url for: Benjamin Test, https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067
+2024-03-26 18:44:54,771 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Benjamin Test
+2024-03-26 18:44:54,811 [INFO] automationLogger: workspaces.py - found url for: Berkshire Investments, https://admin.tez.io/workspaces/653a73252b36370e82c27677
+2024-03-26 18:44:54,816 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Berkshire Investments
+2024-03-26 18:44:54,853 [INFO] automationLogger: workspaces.py - found url for: BrightBase, https://admin.tez.io/workspaces/651b027d75f88f9d7a69ccea
+2024-03-26 18:44:54,862 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: BrightBase
+2024-03-26 18:44:54,883 [INFO] automationLogger: workspaces.py - found url for: Charleston County Aviation Authority, https://admin.tez.io/workspaces/653a55302b36370e82c271fb
+2024-03-26 18:44:54,899 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Charleston County Aviation Authority
+2024-03-26 18:44:54,939 [INFO] automationLogger: workspaces.py - found url for: Colonial Parking, https://admin.tez.io/workspaces/653a73a02b36370e82c276fe
+2024-03-26 18:44:54,951 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Colonial Parking
+2024-03-26 18:44:54,983 [INFO] automationLogger: workspaces.py - found url for: Corinthian International, https://admin.tez.io/workspaces/65aada1858521dc38ff3b102
+2024-03-26 18:44:54,999 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Corinthian International
+2024-03-26 18:44:55,033 [INFO] automationLogger: workspaces.py - found url for: Cornerstone Parking, https://admin.tez.io/workspaces/65778c94bb207e6db2d985a4
+2024-03-26 18:44:55,050 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Cornerstone Parking
+2024-03-26 18:44:55,101 [INFO] automationLogger: workspaces.py - found url for: Eli Valet, https://admin.tez.io/workspaces/65c28a6b58521dc38ff4c01d
+2024-03-26 18:44:55,118 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Eli Valet
+2024-03-26 18:44:55,162 [INFO] automationLogger: workspaces.py - found url for: Fontainebleau Las Vegas, https://admin.tez.io/workspaces/657b65cb58521dc38ff26d46
+2024-03-26 18:44:55,168 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Fontainebleau Las Vegas
+2024-03-26 18:44:55,210 [INFO] automationLogger: workspaces.py - found url for: Harbor Parking, https://admin.tez.io/workspaces/65df9e7758521dc38ffa2174
+2024-03-26 18:44:55,222 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Harbor Parking
+2024-03-26 18:44:55,263 [INFO] automationLogger: workspaces.py - found url for: Intracoastal Parking LLC, https://admin.tez.io/workspaces/653fcbf22b36370e82c29464
+2024-03-26 18:44:55,266 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Intracoastal Parking LLC
+2024-03-26 18:44:55,316 [INFO] automationLogger: workspaces.py - found url for: Jacobsen/Daniels Associates, LLC, https://admin.tez.io/workspaces/654012222b36370e82c2afc3
+2024-03-26 18:44:55,327 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Jacobsen/Daniels Associates, LLC
+2024-03-26 18:44:55,368 [INFO] automationLogger: workspaces.py - found url for: LAZ Parking, https://admin.tez.io/workspaces/653a5aaf2b36370e82c275eb
+2024-03-26 18:44:55,377 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: LAZ Parking
+2024-03-26 18:44:55,415 [INFO] automationLogger: workspaces.py - found url for: LAZ Parking Mid-Atlantic LLC, https://admin.tez.io/workspaces/65f1c25258521dc38ffecee2
+2024-03-26 18:44:55,417 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: LAZ Parking Mid-Atlantic LLC
+2024-03-26 18:44:55,467 [INFO] automationLogger: workspaces.py - found url for: Lovegreen Parking, https://admin.tez.io/workspaces/650697b9859571513cdacdca
+2024-03-26 18:44:55,478 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Lovegreen Parking
+2024-03-26 18:44:55,517 [INFO] automationLogger: workspaces.py - found url for: Luxe Parking Management, https://admin.tez.io/workspaces/65e9dfbb58521dc38ffd8ad9
+2024-03-26 18:44:55,519 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Luxe Parking Management
+2024-03-26 18:44:55,563 [INFO] automationLogger: workspaces.py - found url for: Metropolis, https://admin.tez.io/workspaces/65de1d3058521dc38ff993e6
+2024-03-26 18:44:55,567 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Metropolis
+2024-03-26 18:44:55,607 [INFO] automationLogger: workspaces.py - found url for: Metropolitan Healthcare Services, https://admin.tez.io/workspaces/653fcd262b36370e82c2959e
+2024-03-26 18:44:55,617 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Metropolitan Healthcare Services
+2024-03-26 18:44:55,657 [INFO] automationLogger: workspaces.py - found url for: Miami Design District, https://admin.tez.io/workspaces/65d632e558521dc38ff7d86c
+2024-03-26 18:44:55,667 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Miami Design District
+2024-03-26 18:44:55,698 [INFO] automationLogger: workspaces.py - found url for: Miami Parking, https://admin.tez.io/workspaces/653a5a332b36370e82c27556
+2024-03-26 18:44:55,716 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Miami Parking
+2024-03-26 18:44:55,757 [INFO] automationLogger: workspaces.py - found url for: National Parking (GA), https://admin.tez.io/workspaces/653fccb72b36370e82c29511
+2024-03-26 18:44:55,767 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: National Parking (GA)
+2024-03-26 18:44:55,799 [INFO] automationLogger: workspaces.py - found url for: Nevada Premier Valet, https://admin.tez.io/workspaces/65e73e0b58521dc38ffc120e
+2024-03-26 18:44:55,816 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Nevada Premier Valet
+2024-03-26 18:44:55,852 [INFO] automationLogger: workspaces.py - found url for: North American Properties, https://admin.tez.io/workspaces/65b2a5ad58521dc38ff3f53c
+2024-03-26 18:44:55,875 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: North American Properties
+2024-03-26 18:44:55,917 [INFO] automationLogger: workspaces.py - found url for: Ocean Horizon Properties LC, https://admin.tez.io/workspaces/65dfa2b858521dc38ffa9548
+2024-03-26 18:44:55,917 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Ocean Horizon Properties LC
+2024-03-26 18:44:55,966 [INFO] automationLogger: workspaces.py - found url for: One Fifty One At Biscayne Condominium Association Inc, https://admin.tez.io/workspaces/6577a052bb207e6db2d9bc68
+2024-03-26 18:44:55,966 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: One Fifty One At Biscayne Condominium Association Inc
+2024-03-26 18:44:56,017 [INFO] automationLogger: workspaces.py - found url for: Park Rite, https://admin.tez.io/workspaces/653a57a02b36370e82c274cf
+2024-03-26 18:44:56,033 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Park Rite
+2024-03-26 18:44:56,072 [INFO] automationLogger: workspaces.py - found url for: Parking Concepts Inc, https://admin.tez.io/workspaces/64d033f7b340ab203dfa69ca
+2024-03-26 18:44:56,082 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Parking Concepts Inc
+2024-03-26 18:44:56,116 [INFO] automationLogger: workspaces.py - found url for: Parking Systems of America, https://admin.tez.io/workspaces/6541baa092d6bcfb69847972
+2024-03-26 18:44:56,133 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Parking Systems of America
+2024-03-26 18:44:56,184 [INFO] automationLogger: workspaces.py - found url for: Pivot Parking, https://admin.tez.io/workspaces/6541938e92d6bcfb69845bea
+2024-03-26 18:44:56,200 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Pivot Parking
+2024-03-26 18:44:56,250 [INFO] automationLogger: workspaces.py - found url for: Pristine Auto Spa and Valet, https://admin.tez.io/workspaces/65cd020158521dc38ff62730
+2024-03-26 18:44:56,270 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Pristine Auto Spa and Valet
+2024-03-26 18:44:56,318 [INFO] automationLogger: workspaces.py - found url for: Propark Mobility, https://admin.tez.io/workspaces/653952cf2b36370e82c26df7
+2024-03-26 18:44:56,318 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Propark Mobility
+2024-03-26 18:44:56,366 [INFO] automationLogger: workspaces.py - found url for: Propark Sovereign Services LLC, https://admin.tez.io/workspaces/65cf876958521dc38ff6ac27
+2024-03-26 18:44:56,386 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Propark Sovereign Services LLC
+2024-03-26 18:44:56,426 [INFO] automationLogger: workspaces.py - found url for: Refined Parking Solutions LLC, https://admin.tez.io/workspaces/653a56a22b36370e82c2741e
+2024-03-26 18:44:56,436 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Refined Parking Solutions LLC
+2024-03-26 18:44:56,467 [INFO] automationLogger: workspaces.py - found url for: Republic Parking Systems, https://admin.tez.io/workspaces/65d7ce0558521dc38ff8a19b
+2024-03-26 18:44:56,484 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Republic Parking Systems
+2024-03-26 18:44:56,521 [INFO] automationLogger: workspaces.py - found url for: Royal Parking, https://admin.tez.io/workspaces/65cfc1c058521dc38ff7041a
+2024-03-26 18:44:56,536 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Royal Parking
+2024-03-26 18:44:56,567 [INFO] automationLogger: workspaces.py - found url for: Royal Parking LLC dbc GOPARK, https://admin.tez.io/workspaces/653a53c22b36370e82c27043
+2024-03-26 18:44:56,583 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Royal Parking LLC dbc GOPARK
+2024-03-26 18:44:56,620 [INFO] automationLogger: workspaces.py - found url for: SP+ Corporation, https://admin.tez.io/workspaces/653a548a2b36370e82c2714e
+2024-03-26 18:44:56,631 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: SP+ Corporation
+2024-03-26 18:44:56,667 [INFO] automationLogger: workspaces.py - found url for: SafetyPark Corporation, https://admin.tez.io/workspaces/65cbc52158521dc38ff5a405
+2024-03-26 18:44:56,678 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: SafetyPark Corporation
+2024-03-26 18:44:56,715 [INFO] automationLogger: workspaces.py - found url for: Savannah Hilton Head International Airport, https://admin.tez.io/workspaces/656e365cbb207e6db2d93dcc
+2024-03-26 18:44:56,725 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Savannah Hilton Head International Airport
+2024-03-26 18:44:56,750 [INFO] automationLogger: workspaces.py - found url for: Seastreak LLC, https://admin.tez.io/workspaces/653a55aa2b36370e82c27285
+2024-03-26 18:44:56,774 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Seastreak LLC
+2024-03-26 18:44:56,816 [INFO] automationLogger: workspaces.py - found url for: South Coast Plaza, https://admin.tez.io/workspaces/65f318db58521dc38fff512f
+2024-03-26 18:44:56,827 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: South Coast Plaza
+2024-03-26 18:44:56,869 [INFO] automationLogger: workspaces.py - found url for: T2 Mobile Pay, https://admin.tez.io/workspaces/65c24ae558521dc38ff4b984
+2024-03-26 18:44:56,881 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: T2 Mobile Pay
+2024-03-26 18:44:56,923 [INFO] automationLogger: workspaces.py - found url for: TEZ Internal, https://admin.tez.io/workspaces/649f3af7b340ab203dfa3e7d
+2024-03-26 18:44:56,940 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: TEZ Internal
+2024-03-26 18:44:56,982 [INFO] automationLogger: workspaces.py - found url for: TEZ LENZ Demo, https://admin.tez.io/workspaces/649f389ab340ab203dfa3c67
+2024-03-26 18:44:56,982 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: TEZ LENZ Demo
+2024-03-26 18:44:57,033 [INFO] automationLogger: workspaces.py - found url for: The Crescent, https://admin.tez.io/workspaces/65dcd7b358521dc38ff9394a
+2024-03-26 18:44:57,043 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: The Crescent
+2024-03-26 18:44:57,067 [INFO] automationLogger: workspaces.py - found url for: US Parking Inc, https://admin.tez.io/workspaces/65d6611758521dc38ff82257
+2024-03-26 18:44:57,084 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: US Parking Inc
+2024-03-26 18:44:57,121 [INFO] automationLogger: workspaces.py - found url for: UT Southwestern, https://admin.tez.io/workspaces/65819a6a58521dc38ff2dae7
+2024-03-26 18:44:57,130 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: UT Southwestern
+2024-03-26 18:44:57,166 [INFO] automationLogger: workspaces.py - found url for: Universal Parking and Transportation, https://admin.tez.io/workspaces/6556649e9668a19cf00680fa
+2024-03-26 18:44:57,177 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Universal Parking and Transportation
+2024-03-26 18:44:57,203 [INFO] automationLogger: workspaces.py - found url for: White Lodging, https://admin.tez.io/workspaces/659838a958521dc38ff36dcc
+2024-03-26 18:44:57,218 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: White Lodging
+2024-03-26 18:44:57,260 [INFO] automationLogger: workspaces.py - found url for: Xclusive Auto Spa & Valet, https://admin.tez.io/workspaces/65f1951858521dc38ffe35c5
+2024-03-26 18:44:57,267 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Xclusive Auto Spa & Valet
+2024-03-26 18:48:51,904 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 18:48:58,683 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 18:48:58,689 [INFO] automationLogger: login.py - login successful
+2024-03-26 18:48:58,689 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 18:49:04,338 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 18:49:04,380 [INFO] automationLogger: workspaces.py - There are 59 workspaces in Lenz
+2024-03-26 18:49:04,380 [INFO] automationLogger: workspaces.py - Getting list of workspaces
+2024-03-26 18:49:05,086 [INFO] automationLogger: workspaces.py - found url for: 8th Street Development, https://admin.tez.io/workspaces/6545003ca42f83c8aeca4250
+2024-03-26 18:49:05,108 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: 8th Street Development
+2024-03-26 18:49:05,161 [INFO] automationLogger: workspaces.py - found url for: A Test Customer 1, https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35
+2024-03-26 18:49:05,172 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: A Test Customer 1
+2024-03-26 18:49:05,203 [INFO] automationLogger: workspaces.py - found url for: ABM Houston, https://admin.tez.io/workspaces/6554ed4a9668a19cf006658b
+2024-03-26 18:49:05,227 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: ABM Houston
+2024-03-26 18:49:05,274 [INFO] automationLogger: workspaces.py - found url for: Ace Parking, https://admin.tez.io/workspaces/65407e502b36370e82c2ce87
+2024-03-26 18:49:05,287 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Ace Parking
+2024-03-26 18:49:05,340 [INFO] automationLogger: workspaces.py - found url for: Affiliated Parking Systems, https://admin.tez.io/workspaces/65e1098358521dc38ffb23a2
+2024-03-26 18:49:05,349 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Affiliated Parking Systems
+2024-03-26 18:49:05,392 [INFO] automationLogger: workspaces.py - found url for: Appleton International Airport-ATW, https://admin.tez.io/workspaces/65e8ac2658521dc38ffd0508
+2024-03-26 18:49:05,401 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Appleton International Airport-ATW
+2024-03-26 18:49:05,444 [INFO] automationLogger: workspaces.py - found url for: Ashland Hospital Corporation, https://admin.tez.io/workspaces/65f8b02558521dc38f00574a
+2024-03-26 18:49:05,454 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Ashland Hospital Corporation
+2024-03-26 18:49:05,486 [INFO] automationLogger: workspaces.py - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-26 18:49:05,508 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Asta Parking
+2024-03-26 18:49:05,556 [INFO] automationLogger: workspaces.py - found url for: Beach Club Master Association, https://admin.tez.io/workspaces/65e7377158521dc38ffb9d49
+2024-03-26 18:49:05,567 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Beach Club Master Association
+2024-03-26 18:49:05,601 [INFO] automationLogger: workspaces.py - found url for: Benjamin Test, https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067
+2024-03-26 18:49:05,601 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Benjamin Test
+2024-03-26 18:49:05,652 [INFO] automationLogger: workspaces.py - found url for: Berkshire Investments, https://admin.tez.io/workspaces/653a73252b36370e82c27677
+2024-03-26 18:49:05,662 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Berkshire Investments
+2024-03-26 18:49:05,703 [INFO] automationLogger: workspaces.py - found url for: BrightBase, https://admin.tez.io/workspaces/651b027d75f88f9d7a69ccea
+2024-03-26 18:49:05,715 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: BrightBase
+2024-03-26 18:49:05,754 [INFO] automationLogger: workspaces.py - found url for: Charleston County Aviation Authority, https://admin.tez.io/workspaces/653a55302b36370e82c271fb
+2024-03-26 18:49:05,754 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Charleston County Aviation Authority
+2024-03-26 18:49:05,803 [INFO] automationLogger: workspaces.py - found url for: Colonial Parking, https://admin.tez.io/workspaces/653a73a02b36370e82c276fe
+2024-03-26 18:49:05,819 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Colonial Parking
+2024-03-26 18:49:05,863 [INFO] automationLogger: workspaces.py - found url for: Corinthian International, https://admin.tez.io/workspaces/65aada1858521dc38ff3b102
+2024-03-26 18:49:05,873 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Corinthian International
+2024-03-26 18:49:05,914 [INFO] automationLogger: workspaces.py - found url for: Cornerstone Parking, https://admin.tez.io/workspaces/65778c94bb207e6db2d985a4
+2024-03-26 18:49:05,919 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Cornerstone Parking
+2024-03-26 18:49:05,962 [INFO] automationLogger: workspaces.py - found url for: Eli Valet, https://admin.tez.io/workspaces/65c28a6b58521dc38ff4c01d
+2024-03-26 18:49:05,970 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Eli Valet
+2024-03-26 18:49:06,003 [INFO] automationLogger: workspaces.py - found url for: Fontainebleau Las Vegas, https://admin.tez.io/workspaces/657b65cb58521dc38ff26d46
+2024-03-26 18:49:06,019 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Fontainebleau Las Vegas
+2024-03-26 18:49:06,072 [INFO] automationLogger: workspaces.py - found url for: Harbor Parking, https://admin.tez.io/workspaces/65df9e7758521dc38ffa2174
+2024-03-26 18:49:06,084 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Harbor Parking
+2024-03-26 18:49:06,120 [INFO] automationLogger: workspaces.py - found url for: Intracoastal Parking LLC, https://admin.tez.io/workspaces/653fcbf22b36370e82c29464
+2024-03-26 18:49:06,137 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Intracoastal Parking LLC
+2024-03-26 18:49:06,181 [INFO] automationLogger: workspaces.py - found url for: Jacobsen/Daniels Associates, LLC, https://admin.tez.io/workspaces/654012222b36370e82c2afc3
+2024-03-26 18:49:06,191 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Jacobsen/Daniels Associates, LLC
+2024-03-26 18:49:06,220 [INFO] automationLogger: workspaces.py - found url for: LAZ Parking, https://admin.tez.io/workspaces/653a5aaf2b36370e82c275eb
+2024-03-26 18:49:06,244 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: LAZ Parking
+2024-03-26 18:49:06,295 [INFO] automationLogger: workspaces.py - found url for: LAZ Parking Mid-Atlantic LLC, https://admin.tez.io/workspaces/65f1c25258521dc38ffecee2
+2024-03-26 18:49:06,307 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: LAZ Parking Mid-Atlantic LLC
+2024-03-26 18:49:06,358 [INFO] automationLogger: workspaces.py - found url for: Lovegreen Parking, https://admin.tez.io/workspaces/650697b9859571513cdacdca
+2024-03-26 18:49:06,368 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Lovegreen Parking
+2024-03-26 18:49:06,414 [INFO] automationLogger: workspaces.py - found url for: Luxe Parking Management, https://admin.tez.io/workspaces/65e9dfbb58521dc38ffd8ad9
+2024-03-26 18:49:06,419 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Luxe Parking Management
+2024-03-26 18:49:06,469 [INFO] automationLogger: workspaces.py - found url for: Metropolis, https://admin.tez.io/workspaces/65de1d3058521dc38ff993e6
+2024-03-26 18:49:06,474 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Metropolis
+2024-03-26 18:49:06,528 [INFO] automationLogger: workspaces.py - found url for: Metropolitan Healthcare Services, https://admin.tez.io/workspaces/653fcd262b36370e82c2959e
+2024-03-26 18:49:06,537 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Metropolitan Healthcare Services
+2024-03-26 18:49:06,578 [INFO] automationLogger: workspaces.py - found url for: Miami Design District, https://admin.tez.io/workspaces/65d632e558521dc38ff7d86c
+2024-03-26 18:49:06,587 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Miami Design District
+2024-03-26 18:49:06,620 [INFO] automationLogger: workspaces.py - found url for: Miami Parking, https://admin.tez.io/workspaces/653a5a332b36370e82c27556
+2024-03-26 18:49:06,641 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Miami Parking
+2024-03-26 18:49:06,674 [INFO] automationLogger: workspaces.py - found url for: National Parking (GA), https://admin.tez.io/workspaces/653fccb72b36370e82c29511
+2024-03-26 18:49:06,693 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: National Parking (GA)
+2024-03-26 18:49:06,719 [INFO] automationLogger: workspaces.py - found url for: Nevada Premier Valet, https://admin.tez.io/workspaces/65e73e0b58521dc38ffc120e
+2024-03-26 18:49:06,742 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Nevada Premier Valet
+2024-03-26 18:49:06,786 [INFO] automationLogger: workspaces.py - found url for: North American Properties, https://admin.tez.io/workspaces/65b2a5ad58521dc38ff3f53c
+2024-03-26 18:49:06,803 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: North American Properties
+2024-03-26 18:49:06,847 [INFO] automationLogger: workspaces.py - found url for: Ocean Horizon Properties LC, https://admin.tez.io/workspaces/65dfa2b858521dc38ffa9548
+2024-03-26 18:49:06,857 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Ocean Horizon Properties LC
+2024-03-26 18:49:06,885 [INFO] automationLogger: workspaces.py - found url for: One Fifty One At Biscayne Condominium Association Inc, https://admin.tez.io/workspaces/6577a052bb207e6db2d9bc68
+2024-03-26 18:49:06,901 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: One Fifty One At Biscayne Condominium Association Inc
+2024-03-26 18:49:06,952 [INFO] automationLogger: workspaces.py - found url for: Park Rite, https://admin.tez.io/workspaces/653a57a02b36370e82c274cf
+2024-03-26 18:49:06,961 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Park Rite
+2024-03-26 18:49:06,986 [INFO] automationLogger: workspaces.py - found url for: Parking Concepts Inc, https://admin.tez.io/workspaces/64d033f7b340ab203dfa69ca
+2024-03-26 18:49:07,002 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Parking Concepts Inc
+2024-03-26 18:49:07,036 [INFO] automationLogger: workspaces.py - found url for: Parking Systems of America, https://admin.tez.io/workspaces/6541baa092d6bcfb69847972
+2024-03-26 18:49:07,053 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Parking Systems of America
+2024-03-26 18:49:07,102 [INFO] automationLogger: workspaces.py - found url for: Pivot Parking, https://admin.tez.io/workspaces/6541938e92d6bcfb69845bea
+2024-03-26 18:49:07,102 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Pivot Parking
+2024-03-26 18:49:07,161 [INFO] automationLogger: workspaces.py - found url for: Pristine Auto Spa and Valet, https://admin.tez.io/workspaces/65cd020158521dc38ff62730
+2024-03-26 18:49:07,171 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Pristine Auto Spa and Valet
+2024-03-26 18:49:07,214 [INFO] automationLogger: workspaces.py - found url for: Propark Mobility, https://admin.tez.io/workspaces/653952cf2b36370e82c26df7
+2024-03-26 18:49:07,224 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Propark Mobility
+2024-03-26 18:49:07,252 [INFO] automationLogger: workspaces.py - found url for: Propark Sovereign Services LLC, https://admin.tez.io/workspaces/65cf876958521dc38ff6ac27
+2024-03-26 18:49:07,274 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Propark Sovereign Services LLC
+2024-03-26 18:49:07,299 [INFO] automationLogger: workspaces.py - found url for: Refined Parking Solutions LLC, https://admin.tez.io/workspaces/653a56a22b36370e82c2741e
+2024-03-26 18:49:07,323 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Refined Parking Solutions LLC
+2024-03-26 18:49:07,371 [INFO] automationLogger: workspaces.py - found url for: Republic Parking Systems, https://admin.tez.io/workspaces/65d7ce0558521dc38ff8a19b
+2024-03-26 18:49:07,384 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Republic Parking Systems
+2024-03-26 18:49:07,427 [INFO] automationLogger: workspaces.py - found url for: Royal Parking, https://admin.tez.io/workspaces/65cfc1c058521dc38ff7041a
+2024-03-26 18:49:07,439 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Royal Parking
+2024-03-26 18:49:07,479 [INFO] automationLogger: workspaces.py - found url for: Royal Parking LLC dbc GOPARK, https://admin.tez.io/workspaces/653a53c22b36370e82c27043
+2024-03-26 18:49:07,490 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Royal Parking LLC dbc GOPARK
+2024-03-26 18:49:07,520 [INFO] automationLogger: workspaces.py - found url for: SP+ Corporation, https://admin.tez.io/workspaces/653a548a2b36370e82c2714e
+2024-03-26 18:49:07,541 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: SP+ Corporation
+2024-03-26 18:49:07,585 [INFO] automationLogger: workspaces.py - found url for: SafetyPark Corporation, https://admin.tez.io/workspaces/65cbc52158521dc38ff5a405
+2024-03-26 18:49:07,595 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: SafetyPark Corporation
+2024-03-26 18:49:07,640 [INFO] automationLogger: workspaces.py - found url for: Savannah Hilton Head International Airport, https://admin.tez.io/workspaces/656e365cbb207e6db2d93dcc
+2024-03-26 18:49:07,651 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Savannah Hilton Head International Airport
+2024-03-26 18:49:07,685 [INFO] automationLogger: workspaces.py - found url for: Seastreak LLC, https://admin.tez.io/workspaces/653a55aa2b36370e82c27285
+2024-03-26 18:49:07,703 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Seastreak LLC
+2024-03-26 18:49:07,745 [INFO] automationLogger: workspaces.py - found url for: South Coast Plaza, https://admin.tez.io/workspaces/65f318db58521dc38fff512f
+2024-03-26 18:49:07,755 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: South Coast Plaza
+2024-03-26 18:49:07,785 [INFO] automationLogger: workspaces.py - found url for: T2 Mobile Pay, https://admin.tez.io/workspaces/65c24ae558521dc38ff4b984
+2024-03-26 18:49:07,801 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: T2 Mobile Pay
+2024-03-26 18:49:07,848 [INFO] automationLogger: workspaces.py - found url for: TEZ Internal, https://admin.tez.io/workspaces/649f3af7b340ab203dfa3e7d
+2024-03-26 18:49:07,857 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: TEZ Internal
+2024-03-26 18:49:07,887 [INFO] automationLogger: workspaces.py - found url for: TEZ LENZ Demo, https://admin.tez.io/workspaces/649f389ab340ab203dfa3c67
+2024-03-26 18:49:07,903 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: TEZ LENZ Demo
+2024-03-26 18:49:07,945 [INFO] automationLogger: workspaces.py - found url for: The Crescent, https://admin.tez.io/workspaces/65dcd7b358521dc38ff9394a
+2024-03-26 18:49:07,955 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: The Crescent
+2024-03-26 18:49:07,997 [INFO] automationLogger: workspaces.py - found url for: US Parking Inc, https://admin.tez.io/workspaces/65d6611758521dc38ff82257
+2024-03-26 18:49:08,007 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: US Parking Inc
+2024-03-26 18:49:08,049 [INFO] automationLogger: workspaces.py - found url for: UT Southwestern, https://admin.tez.io/workspaces/65819a6a58521dc38ff2dae7
+2024-03-26 18:49:08,059 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: UT Southwestern
+2024-03-26 18:49:08,086 [INFO] automationLogger: workspaces.py - found url for: Universal Parking and Transportation, https://admin.tez.io/workspaces/6556649e9668a19cf00680fa
+2024-03-26 18:49:08,108 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Universal Parking and Transportation
+2024-03-26 18:49:08,153 [INFO] automationLogger: workspaces.py - found url for: White Lodging, https://admin.tez.io/workspaces/659838a958521dc38ff36dcc
+2024-03-26 18:49:08,153 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: White Lodging
+2024-03-26 18:49:08,203 [INFO] automationLogger: workspaces.py - found url for: Xclusive Auto Spa & Valet, https://admin.tez.io/workspaces/65f1951858521dc38ffe35c5
+2024-03-26 18:49:08,220 [INFO] automationLogger: getCurrentworkspaces.py - Url: None added to Customer: Xclusive Auto Spa & Valet
+2024-03-26 19:12:04,633 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 19:12:11,496 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 19:12:11,501 [INFO] automationLogger: login.py - login successful
+2024-03-26 19:12:11,502 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 19:12:18,841 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 19:12:18,858 [INFO] automationLogger: workspaces.py - There are 20 workspaces in Lenz
+2024-03-26 19:12:18,858 [INFO] automationLogger: workspaces.py - Getting list of workspaces
+2024-03-26 19:12:19,331 [INFO] automationLogger: workspaces.py - found url for: A Test Customer 1, https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35
+2024-03-26 19:12:19,358 [INFO] automationLogger: workspaces.py - found url for: Affiliated Parking Systems, https://admin.tez.io/workspaces/65e1098358521dc38ffb23a2
+2024-03-26 19:12:19,391 [INFO] automationLogger: workspaces.py - found url for: Appleton International Airport-ATW, https://admin.tez.io/workspaces/65e8ac2658521dc38ffd0508
+2024-03-26 19:12:19,425 [INFO] automationLogger: workspaces.py - found url for: Ashland Hospital Corporation, https://admin.tez.io/workspaces/65f8b02558521dc38f00574a
+2024-03-26 19:12:19,463 [INFO] automationLogger: workspaces.py - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-26 19:12:19,491 [INFO] automationLogger: workspaces.py - found url for: Beach Club Master Association, https://admin.tez.io/workspaces/65e7377158521dc38ffb9d49
+2024-03-26 19:12:19,507 [INFO] automationLogger: workspaces.py - found url for: Benjamin Test, https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067
+2024-03-26 19:12:19,538 [INFO] automationLogger: workspaces.py - found url for: Harbor Parking, https://admin.tez.io/workspaces/65df9e7758521dc38ffa2174
+2024-03-26 19:12:19,582 [INFO] automationLogger: workspaces.py - found url for: LAZ Parking Mid-Atlantic LLC, https://admin.tez.io/workspaces/65f1c25258521dc38ffecee2
+2024-03-26 19:12:19,614 [INFO] automationLogger: workspaces.py - found url for: Luxe Parking Management, https://admin.tez.io/workspaces/65e9dfbb58521dc38ffd8ad9
+2024-03-26 19:12:19,656 [INFO] automationLogger: workspaces.py - found url for: Metropolis, https://admin.tez.io/workspaces/65de1d3058521dc38ff993e6
+2024-03-26 19:12:19,691 [INFO] automationLogger: workspaces.py - found url for: Miami Design District, https://admin.tez.io/workspaces/65d632e558521dc38ff7d86c
+2024-03-26 19:12:19,728 [INFO] automationLogger: workspaces.py - found url for: Nevada Premier Valet, https://admin.tez.io/workspaces/65e73e0b58521dc38ffc120e
+2024-03-26 19:12:19,758 [INFO] automationLogger: workspaces.py - found url for: Ocean Horizon Properties LC, https://admin.tez.io/workspaces/65dfa2b858521dc38ffa9548
+2024-03-26 19:12:19,789 [INFO] automationLogger: workspaces.py - found url for: Republic Parking Systems, https://admin.tez.io/workspaces/65d7ce0558521dc38ff8a19b
+2024-03-26 19:12:19,821 [INFO] automationLogger: workspaces.py - found url for: Royal Parking, https://admin.tez.io/workspaces/65cfc1c058521dc38ff7041a
+2024-03-26 19:12:19,851 [INFO] automationLogger: workspaces.py - found url for: South Coast Plaza, https://admin.tez.io/workspaces/65f318db58521dc38fff512f
+2024-03-26 19:12:19,874 [INFO] automationLogger: workspaces.py - found url for: The Crescent, https://admin.tez.io/workspaces/65dcd7b358521dc38ff9394a
+2024-03-26 19:12:19,921 [INFO] automationLogger: workspaces.py - found url for: US Parking Inc, https://admin.tez.io/workspaces/65d6611758521dc38ff82257
+2024-03-26 19:12:19,958 [INFO] automationLogger: workspaces.py - found url for: Xclusive Auto Spa & Valet, https://admin.tez.io/workspaces/65f1951858521dc38ffe35c5
+2024-03-26 19:14:30,424 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 19:14:36,004 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 19:14:36,004 [INFO] automationLogger: login.py - login successful
+2024-03-26 19:14:36,004 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 19:14:49,117 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 19:14:49,160 [INFO] automationLogger: workspaces.py - There are 59 workspaces in Lenz
+2024-03-26 19:14:49,160 [INFO] automationLogger: workspaces.py - Getting list of workspaces
+2024-03-26 19:14:49,920 [INFO] automationLogger: workspaces.py - found url for: 8th Street Development, https://admin.tez.io/workspaces/6545003ca42f83c8aeca4250
+2024-03-26 19:14:49,961 [INFO] automationLogger: workspaces.py - found url for: A Test Customer 1, https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35
+2024-03-26 19:14:49,994 [INFO] automationLogger: workspaces.py - found url for: ABM Houston, https://admin.tez.io/workspaces/6554ed4a9668a19cf006658b
+2024-03-26 19:14:50,017 [INFO] automationLogger: workspaces.py - found url for: Ace Parking, https://admin.tez.io/workspaces/65407e502b36370e82c2ce87
+2024-03-26 19:14:50,064 [INFO] automationLogger: workspaces.py - found url for: Affiliated Parking Systems, https://admin.tez.io/workspaces/65e1098358521dc38ffb23a2
+2024-03-26 19:14:50,087 [INFO] automationLogger: workspaces.py - found url for: Appleton International Airport-ATW, https://admin.tez.io/workspaces/65e8ac2658521dc38ffd0508
+2024-03-26 19:14:50,123 [INFO] automationLogger: workspaces.py - found url for: Ashland Hospital Corporation, https://admin.tez.io/workspaces/65f8b02558521dc38f00574a
+2024-03-26 19:14:50,157 [INFO] automationLogger: workspaces.py - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-26 19:14:50,182 [INFO] automationLogger: workspaces.py - found url for: Beach Club Master Association, https://admin.tez.io/workspaces/65e7377158521dc38ffb9d49
+2024-03-26 19:14:50,225 [INFO] automationLogger: workspaces.py - found url for: Benjamin Test, https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067
+2024-03-26 19:14:50,260 [INFO] automationLogger: workspaces.py - found url for: Berkshire Investments, https://admin.tez.io/workspaces/653a73252b36370e82c27677
+2024-03-26 19:14:50,284 [INFO] automationLogger: workspaces.py - found url for: BrightBase, https://admin.tez.io/workspaces/651b027d75f88f9d7a69ccea
+2024-03-26 19:14:50,322 [INFO] automationLogger: workspaces.py - found url for: Charleston County Aviation Authority, https://admin.tez.io/workspaces/653a55302b36370e82c271fb
+2024-03-26 19:14:50,353 [INFO] automationLogger: workspaces.py - found url for: Colonial Parking, https://admin.tez.io/workspaces/653a73a02b36370e82c276fe
+2024-03-26 19:14:50,387 [INFO] automationLogger: workspaces.py - found url for: Corinthian International, https://admin.tez.io/workspaces/65aada1858521dc38ff3b102
+2024-03-26 19:14:50,415 [INFO] automationLogger: workspaces.py - found url for: Cornerstone Parking, https://admin.tez.io/workspaces/65778c94bb207e6db2d985a4
+2024-03-26 19:14:50,444 [INFO] automationLogger: workspaces.py - found url for: Eli Valet, https://admin.tez.io/workspaces/65c28a6b58521dc38ff4c01d
+2024-03-26 19:14:50,473 [INFO] automationLogger: workspaces.py - found url for: Fontainebleau Las Vegas, https://admin.tez.io/workspaces/657b65cb58521dc38ff26d46
+2024-03-26 19:14:50,504 [INFO] automationLogger: workspaces.py - found url for: Harbor Parking, https://admin.tez.io/workspaces/65df9e7758521dc38ffa2174
+2024-03-26 19:14:50,537 [INFO] automationLogger: workspaces.py - found url for: Intracoastal Parking LLC, https://admin.tez.io/workspaces/653fcbf22b36370e82c29464
+2024-03-26 19:14:50,573 [INFO] automationLogger: workspaces.py - found url for: Jacobsen/Daniels Associates, LLC, https://admin.tez.io/workspaces/654012222b36370e82c2afc3
+2024-03-26 19:14:50,599 [INFO] automationLogger: workspaces.py - found url for: LAZ Parking, https://admin.tez.io/workspaces/653a5aaf2b36370e82c275eb
+2024-03-26 19:14:50,639 [INFO] automationLogger: workspaces.py - found url for: LAZ Parking Mid-Atlantic LLC, https://admin.tez.io/workspaces/65f1c25258521dc38ffecee2
+2024-03-26 19:14:50,674 [INFO] automationLogger: workspaces.py - found url for: Lovegreen Parking, https://admin.tez.io/workspaces/650697b9859571513cdacdca
+2024-03-26 19:14:50,697 [INFO] automationLogger: workspaces.py - found url for: Luxe Parking Management, https://admin.tez.io/workspaces/65e9dfbb58521dc38ffd8ad9
+2024-03-26 19:14:50,750 [INFO] automationLogger: workspaces.py - found url for: Metropolis, https://admin.tez.io/workspaces/65de1d3058521dc38ff993e6
+2024-03-26 19:14:50,791 [INFO] automationLogger: workspaces.py - found url for: Metropolitan Healthcare Services, https://admin.tez.io/workspaces/653fcd262b36370e82c2959e
+2024-03-26 19:14:50,818 [INFO] automationLogger: workspaces.py - found url for: Miami Design District, https://admin.tez.io/workspaces/65d632e558521dc38ff7d86c
+2024-03-26 19:14:50,853 [INFO] automationLogger: workspaces.py - found url for: Miami Parking, https://admin.tez.io/workspaces/653a5a332b36370e82c27556
+2024-03-26 19:14:50,878 [INFO] automationLogger: workspaces.py - found url for: National Parking (GA), https://admin.tez.io/workspaces/653fccb72b36370e82c29511
+2024-03-26 19:14:50,903 [INFO] automationLogger: workspaces.py - found url for: Nevada Premier Valet, https://admin.tez.io/workspaces/65e73e0b58521dc38ffc120e
+2024-03-26 19:14:50,929 [INFO] automationLogger: workspaces.py - found url for: North American Properties, https://admin.tez.io/workspaces/65b2a5ad58521dc38ff3f53c
+2024-03-26 19:14:50,958 [INFO] automationLogger: workspaces.py - found url for: Ocean Horizon Properties LC, https://admin.tez.io/workspaces/65dfa2b858521dc38ffa9548
+2024-03-26 19:14:50,981 [INFO] automationLogger: workspaces.py - found url for: One Fifty One At Biscayne Condominium Association Inc, https://admin.tez.io/workspaces/6577a052bb207e6db2d9bc68
+2024-03-26 19:14:50,996 [INFO] automationLogger: workspaces.py - found url for: Park Rite, https://admin.tez.io/workspaces/653a57a02b36370e82c274cf
+2024-03-26 19:14:51,039 [INFO] automationLogger: workspaces.py - found url for: Parking Concepts Inc, https://admin.tez.io/workspaces/64d033f7b340ab203dfa69ca
+2024-03-26 19:14:51,064 [INFO] automationLogger: workspaces.py - found url for: Parking Systems of America, https://admin.tez.io/workspaces/6541baa092d6bcfb69847972
+2024-03-26 19:14:51,089 [INFO] automationLogger: workspaces.py - found url for: Pivot Parking, https://admin.tez.io/workspaces/6541938e92d6bcfb69845bea
+2024-03-26 19:14:51,121 [INFO] automationLogger: workspaces.py - found url for: Pristine Auto Spa and Valet, https://admin.tez.io/workspaces/65cd020158521dc38ff62730
+2024-03-26 19:14:51,133 [INFO] automationLogger: workspaces.py - found url for: Propark Mobility, https://admin.tez.io/workspaces/653952cf2b36370e82c26df7
+2024-03-26 19:14:51,172 [INFO] automationLogger: workspaces.py - found url for: Propark Sovereign Services LLC, https://admin.tez.io/workspaces/65cf876958521dc38ff6ac27
+2024-03-26 19:14:51,200 [INFO] automationLogger: workspaces.py - found url for: Refined Parking Solutions LLC, https://admin.tez.io/workspaces/653a56a22b36370e82c2741e
+2024-03-26 19:14:51,231 [INFO] automationLogger: workspaces.py - found url for: Republic Parking Systems, https://admin.tez.io/workspaces/65d7ce0558521dc38ff8a19b
+2024-03-26 19:14:51,251 [INFO] automationLogger: workspaces.py - found url for: Royal Parking, https://admin.tez.io/workspaces/65cfc1c058521dc38ff7041a
+2024-03-26 19:14:51,286 [INFO] automationLogger: workspaces.py - found url for: Royal Parking LLC dbc GOPARK, https://admin.tez.io/workspaces/653a53c22b36370e82c27043
+2024-03-26 19:14:51,300 [INFO] automationLogger: workspaces.py - found url for: SP+ Corporation, https://admin.tez.io/workspaces/653a548a2b36370e82c2714e
+2024-03-26 19:14:51,358 [INFO] automationLogger: workspaces.py - found url for: SafetyPark Corporation, https://admin.tez.io/workspaces/65cbc52158521dc38ff5a405
+2024-03-26 19:14:51,385 [INFO] automationLogger: workspaces.py - found url for: Savannah Hilton Head International Airport, https://admin.tez.io/workspaces/656e365cbb207e6db2d93dcc
+2024-03-26 19:14:51,410 [INFO] automationLogger: workspaces.py - found url for: Seastreak LLC, https://admin.tez.io/workspaces/653a55aa2b36370e82c27285
+2024-03-26 19:14:51,437 [INFO] automationLogger: workspaces.py - found url for: South Coast Plaza, https://admin.tez.io/workspaces/65f318db58521dc38fff512f
+2024-03-26 19:14:51,462 [INFO] automationLogger: workspaces.py - found url for: T2 Mobile Pay, https://admin.tez.io/workspaces/65c24ae558521dc38ff4b984
+2024-03-26 19:14:51,486 [INFO] automationLogger: workspaces.py - found url for: TEZ Internal, https://admin.tez.io/workspaces/649f3af7b340ab203dfa3e7d
+2024-03-26 19:14:51,513 [INFO] automationLogger: workspaces.py - found url for: TEZ LENZ Demo, https://admin.tez.io/workspaces/649f389ab340ab203dfa3c67
+2024-03-26 19:14:51,538 [INFO] automationLogger: workspaces.py - found url for: The Crescent, https://admin.tez.io/workspaces/65dcd7b358521dc38ff9394a
+2024-03-26 19:14:51,561 [INFO] automationLogger: workspaces.py - found url for: US Parking Inc, https://admin.tez.io/workspaces/65d6611758521dc38ff82257
+2024-03-26 19:14:51,586 [INFO] automationLogger: workspaces.py - found url for: UT Southwestern, https://admin.tez.io/workspaces/65819a6a58521dc38ff2dae7
+2024-03-26 19:14:51,606 [INFO] automationLogger: workspaces.py - found url for: Universal Parking and Transportation, https://admin.tez.io/workspaces/6556649e9668a19cf00680fa
+2024-03-26 19:14:51,636 [INFO] automationLogger: workspaces.py - found url for: White Lodging, https://admin.tez.io/workspaces/659838a958521dc38ff36dcc
+2024-03-26 19:14:51,661 [INFO] automationLogger: workspaces.py - found url for: Xclusive Auto Spa & Valet, https://admin.tez.io/workspaces/65f1951858521dc38ffe35c5
+2024-03-26 19:16:54,590 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 19:16:58,954 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 19:16:58,966 [INFO] automationLogger: login.py - login successful
+2024-03-26 19:16:58,966 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 19:17:00,127 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 19:17:00,142 [INFO] automationLogger: workspaces.py - There are 20 workspaces in Lenz
+2024-03-26 19:17:00,142 [INFO] automationLogger: workspaces.py - Getting list of workspaces
+2024-03-26 19:17:00,442 [INFO] automationLogger: workspaces.py - found url for: A Test Customer 1, https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35
+2024-03-26 19:17:00,488 [INFO] automationLogger: workspaces.py - found url for: Affiliated Parking Systems, https://admin.tez.io/workspaces/65e1098358521dc38ffb23a2
+2024-03-26 19:17:00,518 [INFO] automationLogger: workspaces.py - found url for: Appleton International Airport-ATW, https://admin.tez.io/workspaces/65e8ac2658521dc38ffd0508
+2024-03-26 19:17:00,546 [INFO] automationLogger: workspaces.py - found url for: Ashland Hospital Corporation, https://admin.tez.io/workspaces/65f8b02558521dc38f00574a
+2024-03-26 19:17:00,568 [INFO] automationLogger: workspaces.py - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-26 19:17:00,592 [INFO] automationLogger: workspaces.py - found url for: Beach Club Master Association, https://admin.tez.io/workspaces/65e7377158521dc38ffb9d49
+2024-03-26 19:17:00,628 [INFO] automationLogger: workspaces.py - found url for: Benjamin Test, https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067
+2024-03-26 19:17:00,667 [INFO] automationLogger: workspaces.py - found url for: Harbor Parking, https://admin.tez.io/workspaces/65df9e7758521dc38ffa2174
+2024-03-26 19:17:00,692 [INFO] automationLogger: workspaces.py - found url for: LAZ Parking Mid-Atlantic LLC, https://admin.tez.io/workspaces/65f1c25258521dc38ffecee2
+2024-03-26 19:17:00,726 [INFO] automationLogger: workspaces.py - found url for: Luxe Parking Management, https://admin.tez.io/workspaces/65e9dfbb58521dc38ffd8ad9
+2024-03-26 19:17:00,743 [INFO] automationLogger: workspaces.py - found url for: Metropolis, https://admin.tez.io/workspaces/65de1d3058521dc38ff993e6
+2024-03-26 19:17:00,781 [INFO] automationLogger: workspaces.py - found url for: Miami Design District, https://admin.tez.io/workspaces/65d632e558521dc38ff7d86c
+2024-03-26 19:17:00,793 [INFO] automationLogger: workspaces.py - found url for: Nevada Premier Valet, https://admin.tez.io/workspaces/65e73e0b58521dc38ffc120e
+2024-03-26 19:17:00,826 [INFO] automationLogger: workspaces.py - found url for: Ocean Horizon Properties LC, https://admin.tez.io/workspaces/65dfa2b858521dc38ffa9548
+2024-03-26 19:17:00,858 [INFO] automationLogger: workspaces.py - found url for: Republic Parking Systems, https://admin.tez.io/workspaces/65d7ce0558521dc38ff8a19b
+2024-03-26 19:17:00,877 [INFO] automationLogger: workspaces.py - found url for: Royal Parking, https://admin.tez.io/workspaces/65cfc1c058521dc38ff7041a
+2024-03-26 19:17:00,915 [INFO] automationLogger: workspaces.py - found url for: South Coast Plaza, https://admin.tez.io/workspaces/65f318db58521dc38fff512f
+2024-03-26 19:17:00,926 [INFO] automationLogger: workspaces.py - found url for: The Crescent, https://admin.tez.io/workspaces/65dcd7b358521dc38ff9394a
+2024-03-26 19:17:00,959 [INFO] automationLogger: workspaces.py - found url for: US Parking Inc, https://admin.tez.io/workspaces/65d6611758521dc38ff82257
+2024-03-26 19:17:00,994 [INFO] automationLogger: workspaces.py - found url for: Xclusive Auto Spa & Valet, https://admin.tez.io/workspaces/65f1951858521dc38ffe35c5
+2024-03-26 19:19:42,152 [INFO] automationLogger: login.py - Logging in to Lenz Admin
+2024-03-26 19:19:49,517 [INFO] automationLogger: login.py - Validating login success
+2024-03-26 19:19:49,517 [INFO] automationLogger: login.py - login successful
+2024-03-26 19:19:49,517 [INFO] automationLogger: common.py - Setting pagination to All
+2024-03-26 19:19:55,367 [INFO] automationLogger: common.py - pagination set for page
+2024-03-26 19:19:55,383 [INFO] automationLogger: workspaces.py - There are 59 workspaces in Lenz
+2024-03-26 19:19:55,383 [INFO] automationLogger: workspaces.py - Getting list of workspaces
+2024-03-26 19:19:55,943 [INFO] automationLogger: workspaces.py - found url for: 8th Street Development, https://admin.tez.io/workspaces/6545003ca42f83c8aeca4250
+2024-03-26 19:19:55,970 [INFO] automationLogger: workspaces.py - found url for: A Test Customer 1, https://admin.tez.io/workspaces/65d82c9058521dc38ff91d35
+2024-03-26 19:19:55,983 [INFO] automationLogger: workspaces.py - found url for: ABM Houston, https://admin.tez.io/workspaces/6554ed4a9668a19cf006658b
+2024-03-26 19:19:56,019 [INFO] automationLogger: workspaces.py - found url for: Ace Parking, https://admin.tez.io/workspaces/65407e502b36370e82c2ce87
+2024-03-26 19:19:56,042 [INFO] automationLogger: workspaces.py - found url for: Affiliated Parking Systems, https://admin.tez.io/workspaces/65e1098358521dc38ffb23a2
+2024-03-26 19:19:56,065 [INFO] automationLogger: workspaces.py - found url for: Appleton International Airport-ATW, https://admin.tez.io/workspaces/65e8ac2658521dc38ffd0508
+2024-03-26 19:19:56,080 [INFO] automationLogger: workspaces.py - found url for: Ashland Hospital Corporation, https://admin.tez.io/workspaces/65f8b02558521dc38f00574a
+2024-03-26 19:19:56,095 [INFO] automationLogger: workspaces.py - found url for: Asta Parking, https://admin.tez.io/workspaces/65d2b49658521dc38ff75a65
+2024-03-26 19:19:56,136 [INFO] automationLogger: workspaces.py - found url for: Beach Club Master Association, https://admin.tez.io/workspaces/65e7377158521dc38ffb9d49
+2024-03-26 19:19:56,150 [INFO] automationLogger: workspaces.py - found url for: Benjamin Test, https://admin.tez.io/workspaces/65f06f2558521dc38ffe0067
+2024-03-26 19:19:56,181 [INFO] automationLogger: workspaces.py - found url for: Berkshire Investments, https://admin.tez.io/workspaces/653a73252b36370e82c27677
+2024-03-26 19:19:56,197 [INFO] automationLogger: workspaces.py - found url for: BrightBase, https://admin.tez.io/workspaces/651b027d75f88f9d7a69ccea
+2024-03-26 19:19:56,233 [INFO] automationLogger: workspaces.py - found url for: Charleston County Aviation Authority, https://admin.tez.io/workspaces/653a55302b36370e82c271fb
+2024-03-26 19:19:56,250 [INFO] automationLogger: workspaces.py - found url for: Colonial Parking, https://admin.tez.io/workspaces/653a73a02b36370e82c276fe
+2024-03-26 19:19:56,280 [INFO] automationLogger: workspaces.py - found url for: Corinthian International, https://admin.tez.io/workspaces/65aada1858521dc38ff3b102
+2024-03-26 19:19:56,300 [INFO] automationLogger: workspaces.py - found url for: Cornerstone Parking, https://admin.tez.io/workspaces/65778c94bb207e6db2d985a4
+2024-03-26 19:19:56,345 [INFO] automationLogger: workspaces.py - found url for: Eli Valet, https://admin.tez.io/workspaces/65c28a6b58521dc38ff4c01d
+2024-03-26 19:19:56,366 [INFO] automationLogger: workspaces.py - found url for: Fontainebleau Las Vegas, https://admin.tez.io/workspaces/657b65cb58521dc38ff26d46
+2024-03-26 19:19:56,382 [INFO] automationLogger: workspaces.py - found url for: Harbor Parking, https://admin.tez.io/workspaces/65df9e7758521dc38ffa2174
+2024-03-26 19:19:56,423 [INFO] automationLogger: workspaces.py - found url for: Intracoastal Parking LLC, https://admin.tez.io/workspaces/653fcbf22b36370e82c29464
+2024-03-26 19:19:56,450 [INFO] automationLogger: workspaces.py - found url for: Jacobsen/Daniels Associates, LLC, https://admin.tez.io/workspaces/654012222b36370e82c2afc3
+2024-03-26 19:19:56,465 [INFO] automationLogger: workspaces.py - found url for: LAZ Parking, https://admin.tez.io/workspaces/653a5aaf2b36370e82c275eb
+2024-03-26 19:19:56,496 [INFO] automationLogger: workspaces.py - found url for: LAZ Parking Mid-Atlantic LLC, https://admin.tez.io/workspaces/65f1c25258521dc38ffecee2
+2024-03-26 19:19:56,520 [INFO] automationLogger: workspaces.py - found url for: Lovegreen Parking, https://admin.tez.io/workspaces/650697b9859571513cdacdca
+2024-03-26 19:19:56,542 [INFO] automationLogger: workspaces.py - found url for: Luxe Parking Management, https://admin.tez.io/workspaces/65e9dfbb58521dc38ffd8ad9
+2024-03-26 19:19:56,565 [INFO] automationLogger: workspaces.py - found url for: Metropolis, https://admin.tez.io/workspaces/65de1d3058521dc38ff993e6
+2024-03-26 19:19:56,588 [INFO] automationLogger: workspaces.py - found url for: Metropolitan Healthcare Services, https://admin.tez.io/workspaces/653fcd262b36370e82c2959e
+2024-03-26 19:19:56,610 [INFO] automationLogger: workspaces.py - found url for: Miami Design District, https://admin.tez.io/workspaces/65d632e558521dc38ff7d86c
+2024-03-26 19:19:56,634 [INFO] automationLogger: workspaces.py - found url for: Miami Parking, https://admin.tez.io/workspaces/653a5a332b36370e82c27556
+2024-03-26 19:19:56,657 [INFO] automationLogger: workspaces.py - found url for: National Parking (GA), https://admin.tez.io/workspaces/653fccb72b36370e82c29511
+2024-03-26 19:19:56,679 [INFO] automationLogger: workspaces.py - found url for: Nevada Premier Valet, https://admin.tez.io/workspaces/65e73e0b58521dc38ffc120e
+2024-03-26 19:19:56,703 [INFO] automationLogger: workspaces.py - found url for: North American Properties, https://admin.tez.io/workspaces/65b2a5ad58521dc38ff3f53c
+2024-03-26 19:19:56,721 [INFO] automationLogger: workspaces.py - found url for: Ocean Horizon Properties LC, https://admin.tez.io/workspaces/65dfa2b858521dc38ffa9548
+2024-03-26 19:19:56,733 [INFO] automationLogger: workspaces.py - found url for: One Fifty One At Biscayne Condominium Association Inc, https://admin.tez.io/workspaces/6577a052bb207e6db2d9bc68
+2024-03-26 19:19:56,762 [INFO] automationLogger: workspaces.py - found url for: Park Rite, https://admin.tez.io/workspaces/653a57a02b36370e82c274cf
+2024-03-26 19:19:56,778 [INFO] automationLogger: workspaces.py - found url for: Parking Concepts Inc, https://admin.tez.io/workspaces/64d033f7b340ab203dfa69ca
+2024-03-26 19:19:56,816 [INFO] automationLogger: workspaces.py - found url for: Parking Systems of America, https://admin.tez.io/workspaces/6541baa092d6bcfb69847972
+2024-03-26 19:19:56,842 [INFO] automationLogger: workspaces.py - found url for: Pivot Parking, https://admin.tez.io/workspaces/6541938e92d6bcfb69845bea
+2024-03-26 19:19:56,872 [INFO] automationLogger: workspaces.py - found url for: Pristine Auto Spa and Valet, https://admin.tez.io/workspaces/65cd020158521dc38ff62730
+2024-03-26 19:19:56,888 [INFO] automationLogger: workspaces.py - found url for: Propark Mobility, https://admin.tez.io/workspaces/653952cf2b36370e82c26df7
+2024-03-26 19:19:56,920 [INFO] automationLogger: workspaces.py - found url for: Propark Sovereign Services LLC, https://admin.tez.io/workspaces/65cf876958521dc38ff6ac27
+2024-03-26 19:19:56,951 [INFO] automationLogger: workspaces.py - found url for: Refined Parking Solutions LLC, https://admin.tez.io/workspaces/653a56a22b36370e82c2741e
+2024-03-26 19:19:56,982 [INFO] automationLogger: workspaces.py - found url for: Republic Parking Systems, https://admin.tez.io/workspaces/65d7ce0558521dc38ff8a19b
+2024-03-26 19:19:56,998 [INFO] automationLogger: workspaces.py - found url for: Royal Parking, https://admin.tez.io/workspaces/65cfc1c058521dc38ff7041a
+2024-03-26 19:19:57,032 [INFO] automationLogger: workspaces.py - found url for: Royal Parking LLC dbc GOPARK, https://admin.tez.io/workspaces/653a53c22b36370e82c27043
+2024-03-26 19:19:57,052 [INFO] automationLogger: workspaces.py - found url for: SP+ Corporation, https://admin.tez.io/workspaces/653a548a2b36370e82c2714e
+2024-03-26 19:19:57,073 [INFO] automationLogger: workspaces.py - found url for: SafetyPark Corporation, https://admin.tez.io/workspaces/65cbc52158521dc38ff5a405
+2024-03-26 19:19:57,100 [INFO] automationLogger: workspaces.py - found url for: Savannah Hilton Head International Airport, https://admin.tez.io/workspaces/656e365cbb207e6db2d93dcc
+2024-03-26 19:19:57,124 [INFO] automationLogger: workspaces.py - found url for: Seastreak LLC, https://admin.tez.io/workspaces/653a55aa2b36370e82c27285
+2024-03-26 19:19:57,149 [INFO] automationLogger: workspaces.py - found url for: South Coast Plaza, https://admin.tez.io/workspaces/65f318db58521dc38fff512f
+2024-03-26 19:19:57,174 [INFO] automationLogger: workspaces.py - found url for: T2 Mobile Pay, https://admin.tez.io/workspaces/65c24ae558521dc38ff4b984
+2024-03-26 19:19:57,194 [INFO] automationLogger: workspaces.py - found url for: TEZ Internal, https://admin.tez.io/workspaces/649f3af7b340ab203dfa3e7d
+2024-03-26 19:19:57,221 [INFO] automationLogger: workspaces.py - found url for: TEZ LENZ Demo, https://admin.tez.io/workspaces/649f389ab340ab203dfa3c67
+2024-03-26 19:19:57,238 [INFO] automationLogger: workspaces.py - found url for: The Crescent, https://admin.tez.io/workspaces/65dcd7b358521dc38ff9394a
+2024-03-26 19:19:57,252 [INFO] automationLogger: workspaces.py - found url for: US Parking Inc, https://admin.tez.io/workspaces/65d6611758521dc38ff82257
+2024-03-26 19:19:57,286 [INFO] automationLogger: workspaces.py - found url for: UT Southwestern, https://admin.tez.io/workspaces/65819a6a58521dc38ff2dae7
+2024-03-26 19:19:57,303 [INFO] automationLogger: workspaces.py - found url for: Universal Parking and Transportation, https://admin.tez.io/workspaces/6556649e9668a19cf00680fa
+2024-03-26 19:19:57,325 [INFO] automationLogger: workspaces.py - found url for: White Lodging, https://admin.tez.io/workspaces/659838a958521dc38ff36dcc
+2024-03-26 19:19:57,348 [INFO] automationLogger: workspaces.py - found url for: Xclusive Auto Spa & Valet, https://admin.tez.io/workspaces/65f1951858521dc38ffe35c5
